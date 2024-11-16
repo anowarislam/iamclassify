@@ -1,0 +1,19 @@
+{
+  "instructions": "Please label each action with appropriate risk categories",
+  "risk_categories": [
+    "credential_exposure",
+    "data_access",
+    "privilege_escalation",
+    "resource_exposure"
+  ],
+  "labeling_values": {
+    "0": "No Risk",
+    "1": "Risk Present"
+  },
+  "confidence_levels": {
+    "1": "Low",
+    "2": "Medium",
+    "3": "High"
+  },
+  "notes_format": "Please provide brief justification for high-risk assignments"
+}

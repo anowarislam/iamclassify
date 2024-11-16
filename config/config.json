@@ -1,0 +1,45 @@
+{
+  "project": {
+    "name": "iam_risk_classification",
+    "description": "Multi-Label Risk Classification of Cloud IAM Actions"
+  },
+  "data": {
+    "sources": [
+      "aws",
+      "azure",
+      "gcp"
+    ],
+    "risk_categories": [
+      "credential_exposure",
+      "data_access",
+      "privilege_escalation",
+      "resource_exposure"
+    ],
+    "train_test_split": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    }
+  },
+  "model": {
+    "architecture": "bert-base-uncased",
+    "max_length": 128,
+    "batch_size": 32,
+    "learning_rate": 2e-05,
+    "epochs": 100,
+    "dropout": 0.1
+  },
+  "training": {
+    "seed": 42,
+    "gpu": true,
+    "early_stopping_patience": 3
+  },
+  "paths": {
+    "raw_data": "/content/drive/MyDrive/project/iam_risk_classification/data/raw",
+    "processed_data": "/content/drive/MyDrive/project/iam_risk_classification/data/processed",
+    "labeled_data": "/content/drive/MyDrive/project/iam_risk_classification/data/labeled",
+    "models": "/content/drive/MyDrive/project/iam_risk_classification/models",
+    "config": "/content/drive/MyDrive/project/iam_risk_classification/config",
+    "results": "/content/drive/MyDrive/project/iam_risk_classification/results"
+  }
+}

@@ -1,0 +1,7 @@
+provider,action,action_processed
+aws,iam:CreateAccessKey,iam:createaccesskey
+aws,s3:GetObject,s3:getobject
+aws,ec2:RunInstances,ec2:runinstances
+aws,iam:ListAccessKeys,iam:listaccesskeys
+aws,iam:DeleteAccessKey,iam:deleteaccesskey
+aws,iam:UpdateAccessKey,iam:updateaccesskey

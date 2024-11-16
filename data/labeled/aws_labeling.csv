@@ -1,0 +1,501 @@
+service_name,action_name,access_type,description,risk_category_credentialexposure,risk_category_dataaccess,risk_category_privesc,risk_category_resourceexposure
+AWS Storage Gateway,storagegateway:SetSMBGuestPassword,Write,Grants permission to set the password for SMB Guest user,0,0,0,1
+AWS CodeCommit,codecommit:GetCommentReactions,Read,Grants permission to get the reactions on a comment,0,1,0,0
+AWS Cloud9,cloud9:CreateEnvironmentToken,Read,Grants permission to create an authentication token that allows a connection between the AWS Cloud9 IDE and the user's environment,1,0,0,0
+Amazon CodeGuru Profiler,codeguru-profiler:RemovePermission,Permissions management,Grants permission to remove the permission of specified Action Group from the resource policy associated with the specified Profiling Group,0,0,0,1
+AWS CodeCommit,codecommit:GetBlob,Read,Grants permission to view the encoded content of an individual file in an AWS CodeCommit repository from the AWS CodeCommit console,0,1,0,0
+AWS Identity and Access Management (IAM),iam:DetachGroupPolicy,Permissions management,Grants permission to detach a managed policy from the specified IAM group,0,0,0,1
+Amazon S3 Object Lambda,s3-object-lambda:ListBucket,List,Grants permission to list some or all of the objects in an Amazon S3 bucket (up to 1000),0,1,0,0
+AWS Identity and Access Management (IAM),iam:DeleteSAMLProvider,Write,Grants permission to delete a SAML provider resource in IAM,0,0,0,1
+AWS Identity and Access Management (IAM),iam:AddRoleToInstanceProfile,Write,Grants permission to add an IAM role to the specified instance profile,0,0,0,1
+AWS IAM Identity Center,sso:DeleteApplicationInstance,Write,Grants permission to delete the application instance,0,0,0,1
+Amazon Kinesis Video Streams,kinesisvideo:GetImages,Read,Grants permission to get generated images from your Kinesis video stream,0,1,0,0
+AWS Systems Manager,ssm:GetParameterHistory,Read,Grants permission to view details and changes for a specified parameter,0,1,0,0
+AWS IAM Identity Center,sso:UpdateProfile,Write,Grants permission to update the profile for an application instance,0,0,0,1
+AWS WAF Regional,waf-regional:DeletePermissionPolicy,Permissions management,Grants permission to delete an IAM policy from a rule group,0,0,0,1
+Amazon Cognito Identity,cognito-identity:GetOpenIdToken,Read,"Grants permission to get an OpenID token, using a known Cognito ID",1,0,0,0
+AWS IAM Identity Center Directory,sso-directory:CreateAlias,Write,Grants permission to create an alias for the directory that AWS IAM Identity Center provides by default,0,0,0,1
+AWS IoT,iot:SetDefaultPolicyVersion,Permissions management,Grants permission to set the specified version of the specified policy as the policy's default (operative) version,0,0,0,1
+Amazon Lightsail,lightsail:GetBucketAccessKeys,Read,Grants permission to get the existing access key IDs for the specified Amazon Lightsail bucket,1,0,0,0
+AWS Identity and Access Management (IAM),iam:CreatePolicyVersion,Permissions management,Grants permission to create a new version of the specified managed policy,0,0,1,1
+Amazon Cognito Identity,cognito-identity:MergeDeveloperIdentities,Write,"Grants permission to merge two users having different IdentityIds, existing in the same identity pool, and identified by the same developer provider",0,0,0,1
+"Amazon RDS, Neptune & DocumentDB",rds:DownloadCompleteDBLogFile,Read,Grants permission to download specified log file,0,1,0,0
+AWS CodeCommit,codecommit:BatchGetCommits,Read,Grants permission to return information about one or more commits in an AWS CodeCommit repository,0,1,0,0
+Amazon DynamoDB,dynamodb:Scan,Read,Grants permission to return one or more items and item attributes by accessing every item in a table or a secondary index,0,1,0,0
+Amazon GameLift,gamelift:GetInstanceAccess,Read,Grants permission to request remote access to a specified fleet instance,1,1,0,0
+Amazon Chime,chime:DeleteVoiceConnectorTerminationCredentials,Write,Grants permission to delete SIP termination credentials for the specified Amazon Chime Voice Connector,0,0,0,1
+Amazon Elastic Container Registry,ecr:DeleteRepositoryPolicy,Permissions management,Grants permission to delete the repository policy from a specified repository,0,0,0,1
+AWS CodeArtifact,codeartifact:GetPackageVersionAsset,Read,Grants permission to return an asset (or file) that is part of a package version,0,1,0,0
+AWS Lake Formation,lakeformation:BatchRevokePermissions,Permissions management,Grants permission to revoke data lake permissions from one or more principals in a batch,0,0,0,1
+AWS OpsWorks,opsworks:SetPermission,Permissions management,Grants permission to specify a user's permissions,0,0,0,1
+AWS CodeArtifact,codeartifact:DeleteDomainPermissionsPolicy,Permissions management,Grants permission to delete the resource policy set on a domain,0,0,0,1
+AWS Resource Access Manager (RAM),ram:EnableSharingWithAwsOrganization,Permissions management,Grants permission to access customer's organization and create a SLR in the customer's account,0,0,0,1
+Amazon S3,s3:GetObject,Read,Grants permission to retrieve objects from Amazon S3,0,1,0,0
+AWS Identity and Access Management (IAM),iam:DeleteVirtualMFADevice,Write,Grants permission to delete a virtual MFA device,0,0,0,1
+Amazon Cognito Identity,cognito-identity:GetCredentialsForIdentity,Read,Grants permission to return credentials for the provided identity ID,1,0,0,0
+AWS IAM Identity Center,sso:UpdateApplicationInstanceStatus,Write,Grants permission to update the status of an application instance,0,0,0,1
+Amazon Chime,chime:GetUserByEmail,Read,Grants permission to get user details for an Amazon Chime user based on the email address in an Amazon Chime Enterprise or Team account,0,1,0,0
+Amazon WorkDocs,workdocs:GetDocumentPath,Read,Grants permission to retrieve the path information (the hierarchy from the root folder) for the requested document,0,1,0,0
+AWS Data Pipeline,datapipeline:QueryObjects,Read,Grants permission to query the specified pipeline for the names of objects that match the specified set of conditions,0,1,0,0
+AWS Lambda,lambda:RemoveLayerVersionPermission,Permissions management,Grants permission to remove a statement from the permissions policy for a version of an AWS Lambda layer,0,0,0,1
+AWS IAM Identity Center Directory,sso-directory:DescribeGroup,Read,"Grants permission to query the group data, not including user and group members",0,1,0,0
+AWS CodeCommit,codecommit:GetFolder,Read,Grants permission to return the contents of a specified folder in a repository,0,1,0,0
+Amazon DynamoDB Accelerator (DAX),dax:BatchGetItem,Read,Grants permission to return the attributes of one or more items from one or more tables,0,1,0,0
+Amazon Athena,athena:GetQueryResultsStream,Read,Grants permission to get the query results stream,0,1,0,0
+AWS WAF V2,wafv2:PutPermissionPolicy,Permissions management,"Grants permission to attach an IAM policy to a resource, used to share rule groups between accounts",0,0,0,1
+Amazon S3,s3:PutBucketAcl,Permissions management,Grants permission to set the permissions on an existing bucket using access control lists (ACLs),0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateAccessKey,Write,Grants permission to create access key and secret access key for the specified IAM user,1,0,1,1
+AWS Identity and Access Management (IAM),iam:AddClientIDToOpenIDConnectProvider,Write,Grants permission to add a new client ID (audience) to the list of registered IDs for the specified IAM OpenID Connect (OIDC) provider resource,0,0,0,1
+AWS CodeCommit,codecommit:GetApprovalRuleTemplate,Read,Grants permission to return information about an approval rule template,0,1,0,0
+AWS IAM Identity Center,sso:UpdatePermissionSet,Permissions management,Grants permission to update the permission set,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UpdateOpenIDConnectProviderThumbprint,Write,Grants permission to update the entire list of server certificate thumbprints that are associated with an OpenID Connect (OIDC) provider resource,0,0,0,1
+Amazon Cognito User Pools,cognito-idp:GetUser,Read,Grants permission to get the user attributes and metadata for a user,0,1,0,0
+Amazon Cognito User Pools,cognito-idp:AdminGetDevice,Read,Grants permission to get information about any user's devices,0,1,0,0
+Amazon CloudFront,cloudfront:GetFunction,Read,Grants permission to get a CloudFront function's code,0,1,0,0
+AWS Private Certificate Authority,acm-pca:CreatePermission,Permissions management,Grants permission to create a permission for an AWS Private CA,0,0,0,1
+AWS Private Certificate Authority,acm-pca:DeletePolicy,Permissions management,Grants permission to delete the policy for an AWS Private CA,0,0,0,1
+AWS Lake Formation,lakeformation:PutDataLakeSettings,Permissions management,Grants permission to overwrite data lake settings such as the list of data lake administrators and database and table default permissions,0,0,0,1
+Amazon DynamoDB,dynamodb:GetItem,Read,Grants permission to the GetItem operation that returns a set of attributes for the item with the given primary key,0,1,0,0
+Amazon Chime,chime:ListUsers,List,Grants permission to list the users that belong to the specified Amazon Chime account,0,1,0,0
+AWS Chatbot,chatbot:GetMicrosoftTeamsOauthParameters,Read,Grants permission to generate OAuth parameters to request Microsoft Teams OAuth code to be used by the AWS Chatbot service,1,0,0,0
+AWS CloudTrail,cloudtrail:GetQueryResults,Read,Grants permission to fetch results of a complete query,0,1,0,0
+AWS IoT,iot:AttachPrincipalPolicy,Permissions management,Grants permission to attach the specified policy to the specified principal (certificate or other credential),0,0,0,1
+AWS Identity and Access Management (IAM),iam:DeleteSigningCertificate,Write,Grants permission to delete a signing certificate that is associated with the specified IAM user,0,0,0,1
+AWS Resource Access Manager (RAM),ram:UpdateResourceShare,Write,Grants permission to update attributes of the resource share,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateAccountAlias,Write,Grants permission to create an alias for your AWS account,0,0,0,1
+Amazon Chime,chime:GetMeeting,Read,Grants permission to get the meeting record for a specified meeting ID,0,1,0,0
+Amazon SimpleDB,sdb:Select,Read,Description for Select,0,1,0,0
+AWS CodeCommit,codecommit:GetMergeOptions,Read,Grants permission to get information about merge options for pull requests that can be used to merge two commits; does not control Git merge actions,0,1,0,0
+Amazon Chime,chime:ListAttendees,List,Grants permission to list up to 100 attendees for a specified Amazon Chime SDK meeting,0,1,0,0
+Amazon SNS,sns:RemovePermission,Permissions management,Grants permission to remove a statement from a topic's access control policy,0,0,0,1
+Amazon Lightsail,lightsail:GetRelationalDatabaseMasterUserPassword,Write,Grants permission to get the master user password of a relational database,1,0,0,1
+Amazon Chime,chime:ListMeetings,List,Grants permission to list up to 100 active Amazon Chime SDK meetings,0,1,0,0
+AWS CloudTrail,cloudtrail:LookupEvents,Read,"Grants permission to look up and retrieve metric data for API activity events captured by CloudTrail that create, update, or delete resources in your account",0,1,0,0
+AWS AppSync,appsync:ListApiKeys,List,Grants permission to list the API keys for a given API,1,0,0,0
+Amazon Cognito Identity,cognito-identity:GetOpenIdTokenForDeveloperIdentity,Read,Grants permission to register (or retrieve) a Cognito IdentityId and an OpenID Connect token for a user authenticated by your backend authentication process,1,0,0,0
+Amazon CodeGuru Profiler,codeguru-profiler:PutPermission,Permissions management,Grants permission to update the list of principals allowed for an action group in the resource policy associated with the specified Profiling Group,0,0,0,1
+Amazon GameLift,gamelift:GetInstanceAccess,Read,Grants permission to request remote access to a specified fleet instance,1,1,0,0
+Amazon QuickSight,quicksight:CreateIAMPolicyAssignment,Write,Grants permission to create an assignment with one specified IAM Policy ARN that will be assigned to specified groups or users of QuickSight,0,0,0,1
+Amazon SQS,sqs:RemovePermission,Permissions management,Grants permission to revoke any permissions in the queue policy that matches the specified Label parameter,0,0,0,1
+Amazon WorkMail,workmail:ResetPassword,Write,Grants permission to allow the administrator to reset the password for a user,0,0,0,1
+AWS CodeBuild,codebuild:BatchGetReportGroups,Read,Grants permission to return an array of ReportGroup objects that are specified by the input reportGroupArns parameter,0,1,0,0
+AWS IAM Identity Center,sso:UpdateApplicationInstanceActiveCertificate,Write,Grants permission to set a certificate as the active one for this application instance,0,0,0,1
+AWS Identity and Access Management (IAM),iam:RemoveUserFromGroup,Write,Grants permission to remove an IAM user from the specified group,0,0,0,1
+Amazon Elastic Container Registry Public,ecr-public:GetAuthorizationToken,Read,Grants permission to retrieve a token that is valid for a specified registry for 12 hours,1,0,0,0
+AWS Systems Manager,ssm:GetDocument,Read,Grants permission to view the contents of a specified SSM document,0,1,0,0
+AWS Private Certificate Authority,acm-pca:DeletePermission,Permissions management,Grants permission to delete a permission for an AWS Private CA,0,0,0,1
+AWS Health APIs and Notifications,health:EnableHealthServiceAccessForOrganization,Permissions management,Grants permission to enable the Organizational View feature,0,0,0,1
+AWS X-Ray,xray:PutEncryptionConfig,Permissions management,Grants permission to update the encryption configuration for X-Ray data,0,0,0,1
+AWS Snowball,snowball:GetJobUnlockCode,Read,Grants permission to get the UnlockCode code value for the specified job,1,0,0,0
+AWS IAM Identity Center Directory,sso-directory:RemoveMemberFromGroup,Write,Grants permission to remove a member that is part of a group in the directory that AWS IAM Identity Center provides by default,0,0,0,1
+AWS Security Token Service,sts:GetSessionToken,Read,"Grants permission to obtain a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security token) for an AWS account or IAM user",1,0,0,0
+AWS IAM Identity Center,sso:CreateApplicationInstanceCertificate,Write,Grants permission to add a new certificate for an application instance,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateServiceLinkedRole,Write,Grants permission to create an IAM role that allows an AWS service to perform actions on your behalf,0,0,1,1
+Amazon QuickSight,quicksight:DeleteUserByPrincipalId,Write,Grants permission to deletes a user identified by its principal ID,0,0,0,1
+AWS IAM Identity Center,sso:UpdateApplicationInstanceResponseConfiguration,Write,Grants permission to update federation response configuration for the application instance,0,0,0,1
+AWS IoT Greengrass,greengrass:AssociateServiceRoleToAccount,Permissions management,Grants permission to associate a role with your account. AWS IoT Greengrass uses this role to access your Lambda functions and AWS IoT resources,0,0,0,1
+AWS CodeStar,codestar:UpdateTeamMember,Permissions management,Grants permission to update team member attributes within a CodeStar project,0,0,0,1
+AWS IAM Identity Center,sso:ImportApplicationInstanceServiceProviderMetadata,Write,Grants permission to update the application instance by uploading an application SAML metadata file provided by the service provider,0,0,0,1
+AWS Identity and Access Management (IAM),iam:DeleteUserPermissionsBoundary,Permissions management,Grants permission to remove the permissions boundary from the specified IAM user,0,0,1,1
+AWS Identity and Access Management (IAM),iam:PutUserPermissionsBoundary,Permissions management,Grants permission to set a managed policy as a permissions boundary for an IAM user,0,0,1,1
+AWS Identity and Access Management (IAM),iam:DeletePolicyVersion,Permissions management,Grants permission to delete a version from the specified managed policy,0,0,0,1
+Amazon Chime,chime:GetUserSettings,Read,Grants permission to get user settings related to the specified Amazon Chime user,0,1,0,0
+AWS IAM Identity Center Directory,sso-directory:UpdateGroup,Write,Grants permission to update information about a group in the directory that AWS IAM Identity Center provides by default,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreatePolicyVersion,Permissions management,Grants permission to create a new version of the specified managed policy,0,0,1,1
+AWS Glue,glue:PutResourcePolicy,Permissions management,Grants permission to update a resource policy,0,0,0,1
+Amazon S3 Glacier,glacier:DeleteVaultAccessPolicy,Permissions management,Grants permission to delete the access policy associated with the specified vault,0,0,0,1
+AWS WAF V2,wafv2:UpdateWebACL,Write,Grants permission to update a WebACL,0,0,0,1
+AWS Serverless Application Repository,serverlessrepo:GetApplication,Read,Grants permission to get the specified application,0,1,0,0
+Amazon Redshift,redshift:CreateClusterUser,Permissions management,Grants permission to automatically create the specified Amazon Redshift user if it does not exist,0,0,0,1
+AWS Identity and Access Management (IAM),iam:DeleteUserPolicy,Permissions management,Grants permission to delete the specified inline policy from an IAM user,0,0,0,1
+Amazon QuickSight,quicksight:DeleteIAMPolicyAssignment,Write,Grants permission to update an existing assignment,0,0,0,1
+Amazon OpenSearch Service,es:UpdateElasticsearchDomainConfig,Write,"Grants permission to modify the configuration of an OpenSearch Service domain, such as the instance type or number of instances. This permission is deprecated. Use UpdateDomainConfig instead",0,0,0,1
+Amazon Kinesis Data Streams,kinesis:GetRecords,Read,Grants permission to get data records from a shard,0,1,0,0
+AWS Resource Access Manager (RAM),ram:AssociateResourceShare,Write,Grants permission to associate resource(s) and/or principal(s) to a resource share,0,0,0,1
+AWS Identity and Access Management (IAM),iam:PutRolePermissionsBoundary,Permissions management,Grants permission to set a managed policy as a permissions boundary for a role,0,0,1,1
+AWS Identity and Access Management (IAM),iam:UpdateLoginProfile,Write,Grants permission to change the password for the specified IAM user,0,0,1,1
+AWS WAF V2,wafv2:DeletePermissionPolicy,Permissions management,Grants permission to delete the PermissionPolicy on a RuleGroup,0,0,0,1
+AWS IAM Identity Center,sso:CreateProfile,Write,Grants permission to create a profile for an application instance,0,0,0,1
+AWS Identity and Access Management (IAM),iam:DetachRolePolicy,Permissions management,Grants permission to detach a managed policy from the specified role,0,0,0,1
+Amazon OpenSearch Service,es:CreateElasticsearchDomain,Write,Grants permission to create an OpenSearch Service domain. This permission is deprecated. Use CreateDomain instead,0,0,0,1
+AWS Secrets Manager,secretsmanager:ValidateResourcePolicy,Permissions management,Grants permission to validate a resource policy before attaching policy,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UpdateSAMLProvider,Write,Grants permission to update the metadata document for an existing SAML provider resource,0,0,0,1
+AWS CodeCommit,codecommit:BatchGetRepositories,Read,Grants permission to get information about multiple repositories,0,1,0,0
+AWS Support,support:DescribeCommunications,Read,Grants permission to list the communications and attachments for one or more AWS Support cases,0,1,0,0
+AWS CloudFormation & Cloud Control API,cloudformation:GetTemplate,Read,Grants permission to return the template body for a specified stack,0,1,0,0
+AWS WAF Regional,waf-regional:PutPermissionPolicy,Permissions management,"Grants permission to attach an IAM policy to a specified rule group, to support rule group sharing between accounts",0,0,0,1
+Amazon Connect,connect:ListSecurityKeys,List,Grants permission to view the security keys of an existing Amazon Connect instance,1,0,0,0
+AWS Identity and Access Management (IAM),iam:ResyncMFADevice,Write,Grants permission to synchronize the specified MFA device with its IAM entity (user or role),0,0,1,1
+Amazon Kinesis Video Streams,kinesisvideo:GetMedia,Read,Grants permission to return media content of a Kinesis video stream,0,1,0,0
+AWS Systems Manager,ssm:GetParametersByPath,Read,Grants permission to view information about parameters in a specified hierarchy,0,1,0,0
+AWS Elemental MediaStore,mediastore:PutContainerPolicy,Permissions management,Grants permission to create or replace the access policy of a container,0,0,0,1
+Amazon Elastic Container Registry,ecr:GetAuthorizationToken,Read,Grants permission to retrieve a token that is valid for a specified registry for 12 hours,1,0,0,0
+Amazon Redshift,redshift:AuthorizeSnapshotAccess,Permissions management,Grants permission to the specified AWS account to restore a snapshot,0,0,0,1
+Amazon Keyspaces (for Apache Cassandra),cassandra:Select,Read,Grants permission to SELECT data from a table,0,1,0,0
+Amazon Cognito Identity,cognito-identity:DeleteIdentityPool,Write,"Grants permission to delete a user pool. Once a pool is deleted, users will not be able to authenticate with the pool",0,0,0,1
+Amazon CloudWatch Logs,logs:DeleteResourcePolicy,Permissions management,Grants permission to delete a resource policy from this account,0,0,0,1
+Amazon S3,s3:ObjectOwnerOverrideToBucketOwner,Permissions management,Grants permission to change replica ownership,0,0,0,1
+AWS Lambda,lambda:GetLayerVersion,Read,Grants permission to view details about a version of an AWS Lambda layer. Note this action also supports GetLayerVersionByArn API,0,1,0,0
+AWS Identity and Access Management (IAM),iam:CreateLoginProfile,Write,Grants permission to create a password for the specified IAM user,1,0,1,1
+AWS Directory Service,ds:CreateDirectory,Write,Grants permission to create a Simple AD directory,0,0,0,1
+AWS Security Token Service,sts:AssumeRole,Write,Grants permission to obtain a set of temporary security credentials that you can use to access AWS resources that you might not normally have access to,1,0,0,0
+AWS Identity and Access Management (IAM),iam:DeleteGroupPolicy,Permissions management,Grants permission to delete the specified inline policy from its group,0,0,0,1
+AWS IAM Identity Center,sso:UpdateSSOConfiguration,Write,Grants permission to update the configuration for the current SSO instance,0,0,0,1
+AWS Identity and Access Management (IAM),iam:RemoveRoleFromInstanceProfile,Write,Grants permission to remove an IAM role from the specified EC2 instance profile,0,0,0,1
+AWS Lambda,lambda:AddLayerVersionPermission,Permissions management,Grants permission to add permissions to the resource-based policy of a version of an AWS Lambda layer,0,0,0,1
+Amazon Cognito User Pools,cognito-idp:ListDevices,List,Grants permission to list the devices,0,1,0,0
+AWS Identity and Access Management (IAM),iam:EnableMFADevice,Write,Grants permission to enable an MFA device and associate it with the specified IAM user,0,0,1,1
+Amazon Lightsail,lightsail:GetKeyPair,Read,Grants permission to get information about a key pair,1,0,0,0
+Amazon CodeGuru Reviewer,codeguru-reviewer:DescribeCodeReview,Read,Grants permission to describe a code review,0,1,0,0
+Amazon QuickSight,quicksight:UpdateIAMPolicyAssignment,Write,Grants permission to update an existing assignment,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UpdateLoginProfile,Write,Grants permission to change the password for the specified IAM user,0,0,1,1
+Amazon QuickSight,quicksight:CreateAdmin,Write,"Grants permission to provision Amazon QuickSight administrators, authors, and readers",0,0,0,1
+AWS Chatbot,chatbot:DescribeSlackChannels,Read,Grants permission to list all public Slack channels in the Slack workspace connected to the AWS Account onboarded with AWS Chatbot service,0,1,0,0
+AWS Storage Gateway,storagegateway:UpdateChapCredentials,Write,Grants permission to update the Challenge-Handshake Authentication Protocol (CHAP) credentials for a specified iSCSI target,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateAccessKey,Write,Grants permission to create access key and secret access key for the specified IAM user,1,0,1,1
+Amazon EC2 Instance Connect,ec2-instance-connect:SendSSHPublicKey,Write,Grants permission to push an SSH public key to the specified EC2 instance to be used for standard SSH,1,0,1,0
+AWS CodeStar,codestar:CreateProject,Permissions management,"Grants permission to create a project with minimal structure, customer policies, and no resources",0,0,1,1
+Amazon Chime,chime:GetUser,Read,Grants permission to get details for the specified user ID,0,1,0,0
+Amazon API Gateway Management,apigateway:UpdateRestApiPolicy,Permissions management,Grants permission to manage the IAM resource policy for an API. This is an additional authorization control for managing an API due to the sensitive nature of the resource policy,0,0,0,1
+Amazon EC2 Image Builder,imagebuilder:PutImagePolicy,Permissions management,Grants permission to set the resource policy associated with an image,0,0,0,1
+AWS CodeCommit,codecommit:GetCommentsForComparedCommit,Read,Grants permission to get information about comments made on the comparison between two commits,0,1,0,0
+AWS Identity and Access Management (IAM),iam:CreateLoginProfile,Write,Grants permission to create a password for the specified IAM user,1,0,1,1
+AWS IAM Identity Center,sso:UpdateApplicationInstanceSecurityConfiguration,Write,Grants permission to update security details for the application instance,0,0,0,1
+Amazon GameLift,gamelift:RequestUploadCredentials,Read,Grants permission to retrieve fresh upload credentials to use when uploading a new game build,1,0,0,0
+AWS Identity and Access Management (IAM),iam:DeleteRole,Write,Grants permission to delete the specified role,0,0,0,1
+Amazon EC2,ec2:ResetSnapshotAttribute,Permissions management,Grants permission to reset permission settings for a snapshot,0,0,0,1
+AWS Resource Access Manager (RAM),ram:DisassociateResourceShare,Write,Grants permission to disassociate resource(s) and/or principal(s) from a resource share,0,0,0,1
+AWS Cloud9,cloud9:CreateEnvironmentSSH,Write,Grants permission to create an AWS Cloud9 SSH development environment,1,0,0,0
+Amazon Cognito Identity,cognito-identity:LookupDeveloperIdentity,Read,Grants permission to retrieve the IdentityId associated with a DeveloperUserIdentifier or the list of DeveloperUserIdentifiers associated with an IdentityId for an existing identity,0,1,0,0
+AWS Security Token Service,sts:GetFederationToken,Read,"Grants permission to obtain a set of temporary security credentials (consisting of an access key ID, a secret access key, and a security token) for a federated user",1,0,0,0
+AWS Identity and Access Management (IAM),iam:DeleteRolePolicy,Permissions management,Grants permission to delete the specified inline policy from the specified role,0,0,0,1
+Amazon EC2,ec2:GetPasswordData,Read,Grants permission to retrieve the encrypted administrator password for a running Windows instance,1,0,0,0
+AWS IAM Identity Center,sso:DeletePermissionSet,Write,Grants permission to delete a permission set,0,0,0,1
+Amazon EC2 Image Builder,imagebuilder:PutImageRecipePolicy,Permissions management,Grants permission to set the resource policy associated with an image recipe,0,0,0,1
+AWS Chatbot,chatbot:GetSlackOauthParameters,Read,Grants permission to generate OAuth parameters to request Slack OAuth code to be used by the AWS Chatbot service,1,0,0,0
+Amazon SNS,sns:SetTopicAttributes,Permissions management,Grants permission to allow a topic owner to set an attribute of the topic to a new value,0,0,0,1
+AWS Glue,glue:UpdateDevEndpoint,Write,Grants permission to update a development endpoint,0,0,1,0
+AWS Chatbot,chatbot:ListMicrosoftTeamsUserIdentities,Read,Grants permission to describe AWS Chatbot Microsoft Teams User Identities,0,1,0,0
+AWS CodeCommit,codecommit:GetTree,Read,Grants permission to view the contents of a specified tree in an AWS CodeCommit repository from the AWS CodeCommit console,0,1,0,0
+AWS WAF,waf:DeletePermissionPolicy,Permissions management,Grants permission to delete an IAM policy from a rule group,0,0,0,1
+AWS Systems Manager,ssm:ModifyDocumentPermission,Permissions management,Grants permission to share a custom SSM document publicly or privately with specified AWS accounts,0,0,0,1
+Amazon Lightsail,lightsail:DownloadDefaultKeyPair,Write,Grants permission to download the default key pair used to authenticate and connect to instances in a specific AWS Region,1,0,0,0
+AWS Identity and Access Management (IAM),iam:AddUserToGroup,Write,Grants permission to add an IAM user to the specified IAM group,0,0,1,1
+Amazon S3 Glacier,glacier:CompleteVaultLock,Permissions management,Grants permission to complete the vault locking process,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateServiceSpecificCredential,Write,Grants permission to create a new service-specific credential for an IAM user,1,0,0,1
+AWS CodeArtifact,codeartifact:GetAuthorizationToken,Read,Grants permission to generate a temporary authentication token for accessing repositories in a domain,1,0,0,0
+AWS Systems Manager,ssm:GetParameter,Read,Grants permission to view information about a specified parameter,0,1,0,0
+AWS IAM Identity Center Directory,sso-directory:UpdatePassword,Write,Grants permission to update a password by sending password reset link via email or generating one time password for a user in the directory that AWS IAM Identity Center provides by default,0,0,0,1
+AWS CodeCommit,codecommit:GetPullRequestOverrideState,Read,Grants permission to retrieve the current override state of a given pull request,0,1,0,0
+Amazon Redshift,redshift:GetClusterCredentials,Write,Grants permission to get temporary credentials to access an Amazon Redshift database by the specified AWS account,1,0,0,0
+AWS Lambda,lambda:GetFunction,Read,Grants permission to view details about an AWS Lambda function,0,1,0,0
+AWS IAM Identity Center,sso:DisassociateProfile,Write,Grants permission to disassociate a directory user or group from a profile,0,0,0,1
+Amazon Cognito User Pools,cognito-idp:AdminGetUser,Read,Grants permission to look up any user by user name,0,1,0,0
+Amazon CodeGuru Reviewer,codeguru-reviewer:DescribeRecommendationFeedback,Read,Grants permission to describe a recommendation feedback on a code review,0,1,0,0
+AWS Resource Access Manager (RAM),ram:CreateResourceShare,Write,Grants permission to create a resource share with provided resource(s) and/or principal(s),0,0,0,1
+Amazon SageMaker,sagemaker:Search,Read,Grants permission to search for SageMaker objects,0,1,0,0
+AWS Identity and Access Management (IAM),iam:UpdateServerCertificate,Write,Grants permission to update the name or the path of the specified server certificate stored in IAM,0,0,0,1
+Amazon S3,s3:PutObjectVersionAcl,Permissions management,Grants permission to use the acl subresource to set the access control list (ACL) permissions for an object that already exists in a bucket,0,0,0,1
+Amazon OpenSearch Service,es:ESHttpHead,Read,Grants permission to send HTTP HEAD requests to the OpenSearch APIs,0,1,0,0
+Amazon WorkDocs,workdocs:GetDocument,Read,Grants permission to retrieve the specified document object,0,1,0,0
+AWS Key Management Service,kms:RevokeGrant,Permissions management,"Controls permission to revoke a grant, which denies permission for all operations that depend on the grant",0,0,0,1
+AWS License Manager,license-manager:UpdateServiceSettings,Permissions management,Grants permission to updates service settings,0,0,0,1
+AWS Key Management Service,kms:PutKeyPolicy,Permissions management,Controls permission to replace the key policy for the specified AWS KMS key,0,0,0,1
+Amazon CloudSearch,cloudsearch:UpdateServiceAccessPolicies,Permissions management,Configures the access rules that control access to the domain's document and search endpoints,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UpdateAccountPasswordPolicy,Write,Grants permission to update the password policy settings for the AWS account,0,0,0,1
+AWS IAM Identity Center Directory,sso-directory:CreateGroup,Write,Grants permission to create a group in the directory that AWS IAM Identity Center provides by default,0,0,0,1
+Amazon Elastic Container Registry,ecr:GetDownloadUrlForLayer,Read,Grants permission to retrieve the download URL corresponding to an image layer,0,1,0,0
+AWS IoT SiteWise,iotsitewise:UpdateAccessPolicy,Write,Grants permission to update an access policy,0,0,0,1
+Amazon Chime,chime:GetUserActivityReportData,Read,Grants permission to get a summary of user activity on the user details page,0,1,0,0
+AWS Identity and Access Management (IAM),iam:DeleteAccessKey,Write,Grants permission to delete the access key pair that is associated with the specified IAM user,0,0,0,1
+"Amazon RDS, Neptune & DocumentDB",rds:DownloadDBLogFilePortion,Read,"Grants permission to download all or a portion of the specified log file, up to 1 MB in size",0,1,0,0
+AWS IAM Identity Center Directory,sso-directory:SearchUsers,Read,Grants permission to search for users within the associated directory,0,1,0,0
+Amazon Elastic File System,elasticfilesystem:PutFileSystemPolicy,Permissions management,Grants permission to apply a resource-level policy that defines the actions allowed or denied from given actors for the specified file system,0,0,0,1
+AWS Lambda,lambda:DisableReplication,Permissions management,Grants permission to disable replication for a Lambda@Edge function,0,0,0,1
+AWS IAM Identity Center,sso:DeleteProfile,Write,Grants permission to delete the profile for an application instance,0,0,0,1
+AWS WAF V2,wafv2:GetSampledRequests,Read,Grants permission to retrieve detailed information about a sampling of web requests,0,1,0,0
+AWS CodeArtifact,codeartifact:ReadFromRepository,Read,Grants permission to return package assets and metadata from a repository endpoint,0,1,0,0
+AWS CodeCommit,codecommit:GetReferences,Read,Grants permission to get details about references in an AWS CodeCommit repository; does not control Git reference actions,0,1,0,0
+Amazon S3,s3:PutObjectAcl,Permissions management,Grants permission to set the access control list (ACL) permissions for new or existing objects in an S3 bucket,0,0,0,1
+Amazon OpenSearch Service,es:ESHttpPatch,Write,Grants permission to send HTTP PATCH requests to the OpenSearch APIs,0,1,0,0
+AWS CodeCommit,codecommit:GetComment,Read,"Grants permission to get the content of a comment made on a change, file, or commit in a repository",0,1,0,0
+Amazon Kendra,kendra:Query,Read,Grants permission to query documents and faqs,0,1,0,0
+AWS Service Catalog,servicecatalog:CreatePortfolioShare,Permissions management,Grants permission to share a portfolio you own with another AWS account,0,0,0,1
+Amazon QuickSight,quicksight:DeleteGroup,Write,Grants permission to remove a user group from QuickSight,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UploadSigningCertificate,Write,Grants permission to upload an X.509 signing certificate and associate it with the specified IAM user,0,0,0,1
+AWS CodeBuild,codebuild:BatchGetReports,Read,Grants permission to return an array of the Report objects specified by the input reportArns parameter,0,1,0,0
+AWS CodeCommit,codecommit:GetMergeConflicts,Read,Grants permission to get information about merge conflicts between the before and after commit IDs for a pull request in a repository,0,1,0,0
+AWS Elemental MediaStore,mediastore:GetObject,Read,Grants permission to retrieve an object,0,1,0,0
+Amazon CloudWatch Logs,logs:Unmask,Read,Grants permission to fetch unmasked log events that have been redacted with a data protection policy,0,1,0,0
+Amazon WorkMail,workmail:ListUsers,List,Grants permission to list the organization's users,0,1,0,0
+AWS IAM Identity Center,sso:DisassociateDirectory,Write,Grants permission to disassociate a directory to be used by AWS IAM Identity Center,0,0,0,1
+AWS Clean Rooms,cleanrooms:GetProtectedQuery,Read,Grants permission to view a protected query,0,1,0,0
+AWS Identity and Access Management (IAM),iam:DeletePolicy,Permissions management,"Grants permission to delete the specified managed policy and remove it from any IAM entities (users, groups, or roles) to which it is attached",0,0,0,1
+AWS Identity and Access Management (IAM),iam:ResetServiceSpecificCredential,Write,Grants permission to reset the password for an existing service-specific credential for an IAM user,1,0,0,1
+AWS IAM Identity Center,sso:StartSSO,Write,Grants permission to initialize AWS IAM Identity Center,0,0,0,1
+Amazon Cognito User Pools,cognito-idp:AdminListDevices,List,Grants permission to list any user's remembered devices,0,1,0,0
+AWS IoT,iot:SetDefaultAuthorizer,Permissions management,Grants permission to set the default authorizer. This will be used if a websocket connection is made without specifying an authorizer,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateVirtualMFADevice,Write,Grants permission to create a new virtual MFA device,0,0,1,1
+AWS Directory Service,ds:ShareDirectory,Write,Grants permission to share a specified directory in your AWS account (directory owner) with another AWS account (directory consumer). With this operation you can use your directory from any AWS account and from any Amazon VPC within an AWS Region,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UploadSSHPublicKey,Write,Grants permission to upload an SSH public key and associate it with the specified IAM user,0,0,0,1
+Amazon QuickSight,quicksight:UpdateGroup,Write,Grants permission to change group description,0,0,0,1
+AWS CodeStar,codestar:DisassociateTeamMember,Permissions management,Grants permission to remove a user from a project. Removing a user from a project also removes the IAM policies from that user that allowed access to the project and its resources,0,0,0,1
+Amazon EC2,ec2:CreateNetworkInterfacePermission,Permissions management,Grants permission to create a permission for an AWS-authorized user to perform certain operations on a network interface,0,0,0,1
+Amazon Redshift,redshift:JoinGroup,Permissions management,Grants permission to join the specified Amazon Redshift group,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateServiceLinkedRole,Write,Grants permission to create an IAM role that allows an AWS service to perform actions on your behalf,0,0,1,1
+Amazon CloudWatch Logs,logs:PutResourcePolicy,Permissions management,Grants permission to create or update a resource policy allowing other AWS services to put log events to this account,0,0,0,1
+Amazon S3 Glacier,glacier:SetVaultAccessPolicy,Permissions management,Grants permission to configure an access policy for a vault; will overwrite an existing policy,0,0,0,1
+Amazon RDS IAM Authentication,rds-db:connect,Permissions management,Allows IAM role or user to connect to RDS database,1,0,0,1
+Amazon WorkDocs,workdocs:GetDocumentVersion,Read,Grants permission to retrieve version metadata for the specified document,0,1,0,0
+Amazon DynamoDB,dynamodb:Query,Read,Grants permission to use the primary key of a table or a secondary index to directly access items from that table or index,0,1,0,0
+Amazon QuickSight,quicksight:CreateGroupMembership,Write,Grants permission to add a QuickSight user to a QuickSight group,0,0,0,1
+AWS Directory Service,ds:CreateConditionalForwarder,Write,Grants permission to create a conditional forwarder associated with your AWS directory,0,0,0,1
+Amazon S3,s3:PutAccessPointPolicy,Permissions management,Grants permission to associate an access policy with a specified access point,0,0,0,1
+AWS Identity and Access Management (IAM),iam:ChangePassword,Write,Grants permission to an IAM user to change their own password,0,0,0,1
+AWS Chatbot,chatbot:ListMicrosoftTeamsConfiguredTeams,Read,Grants permission to list all Microsoft Teams connected to the AWS Account onboarded with AWS Chatbot service,0,1,0,0
+AWS IAM Identity Center Directory,sso-directory:EnableUser,Write,Grants permission to activate user in the directory that AWS IAM Identity Center provides by default,0,0,0,1
+AWS CodeStar,codestar:DeleteProject,Permissions management,"Grants permission to delete a project, including project resources. Does not delete users associated with the project, but does delete the IAM roles that allowed access to the project",0,0,0,1
+AWS CodeCommit,codecommit:GitPull,Read,Grants permission to pull information from an AWS CodeCommit repository to a local repo,0,1,0,0
+Amazon Elastic File System,elasticfilesystem:DeleteFileSystemPolicy,Permissions management,Grants permission to delete the resource-level policy for a file system,0,0,0,1
+AWS Resource Access Manager (RAM),ram:DeleteResourceShare,Write,Grants permission to delete resource share,0,0,0,1
+AWS IoT,iot:DetachPrincipalPolicy,Permissions management,Grants permission to remove the specified policy from the specified certificate,0,0,0,1
+AWS HealthLake,healthlake:SearchWithGet,Read,Grants permission to search resources with GET method,0,1,0,0
+Amazon Lightsail,lightsail:GetRelationalDatabaseMasterUserPassword,Write,Grants permission to get the master user password of a relational database,1,0,0,1
+Amazon S3,s3:GetDataAccess,Read,Grants permission to get Access,1,0,0,0
+AWS Identity and Access Management (IAM),iam:PutRolePermissionsBoundary,Permissions management,Grants permission to set a managed policy as a permissions boundary for a role,0,0,1,1
+Amazon WorkMail,workmail:ListGroups,List,Grants permission to list summaries of the organization's groups,0,1,0,0
+Amazon EC2,ec2:DisableImageBlockPublicAccess,Write,Grants permission to disable block public access for AMIs at the account level in the specified AWS Region,0,0,0,1
+Amazon OpenSearch Service,es:ESHttpPost,Write,Grants permission to send HTTP POST requests to the OpenSearch APIs,0,1,0,0
+Amazon QuickSight,quicksight:DeleteGroupMembership,Write,Grants permission to remove a user from a group so that he/she is no longer a member of the group,0,0,0,1
+Amazon OpenSearch Service,es:ESHttpPut,Write,Grants permission to send HTTP PUT requests to the OpenSearch APIs,0,1,0,0
+AWS Identity and Access Management (IAM),iam:DeleteLoginProfile,Write,Grants permission to delete the password for the specified IAM user,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateAccessKey,Write,Grants permission to create access key and secret access key for the specified IAM user,1,0,1,1
+Amazon Cognito User Pools,cognito-idp:GetGroup,Read,Grants permission to describe a user pool group,0,1,0,0
+AWS Key Management Service,kms:RetireGrant,Permissions management,Controls permission to retire a grant. The RetireGrant operation is typically called by the grant user after they complete the tasks that the grant allowed them to perform,0,0,0,1
+AWS CodeCommit,codecommit:GetCommit,Read,"Grants permission to return information about a commit, including commit message and committer information, with this API; does not control Git log actions",0,1,0,0
+Amazon OpenSearch Service,es:ESHttpGet,Read,Grants permission to send HTTP GET requests to the OpenSearch APIs,0,1,0,0
+AWS CodeArtifact,codeartifact:DeleteRepositoryPermissionsPolicy,Permissions management,Grants permission to delete the resource policy set on a repository,0,0,0,1
+AWS Identity and Access Management (IAM),iam:DeleteUser,Write,Grants permission to delete the specified IAM user,0,0,0,1
+AWS CodeCommit,codecommit:GetCommitHistory,Read,Grants permission to get information about the history of commits in a repository,0,1,0,0
+AWS Identity and Access Management (IAM),iam:UpdateSSHPublicKey,Write,Grants permission to update the status of an IAM user's SSH public key to active or inactive,0,0,0,1
+Amazon Cognito User Pools,cognito-idp:GetDevice,Read,Grants permission to get the device,0,1,0,0
+AWS Systems Manager,ssm:GetParameters,Read,Grants permission to view information about multiple specified parameters,0,1,0,0
+Amazon EC2 Instance Connect,ec2-instance-connect:SendSSHPublicKey,Write,Grants permission to push an SSH public key to the specified EC2 instance to be used for standard SSH,1,0,1,0
+AWS CodeStar,codestar:AssociateTeamMember,Permissions management,Grants permission to add a user to the team for an AWS CodeStar project,0,0,1,1
+AWS Identity and Access Management (IAM),iam:DeleteInstanceProfile,Write,Grants permission to delete the specified instance profile,0,0,0,1
+Amazon Redshift,redshift:CreateSnapshotCopyGrant,Permissions management,Grants permission to create a snapshot copy grant and encrypt copied snapshots in a destination AWS Region,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UpdateUser,Write,Grants permission to update the name or the path of the specified IAM user,0,0,0,1
+AWS Identity and Access Management (IAM),iam:DeactivateMFADevice,Write,Grants permission to deactivate the specified MFA device and remove its association with the IAM user for which it was originally enabled,0,0,0,1
+AWS IAM Identity Center,sso:UpdateApplicationInstanceServiceProviderConfiguration,Write,Grants permission to update service provider related configuration for the application instance,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateOpenIDConnectProvider,Write,Grants permission to create an IAM resource that describes an identity provider (IdP) that supports OpenID Connect (OIDC),0,0,0,1
+Amazon Cognito User Pools,cognito-idp:ListUsers,List,Grants permission to list all user pool users,0,1,0,0
+AWS Identity and Access Management (IAM),iam:DeleteAccountPasswordPolicy,Permissions management,Grants permission to delete the password policy for the AWS account,0,0,0,1
+AWS Identity and Access Management (IAM),iam:SetDefaultPolicyVersion,Permissions management,Grants permission to set the version of the specified policy as the policy's default version,0,0,1,1
+Amazon Redshift,redshift:RevokeSnapshotAccess,Permissions management,Grants permission to revoke access from the specified AWS account to restore a snapshot,0,0,0,1
+AWS Identity and Access Management (IAM),iam:PutRolePolicy,Permissions management,Grants permission to create or update an inline policy document that is embedded in the specified IAM role,0,0,1,1
+Amazon Cognito Sync,cognito-sync:QueryRecords,Read,Grants permission to query records,0,1,0,0
+Amazon S3,s3:BypassGovernanceRetention,Permissions management,Grants permission to allow circumvention of governance-mode object retention settings,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateGroup,Write,Grants permission to create a new group,0,0,0,1
+AWS Identity and Access Management (IAM),iam:PutGroupPolicy,Permissions management,Grants permission to create or update an inline policy document that is embedded in the specified IAM group,0,0,1,1
+AWS Lambda,lambda:EnableReplication,Permissions management,Grants permission to enable replication for a Lambda@Edge function,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateLoginProfile,Write,Grants permission to create a password for the specified IAM user,1,0,1,1
+Amazon EC2 Image Builder,imagebuilder:PutComponentPolicy,Permissions management,Grants permission to set the resource policy associated with a component,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreateRole,Write,Grants permission to create a new role,0,0,0,1
+AWS Identity and Access Management (IAM),iam:AttachRolePolicy,Permissions management,Grants permission to attach a managed policy to the specified IAM role,0,0,1,1
+AWS Key Management Service,kms:CreateGrant,Permissions management,Controls permission to add a grant to an AWS KMS key. You can use grants to add permissions without changing the key policy or IAM policy,0,1,1,1
+AWS Identity and Access Management (IAM),iam:UpdateAccessKey,Write,Grants permission to update the status of the specified access key as Active or Inactive,1,0,0,1
+Amazon CodeGuru Profiler,codeguru-profiler:GetRecommendations,Read,Grants permission to get recommendations,0,1,0,0
+Amazon SQS,sqs:ReceiveMessage,Read,"Grants permission to retrieve one or more messages, with a maximum limit of 10 messages, from the specified queue",0,1,0,0
+AWS IAM Identity Center Directory,sso-directory:DisableUser,Write,Grants permission to deactivate a user in the directory that AWS IAM Identity Center provides by default,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UpdateGroup,Write,Grants permission to update the name or path of the specified IAM group,0,0,0,1
+AWS Identity and Access Management (IAM),iam:PutRolePolicy,Permissions management,Grants permission to create or update an inline policy document that is embedded in the specified IAM role,0,0,1,1
+AWS Storage Gateway,storagegateway:DeleteChapCredentials,Write,Grants permission to delete Challenge-Handshake Authentication Protocol (CHAP) credentials for a specified iSCSI target and initiator pair,0,0,0,1
+AWS IoT,iot:DetachPolicy,Permissions management,Grants permission to detach a policy from the specified target,0,0,0,1
+AWS Backup,backup:PutBackupVaultAccessPolicy,Permissions management,Grants permission to add an access policy to the backup vault,0,0,0,1
+AWS IAM Identity Center Directory,sso-directory:DeleteGroup,Write,Grants permission to delete a group from the directory that AWS IAM Identity Center provides by default,0,0,0,1
+AWS Identity and Access Management (IAM),iam:DeleteRolePermissionsBoundary,Permissions management,Grants permission to remove the permissions boundary from a role,0,0,1,1
+Amazon Macie,macie2:GetFindings,Read,Grants permission to retrieve the details of one or more findings,0,1,0,0
+Amazon DynamoDB,dynamodb:BatchGetItem,Read,Grants permission to return the attributes of one or more items from one or more tables,0,1,0,0
+Amazon WorkMail,workmail:ListGroupMembers,List,Grants permission to read an overview of the members of a group. Users and groups can be members of a group,0,1,0,0
+Amazon Cognito Identity,cognito-identity:UnlinkIdentity,Write,Grants permission to unlink a federated identity from an existing account,0,0,0,1
+AWS Backup,backup:DeleteBackupVaultAccessPolicy,Permissions management,Grants permission to delete backup vault access policy,0,0,0,1
+AWS CodePipeline,codepipeline:GetPipelineExecution,Read,"Grants permission to view information about an execution of a pipeline, including details about artifacts, the pipeline execution ID, and the name, version, and status of the pipeline",0,1,0,0
+Amazon Cognito User Pools,cognito-idp:AdminListGroupsForUser,List,Grants permission to list the groups that any user belongs to,0,1,0,0
+AWS Identity and Access Management (IAM),iam:UpdateServiceSpecificCredential,Write,Grants permission to update the status of a service-specific credential to active or inactive for an IAM user,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UpdateAssumeRolePolicy,Permissions management,Grants permission to update the policy that grants an IAM entity permission to assume a role,0,0,1,1
+Amazon QuickSight,quicksight:UpdateUser,Write,Grants permission to update an Amazon QuickSight user,0,0,0,1
+AWS Identity and Access Management (IAM),iam:ResyncMFADevice,Write,Grants permission to synchronize the specified MFA device with its IAM entity (user or role),0,0,1,1
+Amazon Cognito User Pools,cognito-idp:ListGroups,List,Grants permission to list all groups in user pools,0,1,0,0
+AWS Glue,glue:DeleteResourcePolicy,Permissions management,Grants permission to delete a resource policy,0,0,0,1
+Amazon RDS IAM Authentication,rds-db:connect,Permissions management,Allows IAM role or user to connect to RDS database,1,0,0,1
+AWS CodeCommit,codecommit:GetPullRequestApprovalStates,Read,Grants permission to retrieve the current approvals on an inputted pull request,0,1,0,0
+AWS Service Catalog,servicecatalog:DeletePortfolioShare,Permissions management,Grants permission to unshare a portfolio you own from an AWS account you previously shared the portfolio with,0,0,0,1
+Amazon QuickSight,quicksight:RegisterUser,Write,"Grants permission to create a QuickSight user, whose identity is associated with the IAM identity/role specified in the request",0,0,0,1
+Amazon DynamoDB Accelerator (DAX),dax:GetItem,Read,Grants permission to the GetItem operation that returns a set of attributes for the item with the given primary key,0,1,0,0
+Amazon Route 53 Resolver,route53resolver:PutResolverRulePolicy,Permissions management,"Grants permission to specify an AWS account that you want to share rules with, the Resolver rules that you want to share, and the operations that you want the account to be able to perform on those rules",0,0,0,1
+AWS Security Token Service,sts:AssumeRoleWithWebIdentity,Write,Grants permission to obtain a set of temporary security credentials for users who have been authenticated in a mobile or web application with a web identity provider,1,0,0,0
+AWS IAM Identity Center,sso:CreateTrust,Write,Grants permission to create a federation trust in a target account,0,0,0,1
+Amazon Chime,chime:GetRoom,Read,Grants permission to retrieve a room,0,1,0,0
+Amazon S3 Glacier,glacier:SetDataRetrievalPolicy,Permissions management,Grants permission to set and then enacts a data retrieval policy in the region specified in the PUT request,0,0,0,1
+AWS CodeCommit,codecommit:BatchGetPullRequests,Read,Grants permission to return information about one or more pull requests in an AWS CodeCommit repository,0,1,0,0
+AWS CodeBuild,codebuild:ImportSourceCredentials,Write,"Grants permission to import the source repository credentials for an AWS CodeBuild project that has its source code stored in a GitHub, GitHub Enterprise, or Bitbucket repository",0,0,0,1
+AWS IAM Identity Center Directory,sso-directory:DescribeUser,Read,Grants permission to retrieve information about a user from the directory that AWS IAM Identity Center provides by default,0,1,0,0
+AWS Elemental MediaPackage,mediapackage:RotateIngestEndpointCredentials,Write,Grants permission to rotate IngestEndpoint credentials for a Channel in AWS Elemental MediaPackage,1,0,0,1
+Amazon Lightsail,lightsail:GetContainerImages,Read,Grants permission to view the container images that are registered to your Amazon Lightsail container service,0,1,0,0
+Amazon Cognito User Pools,cognito-idp:DescribeUserPoolClient,Read,Grants permission to describe any user pool app client,1,0,0,0
+AWS Elemental MediaPackage,mediapackage:RotateIngestEndpointCredentials,Write,Grants permission to rotate IngestEndpoint credentials for a Channel in AWS Elemental MediaPackage,1,0,0,1
+AWS Identity and Access Management (IAM),iam:UpdateAccessKey,Write,Grants permission to update the status of the specified access key as Active or Inactive,1,0,0,1
+Amazon S3 Object Lambda,s3-object-lambda:GetObject,Read,Grants permission to retrieve objects from Amazon S3,0,1,0,0
+Amazon OpenSearch Service,es:ESHttpDelete,Write,Grants permission to send HTTP DELETE requests to the OpenSearch APIs,0,1,0,0
+Amazon QuickSight,quicksight:UpdateDashboardPermissions,Permissions management,Grants permission to update permissions for a QuickSight Dashboard,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UpdateAssumeRolePolicy,Permissions management,Grants permission to update the policy that grants an IAM entity permission to assume a role,0,0,1,1
+AWS Identity and Access Management (IAM),iam:PutUserPolicy,Permissions management,Grants permission to create or update an inline policy document that is embedded in the specified IAM user,0,0,1,1
+AWS CodeCommit,codecommit:GetCommentsForPullRequest,Read,Grants permission to get comments made on a pull request,0,1,0,0
+AWS AppSync,appsync:GetDataSource,Read,Grants permission to retrieve a data source,0,1,0,0
+AWS CodeBuild,codebuild:DeleteResourcePolicy,Permissions management,Grants permission to delete a resource policy for the associated project or report group,0,0,0,1
+Amazon S3,s3:DeleteAccessPointPolicy,Permissions management,Grants permission to delete the policy on a specified access point,0,0,0,1
+AWS Identity and Access Management (IAM),iam:SetSecurityTokenServicePreferences,Write,Grants permission to set the STS global endpoint token version,0,0,0,1
+AWS Lambda,lambda:RemovePermission,Permissions management,Grants permission to revoke function-use permission from an AWS service or another account,0,0,0,1
+AWS Serverless Application Repository,serverlessrepo:GetCloudFormationTemplate,Read,Grants permission to get the specified AWS CloudFormation template,0,1,0,0
+AWS Storage Gateway,storagegateway:DescribeChapCredentials,Read,"Grants permission to get an array of Challenge-Handshake Authentication Protocol (CHAP) credentials information for a specified iSCSI target, one for each target-initiator pair",1,0,0,0
+Amazon SNS,sns:CreateTopic,Write,Grants permission to create a topic to which notifications can be published,0,0,0,1
+AWS OpsWorks,opsworks:UpdateUserProfile,Permissions management,Grants permission to update a specified user profile,0,0,0,1
+AWS Identity and Access Management (IAM),iam:AttachRolePolicy,Permissions management,Grants permission to attach a managed policy to the specified IAM role,0,0,1,1
+Amazon S3 Glacier,glacier:InitiateVaultLock,Permissions management,Grants permission to initiate the vault locking process,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UpdateRole,Write,Grants permission to update the description or maximum session duration setting of a role,0,0,0,1
+Amazon Cognito Identity,cognito-identity:GetId,Write,Grants permission to generate (or retrieve) a Cognito ID. Supplying multiple logins will create an implicit linked account,0,0,0,1
+Amazon S3,s3:PutBucketPublicAccessBlock,Permissions management,Grants permission to create or modify the PublicAccessBlock configuration for a specific Amazon S3 bucket,0,0,0,1
+Amazon Chime,chime:CreateApiKey,Write,Grants permission to create a new SCIM access key for your Amazon Chime account and Okta configuration,1,0,0,0
+Amazon Cognito Identity,cognito-identity:SetIdentityPoolRoles,Write,Grants permission to set the roles for an identity pool. These roles are used when making calls to GetCredentialsForIdentity action,0,0,0,1
+AWS IAM Identity Center Directory,sso-directory:DeleteUser,Write,Grants permission to delete a user from the directory that AWS IAM Identity Center provides by default,0,0,0,1
+AWS CodeCommit,codecommit:GetFile,Read,Grants permission to return the base-64 encoded contents of a specified file and its metadata,0,1,0,0
+AWS Key Management Service,kms:CreateGrant,Permissions management,Controls permission to add a grant to an AWS KMS key. You can use grants to add permissions without changing the key policy or IAM policy,0,1,1,1
+AWS IAM Identity Center,sso:DeleteApplicationInstanceCertificate,Write,Grants permission to delete an inactive or expired certificate from the application instance,0,0,0,1
+AWS Identity and Access Management (IAM),iam:DeleteRolePermissionsBoundary,Permissions management,Grants permission to remove the permissions boundary from a role,0,0,1,1
+Amazon S3,s3:DeleteBucketPolicy,Permissions management,Grants permission to delete the policy on a specified bucket,0,0,0,1
+Amazon S3 Object Lambda,s3-object-lambda:GetObjectVersion,Read,Grants permission to retrieve a specific version of an object,0,1,0,0
+AWS CodeCommit,codecommit:GetCommitsFromMergeBase,Read,Grants permission to get information about the difference between commits in the context of a potential merge,0,1,0,0
+AWS Identity and Access Management (IAM),iam:AddUserToGroup,Write,Grants permission to add an IAM user to the specified IAM group,0,0,1,1
+AWS Identity and Access Management (IAM),iam:EnableMFADevice,Write,Grants permission to enable an MFA device and associate it with the specified IAM user,0,0,1,1
+Amazon Chime,chime:GetAttendee,Read,Grants permission to get attendee details for a specified meeting ID and attendee ID,0,1,0,0
+AWS WAF Regional,waf-regional:GetChangeToken,Read,"Grants permission to retrieve a change token to use in create, update, and delete requests",1,0,0,0
+Amazon Lightsail,lightsail:GetKeyPairs,Read,Grants permission to get information about all key pairs,1,0,0,0
+Amazon EC2,ec2:DeleteNetworkInterfacePermission,Permissions management,Grants permission to delete a permission that is associated with a network interface,0,0,0,1
+AWS Identity and Access Management (IAM),iam:DeleteServiceLinkedRole,Write,"Grants permission to delete an IAM role that is linked to a specific AWS service, if the service is no longer using it",0,0,0,1
+AWS CodeStar,codestar:AssociateTeamMember,Permissions management,Grants permission to add a user to the team for an AWS CodeStar project,0,0,1,1
+AWS WAF V2,wafv2:CreateWebACL,Write,Grants permission to create a WebACL,0,0,0,1
+AWS Identity and Access Management (IAM),iam:ResetServiceSpecificCredential,Write,Grants permission to reset the password for an existing service-specific credential for an IAM user,1,0,0,1
+Amazon QuickSight,quicksight:CreateGroup,Write,Grants permission to create a QuickSight group,0,0,0,1
+AWS Private Certificate Authority,acm-pca:PutPolicy,Permissions management,Grants permission to put a policy on an AWS Private CA,0,0,0,1
+AWS DeepLens,deeplens:AssociateServiceRoleToAccount,Permissions management,Associates the user's account with IAM roles controlling various permissions needed by AWS DeepLens for proper functionality.,0,0,0,1
+AWS IoT SiteWise,iotsitewise:CreateAccessPolicy,Write,Grants permission to create an access policy for a portal or a project,0,0,0,1
+AWS Health APIs and Notifications,health:DisableHealthServiceAccessForOrganization,Permissions management,Grants permission to disable the Organizational View feature,0,0,0,1
+Amazon CloudWatch Logs,logs:GetQueryResults,Read,Grants permission to return the results from the specified query,0,1,0,0
+AWS Lambda,lambda:AddPermission,Permissions management,Grants permission to give an AWS service or another account permission to use an AWS Lambda function,0,0,0,1
+AWS Secrets Manager,secretsmanager:DeleteResourcePolicy,Permissions management,Grants permission to delete the resource policy attached to a secret,0,0,0,1
+Amazon DynamoDB,dynamodb:GetRecords,Read,Grants permission to retrieve the stream records from a given shard,0,1,0,0
+Amazon Chime,chime:GetChannelMessage,Read,Grants permission to get the full details of a channel message,0,1,0,0
+Amazon DynamoDB Accelerator (DAX),dax:Scan,Read,Grants permission to return one or more items and item attributes by accessing every item in a table or a secondary index,0,1,0,0
+Amazon Cognito Sync,cognito-sync:ListRecords,Read,"Grants permission to get paginated records, optionally changed after a particular sync count for a dataset and identity",0,1,0,0
+AWS IAM Identity Center,sso:UpdateDirectoryAssociation,Write,Grants permission to update the user attribute mappings for your connected directory,0,0,0,1
+AWS CodePipeline,codepipeline:PollForJobs,Write,Grants permission to view information about any jobs for CodePipeline to act on,1,0,0,0
+AWS Identity and Access Management (IAM),iam:DeleteServerCertificate,Write,Grants permission to delete the specified server certificate,0,0,0,1
+AWS IAM Identity Center,sso:DeletePermissionsPolicy,Permissions management,Grants permission to delete the permission policy associated with a permission set,0,0,0,1
+Amazon Chime,chime:GetMeetingDetail,Read,"Grants permission to get attendee, connection, and other details for a meeting",0,1,0,0
+AWS Identity and Access Management (IAM),iam:CreateInstanceProfile,Write,Grants permission to create a new instance profile,0,0,0,1
+Amazon Connect,connect:GetFederationToken,Read,Grants permission to federate into an Amazon Connect instance when using SAML-based authentication for identity management,1,0,0,0
+AWS Key Management Service,kms:CreateGrant,Permissions management,Controls permission to add a grant to an AWS KMS key. You can use grants to add permissions without changing the key policy or IAM policy,0,1,1,1
+AWS IAM Identity Center Directory,sso-directory:ListBearerTokens,Read,Grants permission to list bearer tokens for a given provisioning tenant,1,0,0,0
+AWS IoT SiteWise,iotsitewise:DeleteAccessPolicy,Write,Grants permission to delete an access policy,0,0,0,1
+AWS IAM Identity Center,sso:CreatePermissionSet,Write,Grants permission to create a permission set,0,0,0,1
+AWS Resource Access Manager (RAM),ram:AcceptResourceShareInvitation,Write,Grants permission to accept the specified resource share invitation,0,0,0,1
+AWS Identity and Access Management (IAM),iam:PassRole,Write,Grants permission to pass a role to a service,0,0,1,1
+Amazon QuickSight,quicksight:CreateUser,Write,Grants permission to provision Amazon QuickSight authors and readers,0,0,0,1
+Amazon S3 Glacier,glacier:AbortVaultLock,Permissions management,Grants permission to abort the vault locking process if the vault lock is not in the Locked state,0,0,0,1
+Amazon SNS,sns:AddPermission,Permissions management,"Grants permission to add a statement to a topic's access control policy, granting access for the specified AWS accounts to the specified actions",0,0,0,1
+AWS Secrets Manager,secretsmanager:PutResourcePolicy,Permissions management,Grants permission to attach a resource policy to a secret,0,0,0,1
+AWS Identity and Access Management (IAM),iam:DetachUserPolicy,Permissions management,Grants permission to detach a managed policy from the specified IAM user,0,0,0,1
+AWS CloudFormation & Cloud Control API,cloudformation:SetStackPolicy,Permissions management,Grants permission to set a stack policy for a specified stack,0,0,0,1
+AWS Identity and Access Management (IAM),iam:AttachUserPolicy,Permissions management,Grants permission to attach a managed policy to the specified IAM user,0,0,1,1
+AWS Identity and Access Management (IAM),iam:CreateVirtualMFADevice,Write,Grants permission to create a new virtual MFA device,0,0,1,1
+AWS Identity and Access Management (IAM),iam:AttachUserPolicy,Permissions management,Grants permission to attach a managed policy to the specified IAM user,0,0,1,1
+AWS IAM Identity Center,sso:AssociateProfile,Write,Grants permission to create an association between a directory user or group and a profile,0,0,0,1
+Amazon Cognito Identity,cognito-identity:CreateIdentityPool,Write,Grants permission to create a new identity pool,0,0,0,1
+AWS WAF,waf:PutPermissionPolicy,Permissions management,"Grants permission to attach an IAM policy to a rule group, to share the rule group between accounts",0,0,0,1
+AWS IAM Identity Center,sso:CreateApplicationInstance,Write,Grants permission to add an application instance to AWS IAM Identity Center,0,0,0,1
+AWS Identity and Access Management (IAM),iam:CreatePolicy,Permissions management,Grants permission to create a new managed policy,0,0,0,1
+AWS Identity and Access Management (IAM),iam:SetDefaultPolicyVersion,Permissions management,Grants permission to set the version of the specified policy as the policy's default version,0,0,1,1
+Amazon EC2,ec2:ModifySnapshotAttribute,Permissions management,Grants permission to add or remove permission settings for a snapshot,0,0,0,1
+AWS CodeStar,codestar:CreateProject,Permissions management,"Grants permission to create a project with minimal structure, customer policies, and no resources",0,0,1,1
+Amazon CloudWatch Logs,logs:GetLogRecord,Read,Grants permission to retrieve all the fields and values of a single log event,0,1,0,0
+AWS Security Token Service,sts:AssumeRoleWithSAML,Write,Grants permission to obtain a set of temporary security credentials for users who have been authenticated via a SAML authentication response,1,0,0,0
+AWS Identity and Access Management (IAM),iam:PutGroupPolicy,Permissions management,Grants permission to create or update an inline policy document that is embedded in the specified IAM group,0,0,1,1
+AWS Elemental MediaStore,mediastore:DeleteContainerPolicy,Permissions management,Grants permission to delete the access policy of a container,0,0,0,1
+AWS IAM Identity Center,sso:SearchUsers,Read,Grants permission to search for users within the associated directory,0,1,0,0
+AWS Identity and Access Management (IAM),iam:CreateUser,Write,Grants permission to create a new IAM user,0,0,0,1
+Amazon Cognito Identity,cognito-identity:UpdateIdentityPool,Write,Grants permission to update an identity pool,0,0,0,1
+AWS CodeCommit,codecommit:GetObjectIdentifier,Read,"Grants permission to resolve blobs, trees, and commits to their identifier",0,1,0,0
+Amazon Athena,athena:GetQueryExecution,Read,Grants permission to get information about the specified query execution,0,1,0,0
+AWS Lake Formation,lakeformation:RevokePermissions,Permissions management,Grants permission to revoke data lake permissions from a principal,0,0,0,1
+Amazon Athena,athena:GetSession,Read,Grants permission to get a session,1,0,0,0
+Amazon SQS,sqs:SetQueueAttributes,Write,Grants permission to set the value of one or more queue attributes,0,0,0,1
+AWS Storage Gateway,storagegateway:SetLocalConsolePassword,Write,Grants permission to set the password for your VM local console,0,0,0,1
+Amazon OpenSearch Serverless,aoss:APIAccessAll,Write,Grant permission to all the supported Opensearch APIs,0,1,0,0
+Amazon QuickSight,quicksight:UpdateTemplatePermissions,Permissions management,Grants permission to update permissions for a template,0,0,0,1
+AWS CodeArtifact,codeartifact:GetPackageVersionReadme,Read,Grants permission to return a package version's readme file,0,1,0,0
+AWS Identity and Access Management (IAM),iam:AttachGroupPolicy,Permissions management,Grants permission to attach a managed policy to the specified IAM group,0,0,1,1
+AWS Elemental MediaPackage,mediapackage:RotateChannelCredentials,Write,Grants permission to rotate credentials for the first IngestEndpoint of a Channel in AWS Elemental MediaPackage,1,0,0,0
+"Amazon RDS, Neptune & DocumentDB",rds:AuthorizeDBSecurityGroupIngress,Permissions management,Grants permission to enable ingress to a DBSecurityGroup using one of two forms of authorization,0,0,0,1
+AWS Directory Service,ds:CreateMicrosoftAD,Write,Grants permission to create a Microsoft AD in the AWS cloud,0,0,0,1
+AWS Resource Access Manager (RAM),ram:RejectResourceShareInvitation,Write,Grants permission to reject the specified resource share invitation,0,0,0,1
+AWS IAM Identity Center,sso:UpdateApplicationInstanceDisplayData,Write,Grants permission to update display data of an application instance,0,0,0,1
+AWS Identity and Access Management (IAM),iam:UploadServerCertificate,Write,Grants permission to upload a server certificate entity for the AWS account,0,0,0,1
+AWS CodeCommit,codecommit:GetBranch,Read,Grants permission to get details about a branch in an AWS CodeCommit repository with this API; does not control Git branch actions,0,1,0,0
+AWS Identity and Access Management (IAM),iam:PassRole,Write,Grants permission to pass a role to a service,0,0,1,1
+AWS IAM Identity Center,sso:UpdateApplicationInstanceResponseSchemaConfiguration,Write,Grants permission to update federation response schema configuration for the application instance,0,0,0,1
+AWS AppSync,appsync:GetFunction,Read,Grants permission to retrieve a function,0,1,0,0
+AWS Identity and Access Management (IAM),iam:RemoveClientIDFromOpenIDConnectProvider,Write,Grants permission to remove the client ID (audience) from the list of client IDs in the specified IAM OpenID Connect (OIDC) provider resource,0,0,0,1
+AWS Directory Service,ds:CreateTrust,Write,Grants permission to initiate the creation of the AWS side of a trust relationship between a Microsoft AD in the AWS cloud and an external domain,0,0,0,1
+AWS CodeBuild,codebuild:DeleteSourceCredentials,Write,"Grants permission to delete a set of GitHub, GitHub Enterprise, or Bitbucket source credentials",0,0,0,1
+Amazon Cognito User Pools,cognito-idp:GetUserAttributeVerificationCode,Read,Grants permission to get the user attribute verification code for the specified attribute name,1,0,0,0
+AWS Identity and Access Management (IAM),iam:DeleteGroup,Write,Grants permission to delete the specified IAM group,0,0,0,1
+AWS CodeCommit,codecommit:DescribePullRequestEvents,Read,Grants permission to return information about one or more pull request events,0,1,0,0
+AWS Lake Formation,lakeformation:GrantPermissions,Permissions management,Grants permission to data lake permissions to a principal,0,0,0,1
+Amazon Elastic Container Registry,ecr:SetRepositoryPolicy,Permissions management,Grants permission to apply a repository policy on a specified repository to control access permissions,0,0,0,1
+Amazon QLDB,qldb:GetBlock,Read,Grants permission to retrieve a block from a ledger for a given BlockAddress,0,1,0,0
+AWS Identity and Access Management (IAM),iam:DeleteServiceSpecificCredential,Write,Grants permission to delete the specified service-specific credential for an IAM user,0,0,0,1
+AWS WAF V2,wafv2:DeleteWebACL,Write,Grants permission to delete a WebACL,0,0,0,1
+Amazon DynamoDB Accelerator (DAX),dax:Query,Read,Grants permission to use the primary key of a table or a secondary index to directly access items from that table or index,0,1,0,0
+AWS Identity and Access Management (IAM),iam:CreateSAMLProvider,Write,Grants permission to create an IAM resource that describes an identity provider (IdP) that supports SAML 2.0,0,0,0,1
+AWS IAM Identity Center,sso:UpdateTrust,Write,Grants permission to update the federation trust in a target account,0,0,0,1
+AWS Identity and Access Management (IAM),iam:DeleteOpenIDConnectProvider,Write,Grants permission to delete an OpenID Connect identity provider (IdP) resource object in IAM,0,0,0,1
+AWS CodeBuild,codebuild:PutResourcePolicy,Permissions management,Grants permission to create a resource policy for the associated project or report group,0,0,0,1
+Amazon Athena,athena:GetQueryResults,Read,Grants permission to get the query results,0,1,0,0
+AWS Identity and Access Management (IAM),iam:UpdateSigningCertificate,Write,Grants permission to update the status of the specified user signing certificate to active or disabled,0,0,0,1
+Amazon OpenSearch Serverless,aoss:DashboardsAccessAll,Write,Grants permission to Opensearch Serverless Dashboards,0,1,0,0
+AWS IAM Identity Center,sso:AssociateDirectory,Write,Grants permission to connect a directory to be used by AWS IAM Identity Center,0,0,0,1
+Amazon S3,s3:GetObjectVersion,Read,Grants permission to retrieve a specific version of an object,0,1,0,0
+Amazon S3,s3:PutBucketPolicy,Permissions management,Grants permission to add or replace a bucket policy on a bucket,0,0,0,1
+AWS IAM Identity Center,sso:SearchGroups,Read,Grants permission to search for groups within the associated directory,0,1,0,0
+Amazon WorkLink,worklink:UpdateDevicePolicyConfiguration,Write,Grants permission to update the device policy configuration for an Amazon WorkLink fleet,0,0,0,1
+AWS IAM Identity Center Directory,sso-directory:AddMemberToGroup,Write,Grants permission to add a member to a group in the directory that AWS IAM Identity Center provides by default,0,0,0,1
+AWS IAM Identity Center Directory,sso-directory:SearchGroups,Read,Grants permission to search for groups within the associated directory,0,1,0,0
+AWS IAM Identity Center Directory,sso-directory:VerifyEmail,Write,Grants permission to verify an email address of an User,0,0,0,1
+AWS RoboMaker,robomaker:GetWorldTemplateBody,Read,Get the body of a world template,0,1,0,0
+AWS Chatbot,chatbot:DescribeSlackUserIdentities,Read,Grants permission to describe AWS Chatbot Slack User Identities,0,1,0,0
+AWS IAM Identity Center Directory,sso-directory:UpdateUser,Write,Grants permission to update user information in the directory that AWS IAM Identity Center provides by default,0,0,0,1
+AWS WAF,waf:GetChangeToken,Read,"Grants permission to retrieve a change token to use in create, update, and delete requests",1,0,0,0
+AWS Identity and Access Management (IAM),iam:PutUserPolicy,Permissions management,Grants permission to create or update an inline policy document that is embedded in the specified IAM user,0,0,1,1
+Amazon Chime,chime:PutVoiceConnectorTerminationCredentials,Write,Grants permission to add SIP termination credentials for the specified Amazon Chime Voice Connector,0,0,0,1
+Amazon Cognito Identity,cognito-identity:DeleteIdentities,Write,Grants permission to delete identities from an identity pool. You can specify a list of 1-60 identities that you want to delete,0,0,0,1
+Amazon GameLift,gamelift:GetGameSessionLogUrl,Read,Grants permission to retrieve the location of stored logs for a game session,1,0,0,0
+AWS Identity and Access Management (IAM),iam:DeleteAccountAlias,Write,Grants permission to delete the specified AWS account alias,0,0,0,1
+Amazon SQS,sqs:CreateQueue,Write,"Grants permission to create a new queue, or returns the URL of an existing one",0,0,0,1
+Amazon CloudWatch Logs,logs:GetLogEvents,Read,Grants permission to retrieve log events from the specified log stream,0,1,0,0
+Amazon Elastic MapReduce,elasticmapreduce:PutBlockPublicAccessConfiguration,Permissions management,Grants permission to create or update the EMR block public access configuration for the AWS account in the Region,0,0,0,1
+Amazon S3,s3:PutAccountPublicAccessBlock,Permissions management,Grants permission to create or modify the PublicAccessBlock configuration for an AWS account,0,0,0,1
+AWS Support,support:DescribeAttachment,Read,Grants permission to describe attachment detail,0,1,0,0
+AWS Lake Formation,lakeformation:BatchGrantPermissions,Permissions management,Grants permission to data lake permissions to one or more principals in a batch,0,0,0,1
+AWS Identity and Access Management (IAM),iam:AttachGroupPolicy,Permissions management,Grants permission to attach a managed policy to the specified IAM group,0,0,1,1
+Amazon QuickSight,quicksight:DeleteUser,Write,"Grants permission to delete a QuickSight user, given the user name",0,0,0,1
+AWS IAM Identity Center,sso:PutPermissionsPolicy,Permissions management,Grants permission to add a policy to a permission set,0,0,0,1

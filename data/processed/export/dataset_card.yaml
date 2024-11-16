@@ -1,0 +1,28 @@
+classes: &id001
+- credential_exposure
+- data_access
+- privilege_escalation
+- resource_exposure
+created_at: '2024-11-15T09:06:39.737277'
+description: Multi-label classification of cloud IAM actions by risk category
+features: 1006
+name: iam_risk_classification
+samples: 485
+statistics_summary:
+  class_distribution:
+    credential_exposure:
+      0: 436
+      1: 49
+    data_access:
+      0: 334
+      1: 151
+    privilege_escalation:
+      0: 458
+      1: 27
+    resource_exposure:
+      0: 191
+      1: 294
+  risk_categories: *id001
+  total_features: 1006
+  total_samples: 485
+version: 1.0.0

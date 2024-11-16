@@ -1,0 +1,486 @@
+source,service,action,access,description,risk_category_credentialexposure,risk_category_dataaccess,risk_category_privesc,risk_category_resourceexposure,action_type,word_count,has_resource,verb,resource_type,access_level
+aws,AWS AppSync,appsync:listapikeys,List,grants permission list api keys given api,1,0,0,0,listapikeys,7,False,list,appsync,read
+aws,Amazon Athena,athena:getsession,Read,grants permission get session,1,0,0,0,getsession,4,False,get,athena,read
+aws,AWS Chatbot,chatbot:getmicrosoftteamsoauthparameters,Read,grants permission generate oauth parameters request microsoft teams oauth code used aws chatbot service,1,0,0,0,getmicrosoftteamsoauthparameters,14,False,get,chatbot,read
+aws,AWS Chatbot,chatbot:getslackoauthparameters,Read,grants permission generate oauth parameters request slack oauth code used aws chatbot service,1,0,0,0,getslackoauthparameters,13,False,get,chatbot,read
+aws,Amazon Chime,chime:createapikey,Write,grants permission create new scim access key amazon chime account okta configuration,1,0,0,0,createapikey,12,False,create,chime,write
+aws,AWS Cloud9,cloud9:createenvironmentssh,Write,grants permission create aws cloud ssh development environment,1,0,0,0,createenvironmentssh,8,False,create,cloud9,write
+aws,AWS Cloud9,cloud9:createenvironmenttoken,Read,grants permission create authentication token allows connection aws cloud ide user environment,1,0,0,0,createenvironmenttoken,12,False,create,cloud9,write
+aws,AWS CodeArtifact,codeartifact:getauthorizationtoken,Read,grants permission generate temporary authentication token accessing repositories domain,1,0,0,0,getauthorizationtoken,9,False,get,codeartifact,read
+aws,AWS CodePipeline,codepipeline:pollforjobs,Write,grants permission view information jobs codepipeline act,1,0,0,0,pollforjobs,7,False,other,codepipeline,unknown
+aws,Amazon Cognito Identity,cognito-identity:getcredentialsforidentity,Read,grants permission return credentials provided identity id,1,0,0,0,getcredentialsforidentity,7,False,get,cognito-identity,read
+aws,Amazon Cognito Identity,cognito-identity:getopenidtoken,Read,grants permission get openid token using known cognito id,1,0,0,0,getopenidtoken,9,False,get,cognito-identity,read
+aws,Amazon Cognito Identity,cognito-identity:getopenidtokenfordeveloperidentity,Read,grants permission register retrieve cognito identityid openid connect token user authenticated backend authentication process,1,0,0,0,getopenidtokenfordeveloperidentity,14,False,get,cognito-identity,read
+aws,Amazon Cognito User Pools,cognito-idp:describeuserpoolclient,Read,grants permission describe user pool app client,1,0,0,0,describeuserpoolclient,7,False,describe,cognito-idp,read
+aws,Amazon Cognito User Pools,cognito-idp:getuserattributeverificationcode,Read,grants permission get user attribute verification code specified attribute name,1,0,0,0,getuserattributeverificationcode,10,False,get,cognito-idp,read
+aws,Amazon Connect,connect:getfederationtoken,Read,grants permission federate amazon connect instance using saml based authentication identity management,1,0,0,0,getfederationtoken,12,False,get,connect,read
+aws,Amazon Connect,connect:listsecuritykeys,List,grants permission view security keys existing amazon connect instance,1,0,0,0,listsecuritykeys,9,False,list,connect,read
+aws,Amazon EC2,ec2:getpassworddata,Read,grants permission retrieve encrypted administrator password running windows instance,1,0,0,0,getpassworddata,9,False,get,ec2,read
+aws,Amazon EC2 Instance Connect,ec2-instance-connect:sendsshpublickey,Write,grants permission push ssh public key specified ec instance used standard ssh,1,0,1,0,sendsshpublickey,12,False,other,ec2-instance-connect,unknown
+aws,Amazon Elastic Container Registry Public,ecr-public:getauthorizationtoken,Read,grants permission retrieve token valid specified registry hours,1,0,0,0,getauthorizationtoken,8,False,get,ecr-public,read
+aws,Amazon Elastic Container Registry,ecr:getauthorizationtoken,Read,grants permission retrieve token valid specified registry hours,1,0,0,0,getauthorizationtoken,8,False,get,ecr,read
+aws,Amazon GameLift,gamelift:getcomputeauthtoken,Read,grants permission retrieve authorization token compute fleet use game server processes,1,0,0,0,getcomputeauthtoken,11,False,get,gamelift,read
+aws,Amazon GameLift,gamelift:getgamesessionlogurl,Read,grants permission retrieve location stored logs game session,1,0,0,0,getgamesessionlogurl,8,False,get,gamelift,read
+aws,Amazon GameLift,gamelift:getinstanceaccess,Read,grants permission request remote access specified fleet instance,1,1,0,0,getinstanceaccess,8,False,get,gamelift,read
+aws,Amazon GameLift,gamelift:requestuploadcredentials,Read,grants permission retrieve fresh upload credentials use uploading new game build,1,0,0,0,requestuploadcredentials,11,False,other,gamelift,unknown
+aws,AWS Identity and Access Management (IAM),iam:createaccesskey,Write,grants permission create access key secret access key specified iam user,1,0,1,1,createaccesskey,11,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:createloginprofile,Write,grants permission create password specified iam user,1,0,1,1,createloginprofile,7,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:createservicespecificcredential,Write,grants permission create new service specific credential iam user,1,0,0,1,createservicespecificcredential,9,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:resetservicespecificcredential,Write,grants permission reset password existing service specific credential iam user,1,0,0,1,resetservicespecificcredential,10,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:updateaccesskey,Write,grants permission update status specified access key active inactive,1,0,0,1,updateaccesskey,9,False,update,iam,write
+aws,Amazon Lightsail,lightsail:downloaddefaultkeypair,Write,grants permission download default key pair used authenticate connect instances specific aws region,1,0,0,0,downloaddefaultkeypair,13,False,other,lightsail,unknown
+aws,Amazon Lightsail,lightsail:getbucketaccesskeys,Read,grants permission get existing access key ids specified amazon lightsail bucket,1,0,0,0,getbucketaccesskeys,11,False,get,lightsail,read
+aws,Amazon Lightsail,lightsail:getkeypair,Read,grants permission get information key pair,1,0,0,0,getkeypair,6,False,get,lightsail,read
+aws,Amazon Lightsail,lightsail:getkeypairs,Read,grants permission get information key pairs,1,0,0,0,getkeypairs,6,False,get,lightsail,read
+aws,Amazon Lightsail,lightsail:getrelationaldatabasemasteruserpassword,Write,grants permission get master user password relational database,1,0,0,1,getrelationaldatabasemasteruserpassword,8,False,get,lightsail,read
+aws,AWS Elemental MediaPackage,mediapackage:rotatechannelcredentials,Write,grants permission rotate credentials first ingestendpoint channel aws elemental mediapackage,1,0,0,0,rotatechannelcredentials,10,False,other,mediapackage,unknown
+aws,AWS Elemental MediaPackage,mediapackage:rotateingestendpointcredentials,Write,grants permission rotate ingestendpoint credentials channel aws elemental mediapackage,1,0,0,1,rotateingestendpointcredentials,9,False,other,mediapackage,unknown
+aws,Amazon RDS IAM Authentication,rds-db:connect,Permissions management,allows iam role user connect rds database,1,0,0,1,connect,7,False,other,rds-db,unknown
+aws,Amazon Redshift,redshift:getclustercredentials,Write,grants permission get temporary credentials access amazon redshift database specified aws account,1,0,0,0,getclustercredentials,12,False,get,redshift,read
+aws,Amazon S3,s3:getdataaccess,Read,grants permission get access,1,0,0,0,getdataaccess,4,False,get,s3,read
+aws,AWS Snowball,snowball:getjobunlockcode,Read,grants permission get unlockcode code value specified job,1,0,0,0,getjobunlockcode,8,False,get,snowball,read
+aws,AWS IAM Identity Center Directory,sso-directory:listbearertokens,Read,grants permission list bearer tokens given provisioning tenant,1,0,0,0,listbearertokens,8,False,list,sso-directory,read
+aws,AWS Storage Gateway,storagegateway:describechapcredentials,Read,grants permission get array challenge handshake authentication protocol chap credentials information specified iscsi target one target initiator pair,1,0,0,0,describechapcredentials,18,False,describe,storagegateway,read
+aws,AWS Security Token Service,sts:assumerole,Write,grants permission obtain set temporary security credentials use access aws resources might normally access,1,0,0,0,assumerole,14,True,other,sts,unknown
+aws,AWS Security Token Service,sts:assumerolewithsaml,Write,grants permission obtain set temporary security credentials users authenticated via saml authentication response,1,0,0,0,assumerolewithsaml,13,False,other,sts,unknown
+aws,AWS Security Token Service,sts:assumerolewithwebidentity,Write,grants permission obtain set temporary security credentials users authenticated mobile web application web identity provider,1,0,0,0,assumerolewithwebidentity,15,False,other,sts,unknown
+aws,AWS Security Token Service,sts:getfederationtoken,Read,grants permission obtain set temporary security credentials consisting access key id secret access key security token federated user,1,0,0,0,getfederationtoken,18,False,get,sts,read
+aws,AWS Security Token Service,sts:getsessiontoken,Read,grants permission obtain set temporary security credentials consisting access key id secret access key security token aws account iam user,1,0,0,0,getsessiontoken,20,False,get,sts,read
+aws,AWS WAF Regional,waf-regional:getchangetoken,Read,grants permission retrieve change token use create update delete requests,1,0,0,0,getchangetoken,10,False,get,waf-regional,read
+aws,AWS WAF,waf:getchangetoken,Read,grants permission retrieve change token use create update delete requests,1,0,0,0,getchangetoken,10,False,get,waf,read
+aws,Amazon OpenSearch Serverless,aoss:apiaccessall,Write,grant permission supported opensearch apis,0,1,0,0,apiaccessall,5,False,other,aoss,unknown
+aws,Amazon OpenSearch Serverless,aoss:dashboardsaccessall,Write,grants permission opensearch serverless dashboards,0,1,0,0,dashboardsaccessall,5,False,other,aoss,unknown
+aws,AWS AppSync,appsync:getdatasource,Read,grants permission retrieve data source,0,1,0,0,getdatasource,5,False,get,appsync,read
+aws,AWS AppSync,appsync:getfunction,Read,grants permission retrieve function,0,1,0,0,getfunction,4,False,get,appsync,read
+aws,Amazon Athena,athena:getqueryexecution,Read,grants permission get information specified query execution,0,1,0,0,getqueryexecution,7,False,get,athena,read
+aws,Amazon Athena,athena:getqueryresults,Read,grants permission get query results,0,1,0,0,getqueryresults,5,False,get,athena,read
+aws,Amazon Athena,athena:getqueryresultsstream,Read,grants permission get query results stream,0,1,0,0,getqueryresultsstream,6,False,get,athena,read
+aws,Amazon Keyspaces (for Apache Cassandra),cassandra:select,Read,grants permission select data table,0,1,0,0,select,5,False,other,cassandra,unknown
+aws,AWS Chatbot,chatbot:describeslackchannels,Read,grants permission list public slack channels slack workspace connected aws account onboarded aws chatbot service,0,1,0,0,describeslackchannels,15,False,describe,chatbot,read
+aws,AWS Chatbot,chatbot:describeslackuseridentities,Read,grants permission describe aws chatbot slack user identities,0,1,0,0,describeslackuseridentities,8,False,describe,chatbot,read
+aws,AWS Chatbot,chatbot:listmicrosoftteamsconfiguredteams,Read,grants permission list microsoft teams connected aws account onboarded aws chatbot service,0,1,0,0,listmicrosoftteamsconfiguredteams,12,False,list,chatbot,read
+aws,AWS Chatbot,chatbot:listmicrosoftteamsuseridentities,Read,grants permission describe aws chatbot microsoft teams user identities,0,1,0,0,listmicrosoftteamsuseridentities,9,False,list,chatbot,read
+aws,Amazon Chime,chime:getattendee,Read,grants permission get attendee details specified meeting id attendee id,0,1,0,0,getattendee,10,False,get,chime,read
+aws,Amazon Chime,chime:getchannelmessage,Read,grants permission get full details channel message,0,1,0,0,getchannelmessage,7,False,get,chime,read
+aws,Amazon Chime,chime:getmeeting,Read,grants permission get meeting record specified meeting id,0,1,0,0,getmeeting,8,False,get,chime,read
+aws,Amazon Chime,chime:getmeetingdetail,Read,grants permission get attendee connection details meeting,0,1,0,0,getmeetingdetail,7,False,get,chime,read
+aws,Amazon Chime,chime:getroom,Read,grants permission retrieve room,0,1,0,0,getroom,4,False,get,chime,read
+aws,Amazon Chime,chime:getuser,Read,grants permission get details specified user id,0,1,0,0,getuser,7,False,get,chime,read
+aws,Amazon Chime,chime:getuseractivityreportdata,Read,grants permission get summary user activity user details page,0,1,0,0,getuseractivityreportdata,9,False,get,chime,read
+aws,Amazon Chime,chime:getuserbyemail,Read,grants permission get user details amazon chime user based email address amazon chime enterprise team account,0,1,0,0,getuserbyemail,16,False,get,chime,read
+aws,Amazon Chime,chime:getusersettings,Read,grants permission get user settings related specified amazon chime user,0,1,0,0,getusersettings,10,False,get,chime,read
+aws,Amazon Chime,chime:listattendees,List,grants permission list attendees specified amazon chime sdk meeting,0,1,0,0,listattendees,9,False,list,chime,read
+aws,Amazon Chime,chime:listmeetingevents,List,grants permission list events occurred specified meeting,0,1,0,0,listmeetingevents,7,False,list,chime,read
+aws,Amazon Chime,chime:listmeetings,List,grants permission list active amazon chime sdk meetings,0,1,0,0,listmeetings,8,False,list,chime,read
+aws,Amazon Chime,chime:listusers,List,grants permission list users belong specified amazon chime account,0,1,0,0,listusers,9,False,list,chime,read
+aws,AWS Clean Rooms,cleanrooms:getprotectedquery,Read,grants permission view protected query,0,1,0,0,getprotectedquery,5,False,get,cleanrooms,read
+aws,AWS CloudFormation & Cloud Control API,cloudformation:gettemplate,Read,grants permission return template body specified stack,0,1,0,0,gettemplate,7,False,get,cloudformation,read
+aws,Amazon CloudFront,cloudfront:getfunction,Read,grants permission get cloudfront function code,0,1,0,0,getfunction,6,False,get,cloudfront,read
+aws,AWS CloudTrail,cloudtrail:getqueryresults,Read,grants permission fetch results complete query,0,1,0,0,getqueryresults,6,False,get,cloudtrail,read
+aws,AWS CloudTrail,cloudtrail:lookupevents,Read,grants permission look retrieve metric data api activity events captured cloudtrail create update delete resources account,0,1,0,0,lookupevents,16,True,other,cloudtrail,unknown
+aws,AWS CodeArtifact,codeartifact:getpackageversionasset,Read,grants permission return asset file part package version,0,1,0,0,getpackageversionasset,8,False,get,codeartifact,read
+aws,AWS CodeArtifact,codeartifact:getpackageversionreadme,Read,grants permission return package version readme file,0,1,0,0,getpackageversionreadme,7,False,get,codeartifact,read
+aws,AWS CodeArtifact,codeartifact:readfromrepository,Read,grants permission return package assets metadata repository endpoint,0,1,0,0,readfromrepository,8,False,other,codeartifact,unknown
+aws,AWS CodeBuild,codebuild:batchgetreportgroups,Read,grants permission return array reportgroup objects specified input reportgrouparns parameter,0,1,0,0,batchgetreportgroups,10,False,other,codebuild,unknown
+aws,AWS CodeBuild,codebuild:batchgetreports,Read,grants permission return array report objects specified input reportarns parameter,0,1,0,0,batchgetreports,10,False,other,codebuild,unknown
+aws,AWS CodeCommit,codecommit:batchgetcommits,Read,grants permission return information one commits aws codecommit repository,0,1,0,0,batchgetcommits,9,False,other,codecommit,unknown
+aws,AWS CodeCommit,codecommit:batchgetpullrequests,Read,grants permission return information one pull requests aws codecommit repository,0,1,0,0,batchgetpullrequests,10,False,other,codecommit,unknown
+aws,AWS CodeCommit,codecommit:batchgetrepositories,Read,grants permission get information multiple repositories,0,1,0,0,batchgetrepositories,6,False,other,codecommit,unknown
+aws,AWS CodeCommit,codecommit:describemergeconflicts,Read,grants permission get information specific merge conflicts attempting merge two commits using either three way squash merge option,0,1,0,0,describemergeconflicts,18,False,describe,codecommit,read
+aws,AWS CodeCommit,codecommit:describepullrequestevents,Read,grants permission return information one pull request events,0,1,0,0,describepullrequestevents,8,False,describe,codecommit,read
+aws,AWS CodeCommit,codecommit:getapprovalruletemplate,Read,grants permission return information approval rule template,0,1,0,0,getapprovalruletemplate,7,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getblob,Read,grants permission view encoded content individual file aws codecommit repository aws codecommit console,0,1,0,0,getblob,13,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getbranch,Read,grants permission get details branch aws codecommit repository api control git branch actions,0,1,0,0,getbranch,13,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getcomment,Read,grants permission get content comment made change file commit repository,0,1,0,0,getcomment,10,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getcommentreactions,Read,grants permission get reactions comment,0,1,0,0,getcommentreactions,5,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getcommentsforcomparedcommit,Read,grants permission get information comments made comparison two commits,0,1,0,0,getcommentsforcomparedcommit,9,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getcommentsforpullrequest,Read,grants permission get comments made pull request,0,1,0,0,getcommentsforpullrequest,7,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getcommit,Read,grants permission return information commit including commit message committer information api control git log actions,0,1,0,0,getcommit,15,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getcommithistory,Read,grants permission get information history commits repository,0,1,0,0,getcommithistory,7,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getcommitsfrommergebase,Read,grants permission get information difference commits context potential merge,0,1,0,0,getcommitsfrommergebase,9,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getdifferences,Read,grants permission view information differences valid commit specifiers branch tag head commit id fully qualified reference,0,1,0,0,getdifferences,16,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getfile,Read,grants permission return base encoded contents specified file metadata,0,1,0,0,getfile,9,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getfolder,Read,grants permission return contents specified folder repository,0,1,0,0,getfolder,7,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getmergecommit,Read,grants permission get information merge commit created one merge options pull requests creates merge commits merge options create merge commits permission control git merge actions,0,1,0,0,getmergecommit,25,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getmergeconflicts,Read,grants permission get information merge conflicts commit ids pull request repository,0,1,0,0,getmergeconflicts,11,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getmergeoptions,Read,grants permission get information merge options pull requests used merge two commits control git merge actions,0,1,0,0,getmergeoptions,16,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getobjectidentifier,Read,grants permission resolve blobs trees commits identifier,0,1,0,0,getobjectidentifier,7,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getpullrequest,Read,grants permission get information pull request specified repository,0,1,0,0,getpullrequest,8,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getpullrequestapprovalstates,Read,grants permission retrieve current approvals inputted pull request,0,1,0,0,getpullrequestapprovalstates,8,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getpullrequestoverridestate,Read,grants permission retrieve current override state given pull request,0,1,0,0,getpullrequestoverridestate,9,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:getreferences,Read,grants permission get details references aws codecommit repository control git reference actions,0,1,0,0,getreferences,12,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:gettree,Read,grants permission view contents specified tree aws codecommit repository aws codecommit console,0,1,0,0,gettree,12,False,get,codecommit,read
+aws,AWS CodeCommit,codecommit:gitpull,Read,grants permission pull information aws codecommit repository local repo,0,1,0,0,gitpull,9,False,other,codecommit,unknown
+aws,Amazon CodeGuru Profiler,codeguru-profiler:getrecommendations,Read,grants permission get recommendations,0,1,0,0,getrecommendations,4,False,get,codeguru-profiler,read
+aws,Amazon CodeGuru Reviewer,codeguru-reviewer:describecodereview,Read,grants permission describe code review,0,1,0,0,describecodereview,5,False,describe,codeguru-reviewer,read
+aws,Amazon CodeGuru Reviewer,codeguru-reviewer:describerecommendationfeedback,Read,grants permission describe recommendation feedback code review,0,1,0,0,describerecommendationfeedback,7,False,describe,codeguru-reviewer,read
+aws,AWS CodePipeline,codepipeline:getpipelineexecution,Read,grants permission view information execution pipeline including details artifacts pipeline execution id name version status pipeline,0,1,0,0,getpipelineexecution,16,False,get,codepipeline,read
+aws,Amazon Cognito Identity,cognito-identity:lookupdeveloperidentity,Read,grants permission retrieve identityid associated developeruseridentifier list developeruseridentifiers associated identityid existing identity,0,1,0,0,lookupdeveloperidentity,12,False,other,cognito-identity,unknown
+aws,Amazon Cognito User Pools,cognito-idp:admingetdevice,Read,grants permission get information user devices,0,1,0,0,admingetdevice,6,False,other,cognito-idp,unknown
+aws,Amazon Cognito User Pools,cognito-idp:admingetuser,Read,grants permission look user user name,0,1,0,0,admingetuser,6,False,other,cognito-idp,unknown
+aws,Amazon Cognito User Pools,cognito-idp:adminlistdevices,List,grants permission list user remembered devices,0,1,0,0,adminlistdevices,6,False,other,cognito-idp,unknown
+aws,Amazon Cognito User Pools,cognito-idp:adminlistgroupsforuser,List,grants permission list groups user belongs,0,1,0,0,adminlistgroupsforuser,6,False,other,cognito-idp,unknown
+aws,Amazon Cognito User Pools,cognito-idp:adminlistuserauthevents,Read,grants permission lists sign events user,0,1,0,0,adminlistuserauthevents,6,False,other,cognito-idp,unknown
+aws,Amazon Cognito User Pools,cognito-idp:getdevice,Read,grants permission get device,0,1,0,0,getdevice,4,False,get,cognito-idp,read
+aws,Amazon Cognito User Pools,cognito-idp:getgroup,Read,grants permission describe user pool group,0,1,0,0,getgroup,6,False,get,cognito-idp,read
+aws,Amazon Cognito User Pools,cognito-idp:getuser,Read,grants permission get user attributes metadata user,0,1,0,0,getuser,7,False,get,cognito-idp,read
+aws,Amazon Cognito User Pools,cognito-idp:listusers,List,grants permission list user pool users,0,1,0,0,listusers,6,False,list,cognito-idp,read
+aws,Amazon Cognito User Pools,cognito-idp:listdevices,List,grants permission list devices,0,1,0,0,listdevices,4,False,list,cognito-idp,read
+aws,Amazon Cognito User Pools,cognito-idp:listgroups,List,grants permission list groups user pools,0,1,0,0,listgroups,6,False,list,cognito-idp,read
+aws,Amazon Cognito Sync,cognito-sync:listrecords,Read,grants permission get paginated records optionally changed particular sync count dataset identity,0,1,0,0,listrecords,12,False,list,cognito-sync,read
+aws,Amazon Cognito Sync,cognito-sync:queryrecords,Read,grants permission query records,0,1,0,0,queryrecords,4,False,other,cognito-sync,unknown
+aws,Amazon Connect,connect:listusers,List,grants permission list user resources amazon connect instance,0,1,0,0,listusers,8,True,list,connect,read
+aws,AWS Data Pipeline,datapipeline:queryobjects,Read,grants permission query specified pipeline names objects match specified set conditions,0,1,0,0,queryobjects,11,False,other,datapipeline,unknown
+aws,Amazon DynamoDB Accelerator (DAX),dax:batchgetitem,Read,grants permission return attributes one items one tables,0,1,0,0,batchgetitem,8,False,other,dax,unknown
+aws,Amazon DynamoDB Accelerator (DAX),dax:getitem,Read,grants permission getitem operation returns set attributes item given primary key,0,1,0,0,getitem,11,False,get,dax,read
+aws,Amazon DynamoDB Accelerator (DAX),dax:query,Read,grants permission use primary key table secondary index directly access items table index,0,1,0,0,query,13,False,other,dax,unknown
+aws,Amazon DynamoDB Accelerator (DAX),dax:scan,Read,grants permission return one items item attributes accessing every item table secondary index,0,1,0,0,scan,13,False,other,dax,unknown
+aws,Amazon DynamoDB,dynamodb:batchgetitem,Read,grants permission return attributes one items one tables,0,1,0,0,batchgetitem,8,False,other,dynamodb,unknown
+aws,Amazon DynamoDB,dynamodb:getitem,Read,grants permission getitem operation returns set attributes item given primary key,0,1,0,0,getitem,11,False,get,dynamodb,read
+aws,Amazon DynamoDB,dynamodb:getrecords,Read,grants permission retrieve stream records given shard,0,1,0,0,getrecords,7,False,get,dynamodb,read
+aws,Amazon DynamoDB,dynamodb:query,Read,grants permission use primary key table secondary index directly access items table index,0,1,0,0,query,13,False,other,dynamodb,unknown
+aws,Amazon DynamoDB,dynamodb:scan,Read,grants permission return one items item attributes accessing every item table secondary index,0,1,0,0,scan,13,False,other,dynamodb,unknown
+aws,Amazon Elastic Container Registry,ecr:getdownloadurlforlayer,Read,grants permission retrieve download url corresponding image layer,0,1,0,0,getdownloadurlforlayer,8,False,get,ecr,read
+aws,Amazon OpenSearch Service,es:eshttpdelete,Write,grants permission send http delete requests opensearch apis,0,1,0,0,eshttpdelete,8,False,other,es,unknown
+aws,Amazon OpenSearch Service,es:eshttpget,Read,grants permission send http get requests opensearch apis,0,1,0,0,eshttpget,8,False,other,es,unknown
+aws,Amazon OpenSearch Service,es:eshttphead,Read,grants permission send http head requests opensearch apis,0,1,0,0,eshttphead,8,False,other,es,unknown
+aws,Amazon OpenSearch Service,es:eshttppatch,Write,grants permission send http patch requests opensearch apis,0,1,0,0,eshttppatch,8,False,other,es,unknown
+aws,Amazon OpenSearch Service,es:eshttppost,Write,grants permission send http post requests opensearch apis,0,1,0,0,eshttppost,8,False,other,es,unknown
+aws,Amazon OpenSearch Service,es:eshttpput,Write,grants permission send http put requests opensearch apis,0,1,0,0,eshttpput,8,False,other,es,unknown
+aws,AWS HealthLake,healthlake:readresource,Read,grants permission read resource,0,1,0,0,readresource,4,True,other,healthlake,unknown
+aws,AWS HealthLake,healthlake:searchwithget,Read,grants permission search resources get method,0,1,0,0,searchwithget,6,True,other,healthlake,unknown
+aws,AWS HealthLake,healthlake:searchwithpost,Read,grants permission search resources post method,0,1,0,0,searchwithpost,6,True,other,healthlake,unknown
+aws,Amazon Kendra,kendra:query,Read,grants permission query documents faqs,0,1,0,0,query,5,False,other,kendra,unknown
+aws,Amazon Kinesis Data Streams,kinesis:getrecords,Read,grants permission get data records shard,0,1,0,0,getrecords,6,False,get,kinesis,read
+aws,Amazon Kinesis Video Streams,kinesisvideo:getimages,Read,grants permission get generated images kinesis video stream,0,1,0,0,getimages,8,False,get,kinesisvideo,read
+aws,Amazon Kinesis Video Streams,kinesisvideo:getmedia,Read,grants permission return media content kinesis video stream,0,1,0,0,getmedia,8,False,get,kinesisvideo,read
+aws,AWS Key Management Service,kms:creategrant,Permissions management,controls permission add grant aws kms key use grants add permissions without changing key policy iam policy,0,1,1,1,creategrant,17,False,create,kms,write
+aws,AWS Lambda,lambda:getfunction,Read,grants permission view details aws lambda function,0,1,0,0,getfunction,7,False,get,lambda,read
+aws,AWS Lambda,lambda:getlayerversion,Read,grants permission view details version aws lambda layer note action also supports getlayerversionbyarn api,0,1,0,0,getlayerversion,14,False,get,lambda,read
+aws,Amazon Lightsail,lightsail:getcontainerimages,Read,grants permission view container images registered amazon lightsail container service,0,1,0,0,getcontainerimages,10,False,get,lightsail,read
+aws,Amazon CloudWatch Logs,logs:getlogevents,Read,grants permission retrieve log events specified log stream,0,1,0,0,getlogevents,8,False,get,logs,read
+aws,Amazon CloudWatch Logs,logs:getlogrecord,Read,grants permission retrieve fields values single log event,0,1,0,0,getlogrecord,8,False,get,logs,read
+aws,Amazon CloudWatch Logs,logs:getqueryresults,Read,grants permission return results specified query,0,1,0,0,getqueryresults,6,False,get,logs,read
+aws,Amazon CloudWatch Logs,logs:unmask,Read,grants permission fetch unmasked log events redacted data protection policy,0,1,0,0,unmask,10,False,other,logs,unknown
+aws,Amazon Macie,macie2:getfindings,Read,grants permission retrieve details one findings,0,1,0,0,getfindings,6,False,get,macie2,read
+aws,AWS Elemental MediaStore,mediastore:getobject,Read,grants permission retrieve object,0,1,0,0,getobject,4,False,get,mediastore,read
+aws,Amazon QLDB,qldb:getblock,Read,grants permission retrieve block ledger given blockaddress,0,1,0,0,getblock,7,False,get,qldb,read
+aws,"Amazon RDS, Neptune & DocumentDB",rds:downloadcompletedblogfile,Read,grants permission download specified log file,0,1,0,0,downloadcompletedblogfile,6,False,other,rds,unknown
+aws,"Amazon RDS, Neptune & DocumentDB",rds:downloaddblogfileportion,Read,grants permission download portion specified log file mb size,0,1,0,0,downloaddblogfileportion,9,False,other,rds,unknown
+aws,AWS RoboMaker,robomaker:getworldtemplatebody,Read,get body world template,0,1,0,0,getworldtemplatebody,4,False,get,robomaker,read
+aws,Amazon S3 Object Lambda,s3-object-lambda:getobject,Read,grants permission retrieve objects amazon,0,1,0,0,getobject,5,False,get,s3-object-lambda,read
+aws,Amazon S3 Object Lambda,s3-object-lambda:getobjectversion,Read,grants permission retrieve specific version object,0,1,0,0,getobjectversion,6,False,get,s3-object-lambda,read
+aws,Amazon S3 Object Lambda,s3-object-lambda:listbucket,List,grants permission list objects amazon bucket,0,1,0,0,listbucket,6,False,list,s3-object-lambda,read
+aws,Amazon S3,s3:getobject,Read,grants permission retrieve objects amazon,0,1,0,0,getobject,5,False,get,s3,read
+aws,Amazon S3,s3:getobjectversion,Read,grants permission retrieve specific version object,0,1,0,0,getobjectversion,6,False,get,s3,read
+aws,Amazon SageMaker,sagemaker:search,Read,grants permission search sagemaker objects,0,1,0,0,search,5,False,other,sagemaker,unknown
+aws,Amazon SimpleDB,sdb:select,Read,description select,0,1,0,0,select,2,False,other,sdb,unknown
+aws,AWS Serverless Application Repository,serverlessrepo:getapplication,Read,grants permission get specified application,0,1,0,0,getapplication,5,False,get,serverlessrepo,read
+aws,AWS Serverless Application Repository,serverlessrepo:getcloudformationtemplate,Read,grants permission get specified aws cloudformation template,0,1,0,0,getcloudformationtemplate,7,False,get,serverlessrepo,read
+aws,Amazon SQS,sqs:receivemessage,Read,grants permission retrieve one messages maximum limit messages specified queue,0,1,0,0,receivemessage,10,False,other,sqs,unknown
+aws,AWS Systems Manager,ssm:getdocument,Read,grants permission view contents specified ssm document,0,1,0,0,getdocument,7,False,get,ssm,read
+aws,AWS Systems Manager,ssm:getparameter,Read,grants permission view information specified parameter,0,1,0,0,getparameter,6,False,get,ssm,read
+aws,AWS Systems Manager,ssm:getparameterhistory,Read,grants permission view details changes specified parameter,0,1,0,0,getparameterhistory,7,False,get,ssm,read
+aws,AWS Systems Manager,ssm:getparameters,Read,grants permission view information multiple specified parameters,0,1,0,0,getparameters,7,False,get,ssm,read
+aws,AWS Systems Manager,ssm:getparametersbypath,Read,grants permission view information parameters specified hierarchy,0,1,0,0,getparametersbypath,7,False,get,ssm,read
+aws,AWS IAM Identity Center Directory,sso-directory:describegroup,Read,grants permission query group data including user group members,0,1,0,0,describegroup,9,False,describe,sso-directory,read
+aws,AWS IAM Identity Center Directory,sso-directory:describeuser,Read,grants permission retrieve information user directory aws iam identity center provides default,0,1,0,0,describeuser,12,False,describe,sso-directory,read
+aws,AWS IAM Identity Center Directory,sso-directory:searchgroups,Read,grants permission search groups within associated directory,0,1,0,0,searchgroups,7,False,other,sso-directory,unknown
+aws,AWS IAM Identity Center Directory,sso-directory:searchusers,Read,grants permission search users within associated directory,0,1,0,0,searchusers,7,False,other,sso-directory,unknown
+aws,AWS IAM Identity Center,sso:searchgroups,Read,grants permission search groups within associated directory,0,1,0,0,searchgroups,7,False,other,sso,unknown
+aws,AWS IAM Identity Center,sso:searchusers,Read,grants permission search users within associated directory,0,1,0,0,searchusers,7,False,other,sso,unknown
+aws,AWS Support,support:describeattachment,Read,grants permission describe attachment detail,0,1,0,0,describeattachment,5,False,describe,support,read
+aws,AWS Support,support:describecommunications,Read,grants permission list communications attachments one aws support cases,0,1,0,0,describecommunications,9,False,describe,support,read
+aws,AWS WAF V2,wafv2:getsampledrequests,Read,grants permission retrieve detailed information sampling web requests,0,1,0,0,getsampledrequests,8,False,get,wafv2,read
+aws,Amazon WorkDocs,workdocs:getdocument,Read,grants permission retrieve specified document object,0,1,0,0,getdocument,6,False,get,workdocs,read
+aws,Amazon WorkDocs,workdocs:getdocumentpath,Read,grants permission retrieve path information hierarchy root folder requested document,0,1,0,0,getdocumentpath,10,False,get,workdocs,read
+aws,Amazon WorkDocs,workdocs:getdocumentversion,Read,grants permission retrieve version metadata specified document,0,1,0,0,getdocumentversion,7,False,get,workdocs,read
+aws,Amazon WorkMail,workmail:listgroupmembers,List,grants permission read overview members group users groups members group,0,1,0,0,listgroupmembers,10,False,list,workmail,read
+aws,Amazon WorkMail,workmail:listgroups,List,grants permission list summaries organization groups,0,1,0,0,listgroups,6,False,list,workmail,read
+aws,Amazon WorkMail,workmail:listusers,List,grants permission list organization users,0,1,0,0,listusers,5,False,list,workmail,read
+aws,AWS CodeStar,codestar:associateteammember,Permissions management,grants permission add user team aws codestar project,0,0,1,1,associateteammember,8,False,other,codestar,unknown
+aws,AWS CodeStar,codestar:createproject,Permissions management,grants permission create project minimal structure customer policies resources,0,0,1,1,createproject,9,True,create,codestar,write
+aws,AWS Glue,glue:updatedevendpoint,Write,grants permission update development endpoint,0,0,1,0,updatedevendpoint,5,False,update,glue,write
+aws,AWS Identity and Access Management (IAM),iam:addusertogroup,Write,grants permission add iam user specified iam group,0,0,1,1,addusertogroup,8,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:attachgrouppolicy,Permissions management,grants permission attach managed policy specified iam group,0,0,1,1,attachgrouppolicy,8,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:attachrolepolicy,Permissions management,grants permission attach managed policy specified iam role,0,0,1,1,attachrolepolicy,8,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:attachuserpolicy,Permissions management,grants permission attach managed policy specified iam user,0,0,1,1,attachuserpolicy,8,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:createpolicyversion,Permissions management,grants permission create new version specified managed policy,0,0,1,1,createpolicyversion,8,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:createservicelinkedrole,Write,grants permission create iam role allows aws service perform actions behalf,0,0,1,1,createservicelinkedrole,11,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:createvirtualmfadevice,Write,grants permission create new virtual mfa device,0,0,1,1,createvirtualmfadevice,7,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleterolepermissionsboundary,Permissions management,grants permission remove permissions boundary role,0,0,1,1,deleterolepermissionsboundary,6,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleteuserpermissionsboundary,Permissions management,grants permission remove permissions boundary specified iam user,0,0,1,1,deleteuserpermissionsboundary,8,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:enablemfadevice,Write,grants permission enable mfa device associate specified iam user,0,0,1,1,enablemfadevice,9,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:passrole,Write,grants permission pass role service,0,0,1,1,passrole,5,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:putgrouppolicy,Permissions management,grants permission create update inline policy document embedded specified iam group,0,0,1,1,putgrouppolicy,11,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:putrolepermissionsboundary,Permissions management,grants permission set managed policy permissions boundary role,0,0,1,1,putrolepermissionsboundary,8,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:putrolepolicy,Permissions management,grants permission create update inline policy document embedded specified iam role,0,0,1,1,putrolepolicy,11,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:putuserpermissionsboundary,Permissions management,grants permission set managed policy permissions boundary iam user,0,0,1,1,putuserpermissionsboundary,9,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:putuserpolicy,Permissions management,grants permission create update inline policy document embedded specified iam user,0,0,1,1,putuserpolicy,11,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:resyncmfadevice,Write,grants permission synchronize specified mfa device iam entity user role,0,0,1,1,resyncmfadevice,10,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:setdefaultpolicyversion,Permissions management,grants permission set version specified policy policy default version,0,0,1,1,setdefaultpolicyversion,9,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:updateassumerolepolicy,Permissions management,grants permission update policy grants iam entity permission assume role,0,0,1,1,updateassumerolepolicy,10,False,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:updateloginprofile,Write,grants permission change password specified iam user,0,0,1,1,updateloginprofile,7,False,update,iam,write
+aws,AWS Private Certificate Authority,acm-pca:createpermission,Permissions management,grants permission create permission aws private ca,0,0,0,1,createpermission,7,False,create,acm-pca,write
+aws,AWS Private Certificate Authority,acm-pca:deletepermission,Permissions management,grants permission delete permission aws private ca,0,0,0,1,deletepermission,7,False,delete,acm-pca,write
+aws,AWS Private Certificate Authority,acm-pca:deletepolicy,Permissions management,grants permission delete policy aws private ca,0,0,0,1,deletepolicy,7,False,delete,acm-pca,write
+aws,AWS Private Certificate Authority,acm-pca:putpolicy,Permissions management,grants permission put policy aws private ca,0,0,0,1,putpolicy,7,False,other,acm-pca,unknown
+aws,Amazon API Gateway Management,apigateway:updaterestapipolicy,Permissions management,grants permission manage iam resource policy api additional authorization control managing api due sensitive nature resource policy,0,0,0,1,updaterestapipolicy,17,True,update,apigateway,write
+aws,AWS Backup,backup:deletebackupvaultaccesspolicy,Permissions management,grants permission delete backup vault access policy,0,0,0,1,deletebackupvaultaccesspolicy,7,False,delete,backup,write
+aws,AWS Backup,backup:putbackupvaultaccesspolicy,Permissions management,grants permission add access policy backup vault,0,0,0,1,putbackupvaultaccesspolicy,7,False,other,backup,unknown
+aws,Amazon Chime,chime:deletevoiceconnectorterminationcredentials,Write,grants permission delete sip termination credentials specified amazon chime voice connector,0,0,0,1,deletevoiceconnectorterminationcredentials,11,False,delete,chime,write
+aws,Amazon Chime,chime:putvoiceconnectorterminationcredentials,Write,grants permission add sip termination credentials specified amazon chime voice connector,0,0,0,1,putvoiceconnectorterminationcredentials,11,False,other,chime,unknown
+aws,AWS CloudFormation & Cloud Control API,cloudformation:setstackpolicy,Permissions management,grants permission set stack policy specified stack,0,0,0,1,setstackpolicy,7,False,other,cloudformation,unknown
+aws,Amazon CloudSearch,cloudsearch:updateserviceaccesspolicies,Permissions management,configures access rules control access domain document search endpoints,0,0,0,1,updateserviceaccesspolicies,9,False,update,cloudsearch,write
+aws,AWS CodeArtifact,codeartifact:deletedomainpermissionspolicy,Permissions management,grants permission delete resource policy set domain,0,0,0,1,deletedomainpermissionspolicy,7,True,delete,codeartifact,write
+aws,AWS CodeArtifact,codeartifact:deleterepositorypermissionspolicy,Permissions management,grants permission delete resource policy set repository,0,0,0,1,deleterepositorypermissionspolicy,7,True,delete,codeartifact,write
+aws,AWS CodeBuild,codebuild:deleteresourcepolicy,Permissions management,grants permission delete resource policy associated project report group,0,0,0,1,deleteresourcepolicy,9,True,delete,codebuild,write
+aws,AWS CodeBuild,codebuild:deletesourcecredentials,Write,grants permission delete set github github enterprise bitbucket source credentials,0,0,0,1,deletesourcecredentials,10,False,delete,codebuild,write
+aws,AWS CodeBuild,codebuild:importsourcecredentials,Write,grants permission import source repository credentials aws codebuild project source code stored github github enterprise bitbucket repository,0,0,0,1,importsourcecredentials,17,False,other,codebuild,unknown
+aws,AWS CodeBuild,codebuild:putresourcepolicy,Permissions management,grants permission create resource policy associated project report group,0,0,0,1,putresourcepolicy,9,True,other,codebuild,unknown
+aws,Amazon CodeGuru Profiler,codeguru-profiler:putpermission,Permissions management,grants permission update list principals allowed action group resource policy associated specified profiling group,0,0,0,1,putpermission,14,True,other,codeguru-profiler,unknown
+aws,Amazon CodeGuru Profiler,codeguru-profiler:removepermission,Permissions management,grants permission remove permission specified action group resource policy associated specified profiling group,0,0,0,1,removepermission,13,True,other,codeguru-profiler,unknown
+aws,AWS CodeStar,codestar:deleteproject,Permissions management,grants permission delete project including project resources delete users associated project delete iam roles allowed access project,0,0,0,1,deleteproject,17,True,delete,codestar,write
+aws,AWS CodeStar,codestar:disassociateteammember,Permissions management,grants permission remove user project removing user project also removes iam policies user allowed access project resources,0,0,0,1,disassociateteammember,17,True,other,codestar,unknown
+aws,AWS CodeStar,codestar:updateteammember,Permissions management,grants permission update team member attributes within codestar project,0,0,0,1,updateteammember,9,False,update,codestar,write
+aws,Amazon Cognito Identity,cognito-identity:createidentitypool,Write,grants permission create new identity pool,0,0,0,1,createidentitypool,6,False,create,cognito-identity,write
+aws,Amazon Cognito Identity,cognito-identity:deleteidentities,Write,grants permission delete identities identity pool specify list identities want delete,0,0,0,1,deleteidentities,11,False,delete,cognito-identity,write
+aws,Amazon Cognito Identity,cognito-identity:deleteidentitypool,Write,grants permission delete user pool pool deleted users able authenticate pool,0,0,0,1,deleteidentitypool,11,False,delete,cognito-identity,write
+aws,Amazon Cognito Identity,cognito-identity:getid,Write,grants permission generate retrieve cognito id supplying multiple logins create implicit linked account,0,0,0,1,getid,13,False,get,cognito-identity,read
+aws,Amazon Cognito Identity,cognito-identity:mergedeveloperidentities,Write,grants permission merge two users different identityids existing identity pool identified developer provider,0,0,0,1,mergedeveloperidentities,13,False,other,cognito-identity,unknown
+aws,Amazon Cognito Identity,cognito-identity:setidentitypoolroles,Write,grants permission set roles identity pool roles used making calls getcredentialsforidentity action,0,0,0,1,setidentitypoolroles,12,False,other,cognito-identity,unknown
+aws,Amazon Cognito Identity,cognito-identity:unlinkdeveloperidentity,Write,grants permission unlink developeruseridentifier existing identity,0,0,0,1,unlinkdeveloperidentity,6,False,other,cognito-identity,unknown
+aws,Amazon Cognito Identity,cognito-identity:unlinkidentity,Write,grants permission unlink federated identity existing account,0,0,0,1,unlinkidentity,7,False,other,cognito-identity,unknown
+aws,Amazon Cognito Identity,cognito-identity:updateidentitypool,Write,grants permission update identity pool,0,0,0,1,updateidentitypool,5,False,update,cognito-identity,write
+aws,AWS DeepLens,deeplens:associateserviceroletoaccount,Permissions management,associates user account iam roles controlling various permissions needed aws deeplens proper functionality,0,0,0,1,associateserviceroletoaccount,13,False,other,deeplens,unknown
+aws,AWS Directory Service,ds:createconditionalforwarder,Write,grants permission create conditional forwarder associated aws directory,0,0,0,1,createconditionalforwarder,8,False,create,ds,write
+aws,AWS Directory Service,ds:createdirectory,Write,grants permission create simple ad directory,0,0,0,1,createdirectory,6,False,create,ds,write
+aws,AWS Directory Service,ds:createmicrosoftad,Write,grants permission create microsoft ad aws cloud,0,0,0,1,createmicrosoftad,7,False,create,ds,write
+aws,AWS Directory Service,ds:createtrust,Write,grants permission initiate creation aws side trust relationship microsoft ad aws cloud external domain,0,0,0,1,createtrust,14,False,create,ds,write
+aws,AWS Directory Service,ds:sharedirectory,Write,grants permission share specified directory aws account directory owner another aws account directory consumer operation use directory aws account amazon vpc within aws region,0,0,0,1,sharedirectory,24,False,other,ds,unknown
+aws,Amazon EC2,ec2:createnetworkinterfacepermission,Permissions management,grants permission create permission aws authorized user perform certain operations network interface,0,0,0,1,createnetworkinterfacepermission,12,False,create,ec2,write
+aws,Amazon EC2,ec2:deletenetworkinterfacepermission,Permissions management,grants permission delete permission associated network interface,0,0,0,1,deletenetworkinterfacepermission,7,False,delete,ec2,write
+aws,Amazon EC2,ec2:disableimageblockpublicaccess,Write,grants permission disable block public access amis account level specified aws region,0,0,0,1,disableimageblockpublicaccess,12,False,other,ec2,unknown
+aws,Amazon EC2,ec2:modifysnapshotattribute,Permissions management,grants permission add remove permission settings snapshot,0,0,0,1,modifysnapshotattribute,7,False,modify,ec2,write
+aws,Amazon EC2,ec2:modifyvpcendpointservicepermissions,Permissions management,grants permission modify permissions vpc endpoint service,0,0,0,1,modifyvpcendpointservicepermissions,7,False,modify,ec2,write
+aws,Amazon EC2,ec2:resetsnapshotattribute,Permissions management,grants permission reset permission settings snapshot,0,0,0,1,resetsnapshotattribute,6,False,other,ec2,unknown
+aws,Amazon Elastic Container Registry,ecr:deleterepositorypolicy,Permissions management,grants permission delete repository policy specified repository,0,0,0,1,deleterepositorypolicy,7,False,delete,ecr,write
+aws,Amazon Elastic Container Registry,ecr:setrepositorypolicy,Permissions management,grants permission apply repository policy specified repository control access permissions,0,0,0,1,setrepositorypolicy,10,False,other,ecr,unknown
+aws,Amazon Elastic File System,elasticfilesystem:deletefilesystempolicy,Permissions management,grants permission delete resource level policy file system,0,0,0,1,deletefilesystempolicy,8,True,delete,elasticfilesystem,write
+aws,Amazon Elastic File System,elasticfilesystem:putfilesystempolicy,Permissions management,grants permission apply resource level policy defines actions allowed denied given actors specified file system,0,0,0,1,putfilesystempolicy,15,True,other,elasticfilesystem,unknown
+aws,Amazon Elastic MapReduce,elasticmapreduce:putblockpublicaccessconfiguration,Permissions management,grants permission create update emr block public access configuration aws account region,0,0,0,1,putblockpublicaccessconfiguration,12,False,other,elasticmapreduce,unknown
+aws,Amazon OpenSearch Service,es:createelasticsearchdomain,Write,grants permission create opensearch service domain permission deprecated use createdomain instead,0,0,0,1,createelasticsearchdomain,11,False,create,es,write
+aws,Amazon OpenSearch Service,es:updateelasticsearchdomainconfig,Write,grants permission modify configuration opensearch service domain instance type number instances permission deprecated use updatedomainconfig instead,0,0,0,1,updateelasticsearchdomainconfig,16,False,update,es,write
+aws,Amazon S3 Glacier,glacier:abortvaultlock,Permissions management,grants permission abort vault locking process vault lock locked state,0,0,0,1,abortvaultlock,10,False,other,glacier,unknown
+aws,Amazon S3 Glacier,glacier:completevaultlock,Permissions management,grants permission complete vault locking process,0,0,0,1,completevaultlock,6,False,other,glacier,unknown
+aws,Amazon S3 Glacier,glacier:deletevaultaccesspolicy,Permissions management,grants permission delete access policy associated specified vault,0,0,0,1,deletevaultaccesspolicy,8,False,delete,glacier,write
+aws,Amazon S3 Glacier,glacier:initiatevaultlock,Permissions management,grants permission initiate vault locking process,0,0,0,1,initiatevaultlock,6,False,other,glacier,unknown
+aws,Amazon S3 Glacier,glacier:setdataretrievalpolicy,Permissions management,grants permission set enacts data retrieval policy region specified put request,0,0,0,1,setdataretrievalpolicy,11,False,other,glacier,unknown
+aws,Amazon S3 Glacier,glacier:setvaultaccesspolicy,Permissions management,grants permission configure access policy vault overwrite existing policy,0,0,0,1,setvaultaccesspolicy,9,False,other,glacier,unknown
+aws,AWS Glue,glue:deleteresourcepolicy,Permissions management,grants permission delete resource policy,0,0,0,1,deleteresourcepolicy,5,True,delete,glue,write
+aws,AWS Glue,glue:putresourcepolicy,Permissions management,grants permission update resource policy,0,0,0,1,putresourcepolicy,5,True,other,glue,unknown
+aws,AWS IoT Greengrass,greengrass:associateserviceroletoaccount,Permissions management,grants permission associate role account aws iot greengrass uses role access lambda functions aws iot resources,0,0,0,1,associateserviceroletoaccount,16,True,other,greengrass,unknown
+aws,AWS Health APIs and Notifications,health:disablehealthserviceaccessfororganization,Permissions management,grants permission disable organizational view feature,0,0,0,1,disablehealthserviceaccessfororganization,6,False,other,health,unknown
+aws,AWS Health APIs and Notifications,health:enablehealthserviceaccessfororganization,Permissions management,grants permission enable organizational view feature,0,0,0,1,enablehealthserviceaccessfororganization,6,False,other,health,unknown
+aws,AWS Identity and Access Management (IAM),iam:addclientidtoopenidconnectprovider,Write,grants permission add new client id audience list registered ids specified iam openid connect oidc provider resource,0,0,0,1,addclientidtoopenidconnectprovider,17,True,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:addroletoinstanceprofile,Write,grants permission add iam role specified instance profile,0,0,0,1,addroletoinstanceprofile,8,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:changepassword,Write,grants permission iam user change password,0,0,0,1,changepassword,6,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:createaccountalias,Write,grants permission create alias aws account,0,0,0,1,createaccountalias,6,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:creategroup,Write,grants permission create new group,0,0,0,1,creategroup,5,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:createinstanceprofile,Write,grants permission create new instance profile,0,0,0,1,createinstanceprofile,6,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:createopenidconnectprovider,Write,grants permission create iam resource describes identity provider idp supports openid connect oidc,0,0,0,1,createopenidconnectprovider,13,True,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:createpolicy,Permissions management,grants permission create new managed policy,0,0,0,1,createpolicy,6,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:createrole,Write,grants permission create new role,0,0,0,1,createrole,5,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:createsamlprovider,Write,grants permission create iam resource describes identity provider idp supports saml,0,0,0,1,createsamlprovider,11,True,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:createuser,Write,grants permission create new iam user,0,0,0,1,createuser,6,False,create,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deactivatemfadevice,Write,grants permission deactivate specified mfa device remove association iam user originally enabled,0,0,0,1,deactivatemfadevice,12,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:deleteaccesskey,Write,grants permission delete access key pair associated specified iam user,0,0,0,1,deleteaccesskey,10,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleteaccountalias,Write,grants permission delete specified aws account alias,0,0,0,1,deleteaccountalias,7,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleteaccountpasswordpolicy,Permissions management,grants permission delete password policy aws account,0,0,0,1,deleteaccountpasswordpolicy,7,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deletegroup,Write,grants permission delete specified iam group,0,0,0,1,deletegroup,6,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deletegrouppolicy,Permissions management,grants permission delete specified inline policy group,0,0,0,1,deletegrouppolicy,7,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleteinstanceprofile,Write,grants permission delete specified instance profile,0,0,0,1,deleteinstanceprofile,6,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleteloginprofile,Write,grants permission delete password specified iam user,0,0,0,1,deleteloginprofile,7,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleteopenidconnectprovider,Write,grants permission delete openid connect identity provider idp resource object iam,0,0,0,1,deleteopenidconnectprovider,11,True,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deletepolicy,Permissions management,grants permission delete specified managed policy remove iam entities users groups roles attached,0,0,0,1,deletepolicy,13,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deletepolicyversion,Permissions management,grants permission delete version specified managed policy,0,0,0,1,deletepolicyversion,7,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleterole,Write,grants permission delete specified role,0,0,0,1,deleterole,5,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleterolepolicy,Permissions management,grants permission delete specified inline policy specified role,0,0,0,1,deleterolepolicy,8,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deletesamlprovider,Write,grants permission delete saml provider resource iam,0,0,0,1,deletesamlprovider,7,True,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleteservercertificate,Write,grants permission delete specified server certificate,0,0,0,1,deleteservercertificate,6,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleteservicelinkedrole,Write,grants permission delete iam role linked specific aws service service longer using,0,0,0,1,deleteservicelinkedrole,12,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleteservicespecificcredential,Write,grants permission delete specified service specific credential iam user,0,0,0,1,deleteservicespecificcredential,9,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deletesigningcertificate,Write,grants permission delete signing certificate associated specified iam user,0,0,0,1,deletesigningcertificate,9,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deletesshpublickey,Write,grants permission delete specified ssh public key,0,0,0,1,deletesshpublickey,7,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleteuser,Write,grants permission delete specified iam user,0,0,0,1,deleteuser,6,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deleteuserpolicy,Permissions management,grants permission delete specified inline policy iam user,0,0,0,1,deleteuserpolicy,8,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:deletevirtualmfadevice,Write,grants permission delete virtual mfa device,0,0,0,1,deletevirtualmfadevice,6,False,delete,iam,write
+aws,AWS Identity and Access Management (IAM),iam:detachgrouppolicy,Permissions management,grants permission detach managed policy specified iam group,0,0,0,1,detachgrouppolicy,8,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:detachrolepolicy,Permissions management,grants permission detach managed policy specified role,0,0,0,1,detachrolepolicy,7,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:detachuserpolicy,Permissions management,grants permission detach managed policy specified iam user,0,0,0,1,detachuserpolicy,8,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:removeclientidfromopenidconnectprovider,Write,grants permission remove client id audience list client ids specified iam openid connect oidc provider resource,0,0,0,1,removeclientidfromopenidconnectprovider,16,True,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:removerolefrominstanceprofile,Write,grants permission remove iam role specified ec instance profile,0,0,0,1,removerolefrominstanceprofile,9,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:removeuserfromgroup,Write,grants permission remove iam user specified group,0,0,0,1,removeuserfromgroup,7,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:setsecuritytokenservicepreferences,Write,grants permission set sts global endpoint token version,0,0,0,1,setsecuritytokenservicepreferences,8,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:updateaccountpasswordpolicy,Write,grants permission update password policy settings aws account,0,0,0,1,updateaccountpasswordpolicy,8,False,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:updategroup,Write,grants permission update name path specified iam group,0,0,0,1,updategroup,8,False,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:updateopenidconnectproviderthumbprint,Write,grants permission update entire list server certificate thumbprints associated openid connect oidc provider resource,0,0,0,1,updateopenidconnectproviderthumbprint,14,True,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:updaterole,Write,grants permission update description maximum session duration setting role,0,0,0,1,updaterole,9,False,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:updateroledescription,Write,grants permission update description role,0,0,0,1,updateroledescription,5,False,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:updatesamlprovider,Write,grants permission update metadata document existing saml provider resource,0,0,0,1,updatesamlprovider,9,True,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:updateservercertificate,Write,grants permission update name path specified server certificate stored iam,0,0,0,1,updateservercertificate,10,False,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:updateservicespecificcredential,Write,grants permission update status service specific credential active inactive iam user,0,0,0,1,updateservicespecificcredential,11,False,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:updatesigningcertificate,Write,grants permission update status specified user signing certificate active disabled,0,0,0,1,updatesigningcertificate,10,False,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:updatesshpublickey,Write,grants permission update status iam user ssh public key active inactive,0,0,0,1,updatesshpublickey,11,False,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:updateuser,Write,grants permission update name path specified iam user,0,0,0,1,updateuser,8,False,update,iam,write
+aws,AWS Identity and Access Management (IAM),iam:uploadservercertificate,Write,grants permission upload server certificate entity aws account,0,0,0,1,uploadservercertificate,8,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:uploadsigningcertificate,Write,grants permission upload x signing certificate associate specified iam user,0,0,0,1,uploadsigningcertificate,10,False,other,iam,unknown
+aws,AWS Identity and Access Management (IAM),iam:uploadsshpublickey,Write,grants permission upload ssh public key associate specified iam user,0,0,0,1,uploadsshpublickey,10,False,other,iam,unknown
+aws,Amazon EC2 Image Builder,imagebuilder:putcomponentpolicy,Permissions management,grants permission set resource policy associated component,0,0,0,1,putcomponentpolicy,7,True,other,imagebuilder,unknown
+aws,Amazon EC2 Image Builder,imagebuilder:putimagepolicy,Permissions management,grants permission set resource policy associated image,0,0,0,1,putimagepolicy,7,True,other,imagebuilder,unknown
+aws,Amazon EC2 Image Builder,imagebuilder:putimagerecipepolicy,Permissions management,grants permission set resource policy associated image recipe,0,0,0,1,putimagerecipepolicy,8,True,other,imagebuilder,unknown
+aws,AWS IoT,iot:attachpolicy,Permissions management,grants permission attach policy specified target,0,0,0,1,attachpolicy,6,False,other,iot,unknown
+aws,AWS IoT,iot:attachprincipalpolicy,Permissions management,grants permission attach specified policy specified principal certificate credential,0,0,0,1,attachprincipalpolicy,9,False,other,iot,unknown
+aws,AWS IoT,iot:detachpolicy,Permissions management,grants permission detach policy specified target,0,0,0,1,detachpolicy,6,False,other,iot,unknown
+aws,AWS IoT,iot:detachprincipalpolicy,Permissions management,grants permission remove specified policy specified certificate,0,0,0,1,detachprincipalpolicy,7,False,other,iot,unknown
+aws,AWS IoT,iot:setdefaultauthorizer,Permissions management,grants permission set default authorizer used websocket connection made without specifying authorizer,0,0,0,1,setdefaultauthorizer,12,False,other,iot,unknown
+aws,AWS IoT,iot:setdefaultpolicyversion,Permissions management,grants permission set specified version specified policy policy default operative version,0,0,0,1,setdefaultpolicyversion,11,False,other,iot,unknown
+aws,AWS IoT SiteWise,iotsitewise:createaccesspolicy,Write,grants permission create access policy portal project,0,0,0,1,createaccesspolicy,7,False,create,iotsitewise,write
+aws,AWS IoT SiteWise,iotsitewise:deleteaccesspolicy,Write,grants permission delete access policy,0,0,0,1,deleteaccesspolicy,5,False,delete,iotsitewise,write
+aws,AWS IoT SiteWise,iotsitewise:updateaccesspolicy,Write,grants permission update access policy,0,0,0,1,updateaccesspolicy,5,False,update,iotsitewise,write
+aws,AWS Key Management Service,kms:putkeypolicy,Permissions management,controls permission replace key policy specified aws kms key,0,0,0,1,putkeypolicy,9,False,other,kms,unknown
+aws,AWS Key Management Service,kms:retiregrant,Permissions management,controls permission retire grant retiregrant operation typically called grant user complete tasks grant allowed perform,0,0,0,1,retiregrant,15,False,other,kms,unknown
+aws,AWS Key Management Service,kms:revokegrant,Permissions management,controls permission revoke grant denies permission operations depend grant,0,0,0,1,revokegrant,9,False,other,kms,unknown
+aws,AWS Lake Formation,lakeformation:batchgrantpermissions,Permissions management,grants permission data lake permissions one principals batch,0,0,0,1,batchgrantpermissions,8,False,other,lakeformation,unknown
+aws,AWS Lake Formation,lakeformation:batchrevokepermissions,Permissions management,grants permission revoke data lake permissions one principals batch,0,0,0,1,batchrevokepermissions,9,False,other,lakeformation,unknown
+aws,AWS Lake Formation,lakeformation:grantpermissions,Permissions management,grants permission data lake permissions principal,0,0,0,1,grantpermissions,6,False,other,lakeformation,unknown
+aws,AWS Lake Formation,lakeformation:putdatalakesettings,Permissions management,grants permission overwrite data lake settings list data lake administrators database table default permissions,0,0,0,1,putdatalakesettings,14,False,other,lakeformation,unknown
+aws,AWS Lake Formation,lakeformation:revokepermissions,Permissions management,grants permission revoke data lake permissions principal,0,0,0,1,revokepermissions,7,False,other,lakeformation,unknown
+aws,AWS Lambda,lambda:addlayerversionpermission,Permissions management,grants permission add permissions resource based policy version aws lambda layer,0,0,0,1,addlayerversionpermission,11,True,other,lambda,unknown
+aws,AWS Lambda,lambda:addpermission,Permissions management,grants permission give aws service another account permission use aws lambda function,0,0,0,1,addpermission,12,False,other,lambda,unknown
+aws,AWS Lambda,lambda:disablereplication,Permissions management,grants permission disable replication lambda edge function,0,0,0,1,disablereplication,7,False,other,lambda,unknown
+aws,AWS Lambda,lambda:enablereplication,Permissions management,grants permission enable replication lambda edge function,0,0,0,1,enablereplication,7,False,other,lambda,unknown
+aws,AWS Lambda,lambda:removelayerversionpermission,Permissions management,grants permission remove statement permissions policy version aws lambda layer,0,0,0,1,removelayerversionpermission,10,False,other,lambda,unknown
+aws,AWS Lambda,lambda:removepermission,Permissions management,grants permission revoke function use permission aws service another account,0,0,0,1,removepermission,10,False,other,lambda,unknown
+aws,AWS License Manager,license-manager:updateservicesettings,Permissions management,grants permission updates service settings,0,0,0,1,updateservicesettings,5,False,update,license-manager,write
+aws,Amazon CloudWatch Logs,logs:deleteresourcepolicy,Permissions management,grants permission delete resource policy account,0,0,0,1,deleteresourcepolicy,6,True,delete,logs,write
+aws,Amazon CloudWatch Logs,logs:putresourcepolicy,Permissions management,grants permission create update resource policy allowing aws services put log events account,0,0,0,1,putresourcepolicy,13,True,other,logs,unknown
+aws,AWS Elemental MediaStore,mediastore:deletecontainerpolicy,Permissions management,grants permission delete access policy container,0,0,0,1,deletecontainerpolicy,6,False,delete,mediastore,write
+aws,AWS Elemental MediaStore,mediastore:putcontainerpolicy,Permissions management,grants permission create replace access policy container,0,0,0,1,putcontainerpolicy,7,False,other,mediastore,unknown
+aws,AWS OpsWorks,opsworks:setpermission,Permissions management,grants permission specify user permissions,0,0,0,1,setpermission,5,False,other,opsworks,unknown
+aws,AWS OpsWorks,opsworks:updateuserprofile,Permissions management,grants permission update specified user profile,0,0,0,1,updateuserprofile,6,False,update,opsworks,write
+aws,Amazon QuickSight,quicksight:createadmin,Write,grants permission provision amazon quicksight administrators authors readers,0,0,0,1,createadmin,8,False,create,quicksight,write
+aws,Amazon QuickSight,quicksight:creategroup,Write,grants permission create quicksight group,0,0,0,1,creategroup,5,False,create,quicksight,write
+aws,Amazon QuickSight,quicksight:creategroupmembership,Write,grants permission add quicksight user quicksight group,0,0,0,1,creategroupmembership,7,False,create,quicksight,write
+aws,Amazon QuickSight,quicksight:createiampolicyassignment,Write,grants permission create assignment one specified iam policy arn assigned specified groups users quicksight,0,0,0,1,createiampolicyassignment,14,False,create,quicksight,write
+aws,Amazon QuickSight,quicksight:createuser,Write,grants permission provision amazon quicksight authors readers,0,0,0,1,createuser,7,False,create,quicksight,write
+aws,Amazon QuickSight,quicksight:deletegroup,Write,grants permission remove user group quicksight,0,0,0,1,deletegroup,6,False,delete,quicksight,write
+aws,Amazon QuickSight,quicksight:deletegroupmembership,Write,grants permission remove user group longer member group,0,0,0,1,deletegroupmembership,8,False,delete,quicksight,write
+aws,Amazon QuickSight,quicksight:deleteiampolicyassignment,Write,grants permission update existing assignment,0,0,0,1,deleteiampolicyassignment,5,False,delete,quicksight,write
+aws,Amazon QuickSight,quicksight:deleteuser,Write,grants permission delete quicksight user given user name,0,0,0,1,deleteuser,8,False,delete,quicksight,write
+aws,Amazon QuickSight,quicksight:deleteuserbyprincipalid,Write,grants permission deletes user identified principal id,0,0,0,1,deleteuserbyprincipalid,7,False,delete,quicksight,write
+aws,Amazon QuickSight,quicksight:registeruser,Write,grants permission create quicksight user whose identity associated iam identity role specified request,0,0,0,1,registeruser,13,False,other,quicksight,unknown
+aws,Amazon QuickSight,quicksight:updatedashboardpermissions,Permissions management,grants permission update permissions quicksight dashboard,0,0,0,1,updatedashboardpermissions,6,False,update,quicksight,write
+aws,Amazon QuickSight,quicksight:updategroup,Write,grants permission change group description,0,0,0,1,updategroup,5,False,update,quicksight,write
+aws,Amazon QuickSight,quicksight:updateiampolicyassignment,Write,grants permission update existing assignment,0,0,0,1,updateiampolicyassignment,5,False,update,quicksight,write
+aws,Amazon QuickSight,quicksight:updatetemplatepermissions,Permissions management,grants permission update permissions template,0,0,0,1,updatetemplatepermissions,5,False,update,quicksight,write
+aws,Amazon QuickSight,quicksight:updateuser,Write,grants permission update amazon quicksight user,0,0,0,1,updateuser,6,False,update,quicksight,write
+aws,AWS Resource Access Manager (RAM),ram:acceptresourceshareinvitation,Write,grants permission accept specified resource share invitation,0,0,0,1,acceptresourceshareinvitation,7,True,other,ram,unknown
+aws,AWS Resource Access Manager (RAM),ram:associateresourceshare,Write,grants permission associate resource principal resource share,0,0,0,1,associateresourceshare,7,True,other,ram,unknown
+aws,AWS Resource Access Manager (RAM),ram:createresourceshare,Write,grants permission create resource share provided resource principal,0,0,0,1,createresourceshare,8,True,create,ram,write
+aws,AWS Resource Access Manager (RAM),ram:deleteresourceshare,Write,grants permission delete resource share,0,0,0,1,deleteresourceshare,5,True,delete,ram,write
+aws,AWS Resource Access Manager (RAM),ram:disassociateresourceshare,Write,grants permission disassociate resource principal resource share,0,0,0,1,disassociateresourceshare,7,True,other,ram,unknown
+aws,AWS Resource Access Manager (RAM),ram:enablesharingwithawsorganization,Permissions management,grants permission access customer organization create slr customer account,0,0,0,1,enablesharingwithawsorganization,9,False,other,ram,unknown
+aws,AWS Resource Access Manager (RAM),ram:rejectresourceshareinvitation,Write,grants permission reject specified resource share invitation,0,0,0,1,rejectresourceshareinvitation,7,True,other,ram,unknown
+aws,AWS Resource Access Manager (RAM),ram:updateresourceshare,Write,grants permission update attributes resource share,0,0,0,1,updateresourceshare,6,True,update,ram,write
+aws,"Amazon RDS, Neptune & DocumentDB",rds:authorizedbsecuritygroupingress,Permissions management,grants permission enable ingress dbsecuritygroup using one two forms authorization,0,0,0,1,authorizedbsecuritygroupingress,10,False,other,rds,unknown
+aws,Amazon Redshift,redshift:authorizesnapshotaccess,Permissions management,grants permission specified aws account restore snapshot,0,0,0,1,authorizesnapshotaccess,7,False,other,redshift,unknown
+aws,Amazon Redshift,redshift:createclusteruser,Permissions management,grants permission automatically create specified amazon redshift user exist,0,0,0,1,createclusteruser,9,False,create,redshift,write
+aws,Amazon Redshift,redshift:createsnapshotcopygrant,Permissions management,grants permission create snapshot copy grant encrypt copied snapshots destination aws region,0,0,0,1,createsnapshotcopygrant,12,False,create,redshift,write
+aws,Amazon Redshift,redshift:joingroup,Permissions management,grants permission join specified amazon redshift group,0,0,0,1,joingroup,7,False,other,redshift,unknown
+aws,Amazon Redshift,redshift:modifyclusteriamroles,Permissions management,grants permission modify list aws identity access management iam roles used cluster access aws services,0,0,0,1,modifyclusteriamroles,15,False,modify,redshift,write
+aws,Amazon Redshift,redshift:revokesnapshotaccess,Permissions management,grants permission revoke access specified aws account restore snapshot,0,0,0,1,revokesnapshotaccess,9,False,other,redshift,unknown
+aws,Amazon Route 53 Resolver,route53resolver:putresolverrulepolicy,Permissions management,grants permission specify aws account want share rules resolver rules want share operations want account able perform rules,0,0,0,1,putresolverrulepolicy,18,False,other,route53resolver,unknown
+aws,Amazon S3,s3:bypassgovernanceretention,Permissions management,grants permission allow circumvention governance mode object retention settings,0,0,0,1,bypassgovernanceretention,9,False,other,s3,unknown
+aws,Amazon S3,s3:deleteaccesspointpolicy,Permissions management,grants permission delete policy specified access point,0,0,0,1,deleteaccesspointpolicy,7,False,delete,s3,write
+aws,Amazon S3,s3:deletebucketpolicy,Permissions management,grants permission delete policy specified bucket,0,0,0,1,deletebucketpolicy,6,False,delete,s3,write
+aws,Amazon S3,s3:objectowneroverridetobucketowner,Permissions management,grants permission change replica ownership,0,0,0,1,objectowneroverridetobucketowner,5,False,other,s3,unknown
+aws,Amazon S3,s3:putaccesspointpolicy,Permissions management,grants permission associate access policy specified access point,0,0,0,1,putaccesspointpolicy,8,False,other,s3,unknown
+aws,Amazon S3,s3:putaccountpublicaccessblock,Permissions management,grants permission create modify publicaccessblock configuration aws account,0,0,0,1,putaccountpublicaccessblock,8,False,other,s3,unknown
+aws,Amazon S3,s3:putbucketacl,Permissions management,grants permission set permissions existing bucket using access control lists acls,0,0,0,1,putbucketacl,11,False,other,s3,unknown
+aws,Amazon S3,s3:putbucketpolicy,Permissions management,grants permission add replace bucket policy bucket,0,0,0,1,putbucketpolicy,7,False,other,s3,unknown
+aws,Amazon S3,s3:putbucketpublicaccessblock,Permissions management,grants permission create modify publicaccessblock configuration specific amazon bucket,0,0,0,1,putbucketpublicaccessblock,9,False,other,s3,unknown
+aws,Amazon S3,s3:putobjectacl,Permissions management,grants permission set access control list acl permissions new existing objects bucket,0,0,0,1,putobjectacl,12,False,other,s3,unknown
+aws,Amazon S3,s3:putobjectversionacl,Permissions management,grants permission use acl subresource set access control list acl permissions object already exists bucket,0,0,0,1,putobjectversionacl,15,True,other,s3,unknown
+aws,AWS Secrets Manager,secretsmanager:deleteresourcepolicy,Permissions management,grants permission delete resource policy attached secret,0,0,0,1,deleteresourcepolicy,7,True,delete,secretsmanager,write
+aws,AWS Secrets Manager,secretsmanager:putresourcepolicy,Permissions management,grants permission attach resource policy secret,0,0,0,1,putresourcepolicy,6,True,other,secretsmanager,unknown
+aws,AWS Secrets Manager,secretsmanager:validateresourcepolicy,Permissions management,grants permission validate resource policy attaching policy,0,0,0,1,validateresourcepolicy,7,True,other,secretsmanager,unknown
+aws,AWS Service Catalog,servicecatalog:createportfolioshare,Permissions management,grants permission share portfolio another aws account,0,0,0,1,createportfolioshare,7,False,create,servicecatalog,write
+aws,AWS Service Catalog,servicecatalog:deleteportfolioshare,Permissions management,grants permission unshare portfolio aws account previously shared portfolio,0,0,0,1,deleteportfolioshare,9,False,delete,servicecatalog,write
+aws,Amazon SNS,sns:addpermission,Permissions management,grants permission add statement topic access control policy granting access specified aws accounts specified actions,0,0,0,1,addpermission,15,False,other,sns,unknown
+aws,Amazon SNS,sns:createtopic,Write,grants permission create topic notifications published,0,0,0,1,createtopic,6,False,create,sns,write
+aws,Amazon SNS,sns:removepermission,Permissions management,grants permission remove statement topic access control policy,0,0,0,1,removepermission,8,False,other,sns,unknown
+aws,Amazon SNS,sns:settopicattributes,Permissions management,grants permission allow topic owner set attribute topic new value,0,0,0,1,settopicattributes,10,False,other,sns,unknown
+aws,Amazon SQS,sqs:addpermission,Permissions management,grants permission queue specific principal,0,0,0,1,addpermission,5,False,other,sqs,unknown
+aws,Amazon SQS,sqs:createqueue,Write,grants permission create new queue returns url existing one,0,0,0,1,createqueue,9,False,create,sqs,write
+aws,Amazon SQS,sqs:removepermission,Permissions management,grants permission revoke permissions queue policy matches specified label parameter,0,0,0,1,removepermission,10,False,other,sqs,unknown
+aws,Amazon SQS,sqs:setqueueattributes,Write,grants permission set value one queue attributes,0,0,0,1,setqueueattributes,7,False,other,sqs,unknown
+aws,AWS Systems Manager,ssm:modifydocumentpermission,Permissions management,grants permission share custom ssm document publicly privately specified aws accounts,0,0,0,1,modifydocumentpermission,11,False,modify,ssm,write
+aws,AWS IAM Identity Center Directory,sso-directory:addmembertogroup,Write,grants permission add member group directory aws iam identity center provides default,0,0,0,1,addmembertogroup,12,False,other,sso-directory,unknown
+aws,AWS IAM Identity Center Directory,sso-directory:createalias,Write,grants permission create alias directory aws iam identity center provides default,0,0,0,1,createalias,11,False,create,sso-directory,write
+aws,AWS IAM Identity Center Directory,sso-directory:creategroup,Write,grants permission create group directory aws iam identity center provides default,0,0,0,1,creategroup,11,False,create,sso-directory,write
+aws,AWS IAM Identity Center Directory,sso-directory:createuser,Write,grants permission create user directory aws iam identity center provides default,0,0,0,1,createuser,11,False,create,sso-directory,write
+aws,AWS IAM Identity Center Directory,sso-directory:deletegroup,Write,grants permission delete group directory aws iam identity center provides default,0,0,0,1,deletegroup,11,False,delete,sso-directory,write
+aws,AWS IAM Identity Center Directory,sso-directory:deleteuser,Write,grants permission delete user directory aws iam identity center provides default,0,0,0,1,deleteuser,11,False,delete,sso-directory,write
+aws,AWS IAM Identity Center Directory,sso-directory:disableuser,Write,grants permission deactivate user directory aws iam identity center provides default,0,0,0,1,disableuser,11,False,other,sso-directory,unknown
+aws,AWS IAM Identity Center Directory,sso-directory:enableuser,Write,grants permission activate user directory aws iam identity center provides default,0,0,0,1,enableuser,11,False,other,sso-directory,unknown
+aws,AWS IAM Identity Center Directory,sso-directory:removememberfromgroup,Write,grants permission remove member part group directory aws iam identity center provides default,0,0,0,1,removememberfromgroup,13,False,other,sso-directory,unknown
+aws,AWS IAM Identity Center Directory,sso-directory:updategroup,Write,grants permission update information group directory aws iam identity center provides default,0,0,0,1,updategroup,12,False,update,sso-directory,write
+aws,AWS IAM Identity Center Directory,sso-directory:updatepassword,Write,grants permission update password sending password reset link via email generating one time password user directory aws iam identity center provides default,0,0,0,1,updatepassword,22,False,update,sso-directory,write
+aws,AWS IAM Identity Center Directory,sso-directory:updateuser,Write,grants permission update user information directory aws iam identity center provides default,0,0,0,1,updateuser,12,False,update,sso-directory,write
+aws,AWS IAM Identity Center Directory,sso-directory:verifyemail,Write,grants permission verify email address user,0,0,0,1,verifyemail,6,False,other,sso-directory,unknown
+aws,AWS IAM Identity Center,sso:associatedirectory,Write,grants permission connect directory used aws iam identity center,0,0,0,1,associatedirectory,9,False,other,sso,unknown
+aws,AWS IAM Identity Center,sso:associateprofile,Write,grants permission create association directory user group profile,0,0,0,1,associateprofile,8,False,other,sso,unknown
+aws,AWS IAM Identity Center,sso:createapplicationinstance,Write,grants permission add application instance aws iam identity center,0,0,0,1,createapplicationinstance,9,False,create,sso,write
+aws,AWS IAM Identity Center,sso:createapplicationinstancecertificate,Write,grants permission add new certificate application instance,0,0,0,1,createapplicationinstancecertificate,7,False,create,sso,write
+aws,AWS IAM Identity Center,sso:createpermissionset,Write,grants permission create permission set,0,0,0,1,createpermissionset,5,False,create,sso,write
+aws,AWS IAM Identity Center,sso:createprofile,Write,grants permission create profile application instance,0,0,0,1,createprofile,6,False,create,sso,write
+aws,AWS IAM Identity Center,sso:createtrust,Write,grants permission create federation trust target account,0,0,0,1,createtrust,7,False,create,sso,write
+aws,AWS IAM Identity Center,sso:deleteapplicationinstance,Write,grants permission delete application instance,0,0,0,1,deleteapplicationinstance,5,False,delete,sso,write
+aws,AWS IAM Identity Center,sso:deleteapplicationinstancecertificate,Write,grants permission delete inactive expired certificate application instance,0,0,0,1,deleteapplicationinstancecertificate,8,False,delete,sso,write
+aws,AWS IAM Identity Center,sso:deletepermissionset,Write,grants permission delete permission set,0,0,0,1,deletepermissionset,5,False,delete,sso,write
+aws,AWS IAM Identity Center,sso:deletepermissionspolicy,Permissions management,grants permission delete permission policy associated permission set,0,0,0,1,deletepermissionspolicy,8,False,delete,sso,write
+aws,AWS IAM Identity Center,sso:deleteprofile,Write,grants permission delete profile application instance,0,0,0,1,deleteprofile,6,False,delete,sso,write
+aws,AWS IAM Identity Center,sso:disassociatedirectory,Write,grants permission disassociate directory used aws iam identity center,0,0,0,1,disassociatedirectory,9,False,other,sso,unknown
+aws,AWS IAM Identity Center,sso:disassociateprofile,Write,grants permission disassociate directory user group profile,0,0,0,1,disassociateprofile,7,False,other,sso,unknown
+aws,AWS IAM Identity Center,sso:importapplicationinstanceserviceprovidermetadata,Write,grants permission update application instance uploading application saml metadata file provided service provider,0,0,0,1,importapplicationinstanceserviceprovidermetadata,13,False,other,sso,unknown
+aws,AWS IAM Identity Center,sso:putpermissionspolicy,Permissions management,grants permission add policy permission set,0,0,0,1,putpermissionspolicy,6,False,other,sso,unknown
+aws,AWS IAM Identity Center,sso:startsso,Write,grants permission initialize aws iam identity center,0,0,0,1,startsso,7,False,other,sso,unknown
+aws,AWS IAM Identity Center,sso:updateapplicationinstanceactivecertificate,Write,grants permission set certificate active one application instance,0,0,0,1,updateapplicationinstanceactivecertificate,8,False,update,sso,write
+aws,AWS IAM Identity Center,sso:updateapplicationinstancedisplaydata,Write,grants permission update display data application instance,0,0,0,1,updateapplicationinstancedisplaydata,7,False,update,sso,write
+aws,AWS IAM Identity Center,sso:updateapplicationinstanceresponseconfiguration,Write,grants permission update federation response configuration application instance,0,0,0,1,updateapplicationinstanceresponseconfiguration,8,False,update,sso,write
+aws,AWS IAM Identity Center,sso:updateapplicationinstanceresponseschemaconfiguration,Write,grants permission update federation response schema configuration application instance,0,0,0,1,updateapplicationinstanceresponseschemaconfiguration,9,False,update,sso,write
+aws,AWS IAM Identity Center,sso:updateapplicationinstancesecurityconfiguration,Write,grants permission update security details application instance,0,0,0,1,updateapplicationinstancesecurityconfiguration,7,False,update,sso,write
+aws,AWS IAM Identity Center,sso:updateapplicationinstanceserviceproviderconfiguration,Write,grants permission update service provider related configuration application instance,0,0,0,1,updateapplicationinstanceserviceproviderconfiguration,9,False,update,sso,write
+aws,AWS IAM Identity Center,sso:updateapplicationinstancestatus,Write,grants permission update status application instance,0,0,0,1,updateapplicationinstancestatus,6,False,update,sso,write
+aws,AWS IAM Identity Center,sso:updatedirectoryassociation,Write,grants permission update user attribute mappings connected directory,0,0,0,1,updatedirectoryassociation,8,False,update,sso,write
+aws,AWS IAM Identity Center,sso:updatepermissionset,Permissions management,grants permission update permission set,0,0,0,1,updatepermissionset,5,False,update,sso,write
+aws,AWS IAM Identity Center,sso:updateprofile,Write,grants permission update profile application instance,0,0,0,1,updateprofile,6,False,update,sso,write
+aws,AWS IAM Identity Center,sso:updatessoconfiguration,Write,grants permission update configuration current sso instance,0,0,0,1,updatessoconfiguration,7,False,update,sso,write
+aws,AWS IAM Identity Center,sso:updatetrust,Write,grants permission update federation trust target account,0,0,0,1,updatetrust,7,False,update,sso,write
+aws,AWS Storage Gateway,storagegateway:deletechapcredentials,Write,grants permission delete challenge handshake authentication protocol chap credentials specified iscsi target initiator pair,0,0,0,1,deletechapcredentials,14,False,delete,storagegateway,write
+aws,AWS Storage Gateway,storagegateway:setlocalconsolepassword,Write,grants permission set password vm local console,0,0,0,1,setlocalconsolepassword,7,False,other,storagegateway,unknown
+aws,AWS Storage Gateway,storagegateway:setsmbguestpassword,Write,grants permission set password smb guest user,0,0,0,1,setsmbguestpassword,7,False,other,storagegateway,unknown
+aws,AWS Storage Gateway,storagegateway:updatechapcredentials,Write,grants permission update challenge handshake authentication protocol chap credentials specified iscsi target,0,0,0,1,updatechapcredentials,12,False,update,storagegateway,write
+aws,AWS WAF Regional,waf-regional:deletepermissionpolicy,Permissions management,grants permission delete iam policy rule group,0,0,0,1,deletepermissionpolicy,7,False,delete,waf-regional,write
+aws,AWS WAF Regional,waf-regional:putpermissionpolicy,Permissions management,grants permission attach iam policy specified rule group support rule group sharing accounts,0,0,0,1,putpermissionpolicy,13,False,other,waf-regional,unknown
+aws,AWS WAF,waf:deletepermissionpolicy,Permissions management,grants permission delete iam policy rule group,0,0,0,1,deletepermissionpolicy,7,False,delete,waf,write
+aws,AWS WAF,waf:putpermissionpolicy,Permissions management,grants permission attach iam policy rule group share rule group accounts,0,0,0,1,putpermissionpolicy,11,False,other,waf,unknown
+aws,AWS WAF V2,wafv2:createwebacl,Write,grants permission create webacl,0,0,0,1,createwebacl,4,False,create,wafv2,write
+aws,AWS WAF V2,wafv2:deletepermissionpolicy,Permissions management,grants permission delete permissionpolicy rulegroup,0,0,0,1,deletepermissionpolicy,5,False,delete,wafv2,write
+aws,AWS WAF V2,wafv2:deletewebacl,Write,grants permission delete webacl,0,0,0,1,deletewebacl,4,False,delete,wafv2,write
+aws,AWS WAF V2,wafv2:putpermissionpolicy,Permissions management,grants permission attach iam policy resource used share rule groups accounts,0,0,0,1,putpermissionpolicy,11,True,other,wafv2,unknown
+aws,AWS WAF V2,wafv2:updatewebacl,Write,grants permission update webacl,0,0,0,1,updatewebacl,4,False,update,wafv2,write
+aws,Amazon WorkLink,worklink:updatedevicepolicyconfiguration,Write,grants permission update device policy configuration amazon worklink fleet,0,0,0,1,updatedevicepolicyconfiguration,9,False,update,worklink,write
+aws,Amazon WorkMail,workmail:resetpassword,Write,grants permission allow administrator reset password user,0,0,0,1,resetpassword,7,False,other,workmail,unknown
+aws,AWS X-Ray,xray:putencryptionconfig,Permissions management,grants permission update encryption configuration x ray data,0,0,0,1,putencryptionconfig,8,False,other,xray,unknown

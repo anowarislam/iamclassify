@@ -1,0 +1,169 @@
+{
+  "general": {
+    "total_samples": 485,
+    "total_features": 1006,
+    "risk_categories": [
+      "credential_exposure",
+      "data_access",
+      "privilege_escalation",
+      "resource_exposure"
+    ],
+    "class_distribution": {
+      "credential_exposure": {
+        "0": 436,
+        "1": 49
+      },
+      "data_access": {
+        "0": 334,
+        "1": 151
+      },
+      "privilege_escalation": {
+        "0": 458,
+        "1": 27
+      },
+      "resource_exposure": {
+        "1": 294,
+        "0": 191
+      }
+    }
+  },
+  "splits": {
+    "train": {
+      "samples": 339,
+      "feature_shape": [
+        339,
+        1006
+      ],
+      "label_shape": [
+        339,
+        4
+      ]
+    },
+    "val": {
+      "samples": 73,
+      "feature_shape": [
+        73,
+        1006
+      ],
+      "label_shape": [
+        73,
+        4
+      ]
+    },
+    "test": {
+      "samples": 73,
+      "feature_shape": [
+        73,
+        1006
+      ],
+      "label_shape": [
+        73,
+        4
+      ]
+    }
+  },
+  "features": {
+    "numerical_stats": {
+      "id": {
+        "count": 485.0,
+        "mean": 242.0,
+        "std": 140.15170352157693,
+        "min": 0.0,
+        "25%": 121.0,
+        "50%": 242.0,
+        "75%": 363.0,
+        "max": 484.0
+      },
+      "credential_exposure": {
+        "count": 485.0,
+        "mean": 0.10103092783505155,
+        "std": 0.3016808440821524,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 1.0
+      },
+      "data_access": {
+        "count": 485.0,
+        "mean": 0.311340206185567,
+        "std": 0.4635196574726859,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 1.0
+      },
+      "privilege_escalation": {
+        "count": 485.0,
+        "mean": 0.05567010309278351,
+        "std": 0.22952028312255798,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 1.0
+      },
+      "resource_exposure": {
+        "count": 485.0,
+        "mean": 0.6061855670103092,
+        "std": 0.4890990268398823,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 1.0
+      },
+      "expert_notes": {
+        "count": 0.0,
+        "mean": NaN,
+        "std": NaN,
+        "min": NaN,
+        "25%": NaN,
+        "50%": NaN,
+        "75%": NaN,
+        "max": NaN
+      },
+      "confidence_level": {
+        "count": 485.0,
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 1.0
+      }
+    },
+    "missing_values": {
+      "id": 0,
+      "source": 0,
+      "service": 0,
+      "action": 0,
+      "description": 0,
+      "credential_exposure": 0,
+      "data_access": 0,
+      "privilege_escalation": 0,
+      "resource_exposure": 0,
+      "expert_notes": 485,
+      "confidence_level": 0,
+      "labeling_date": 0,
+      "label_quality": 0
+    },
+    "unique_values": {
+      "id": 485,
+      "source": 1,
+      "service": 92,
+      "action": 485,
+      "description": 473,
+      "credential_exposure": 2,
+      "data_access": 2,
+      "privilege_escalation": 2,
+      "resource_exposure": 2,
+      "expert_notes": 0,
+      "confidence_level": 1,
+      "labeling_date": 1,
+      "label_quality": 1
+    }
+  }
+}
