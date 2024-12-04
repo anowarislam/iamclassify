@@ -1,486 +1,486 @@
 id,source,service,action,description,credential_exposure,data_access,privilege_escalation,resource_exposure,expert_notes,confidence_level,labeling_date,label_quality
-55,aws,AWS Private Certificate Authority,acm-pca:createpermission,grants permission create permission aws private ca,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-273,aws,AWS Private Certificate Authority,acm-pca:deletepermission,grants permission delete permission aws private ca,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-303,aws,AWS Private Certificate Authority,acm-pca:deletepolicy,grants permission delete policy aws private ca,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-108,aws,AWS Private Certificate Authority,acm-pca:putpolicy,grants permission put policy aws private ca,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-413,aws,Amazon OpenSearch Serverless,aoss:apiaccessall,grant permission supported opensearch apis,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-441,aws,Amazon OpenSearch Serverless,aoss:dashboardsaccessall,grants permission opensearch serverless dashboards,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-346,aws,Amazon API Gateway Management,apigateway:updaterestapipolicy,grants permission manage iam resource policy api additional authorization control managing api due sensitive nature resource policy,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-331,aws,AWS AppSync,appsync:getdatasource,grants permission retrieve data source,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-422,aws,AWS AppSync,appsync:getfunction,grants permission retrieve function,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-34,aws,AWS AppSync,appsync:listapikeys,grants permission list api keys given api,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-408,aws,Amazon Athena,athena:getqueryexecution,grants permission get information specified query execution,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-439,aws,Amazon Athena,athena:getqueryresults,grants permission get query results,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-42,aws,Amazon Athena,athena:getqueryresultsstream,grants permission get query results stream,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-410,aws,Amazon Athena,athena:getsession,grants permission get session,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-204,aws,AWS Backup,backup:deletebackupvaultaccesspolicy,grants permission delete backup vault access policy,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-9,aws,AWS Backup,backup:putbackupvaultaccesspolicy,grants permission add access policy backup vault,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-91,aws,Amazon Keyspaces (for Apache Cassandra),cassandra:select,grants permission select data table,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-122,aws,AWS Chatbot,chatbot:describeslackchannels,grants permission list public slack channels slack workspace connected aws account onboarded aws chatbot service,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-447,aws,AWS Chatbot,chatbot:describeslackuseridentities,grants permission describe aws chatbot slack user identities,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-248,aws,AWS Chatbot,chatbot:getmicrosoftteamsoauthparameters,grants permission generate oauth parameters request microsoft teams oauth code used aws chatbot service,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-145,aws,AWS Chatbot,chatbot:getslackoauthparameters,grants permission generate oauth parameters request slack oauth code used aws chatbot service,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-214,aws,AWS Chatbot,chatbot:listmicrosoftteamsconfiguredteams,grants permission list microsoft teams connected aws account onboarded aws chatbot service,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-148,aws,AWS Chatbot,chatbot:listmicrosoftteamsuseridentities,grants permission describe aws chatbot microsoft teams user identities,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-342,aws,Amazon Chime,chime:createapikey,grants permission create new scim access key amazon chime account okta configuration,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-211,aws,Amazon Chime,chime:deletevoiceconnectorterminationcredentials,grants permission delete sip termination credentials specified amazon chime voice connector,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-353,aws,Amazon Chime,chime:getattendee,grants permission get attendee details specified meeting id attendee id,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-368,aws,Amazon Chime,chime:getchannelmessage,grants permission get full details channel message,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-45,aws,Amazon Chime,chime:getmeeting,grants permission get meeting record specified meeting id,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-375,aws,Amazon Chime,chime:getmeetingdetail,grants permission get attendee connection details meeting,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-316,aws,Amazon Chime,chime:getroom,grants permission retrieve room,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-129,aws,Amazon Chime,chime:getuser,grants permission get details specified user id,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-175,aws,Amazon Chime,chime:getuseractivityreportdata,grants permission get summary user activity user details page,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-46,aws,Amazon Chime,chime:getuserbyemail,grants permission get user details amazon chime user based email address amazon chime enterprise team account,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-251,aws,Amazon Chime,chime:getusersettings,grants permission get user settings related specified amazon chime user,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-29,aws,Amazon Chime,chime:listattendees,grants permission list attendees specified amazon chime sdk meeting,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-479,aws,Amazon Chime,chime:listmeetingevents,grants permission list events occurred specified meeting,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-71,aws,Amazon Chime,chime:listmeetings,grants permission list active amazon chime sdk meetings,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-30,aws,Amazon Chime,chime:listusers,grants permission list users belong specified amazon chime account,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-362,aws,Amazon Chime,chime:putvoiceconnectorterminationcredentials,grants permission add sip termination credentials specified amazon chime voice connector,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-193,aws,AWS Clean Rooms,cleanrooms:getprotectedquery,grants permission view protected query,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-139,aws,AWS Cloud9,cloud9:createenvironmentssh,grants permission create aws cloud ssh development environment,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-218,aws,AWS Cloud9,cloud9:createenvironmenttoken,grants permission create authentication token allows connection aws cloud ide user environment,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-83,aws,AWS CloudFormation & Cloud Control API,cloudformation:gettemplate,grants permission return template body specified stack,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-180,aws,AWS CloudFormation & Cloud Control API,cloudformation:setstackpolicy,grants permission set stack policy specified stack,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-72,aws,Amazon CloudFront,cloudfront:getfunction,grants permission get cloudfront function code,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-299,aws,Amazon CloudSearch,cloudsearch:updateserviceaccesspolicies,configures access rules control access domain document search endpoints,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-28,aws,AWS CloudTrail,cloudtrail:getqueryresults,grants permission fetch results complete query,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-33,aws,AWS CloudTrail,cloudtrail:lookupevents,grants permission look retrieve metric data api activity events captured cloudtrail create update delete resources account,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-293,aws,AWS CodeArtifact,codeartifact:deletedomainpermissionspolicy,grants permission delete resource policy set domain,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-100,aws,AWS CodeArtifact,codeartifact:deleterepositorypermissionspolicy,grants permission delete resource policy set repository,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-156,aws,AWS CodeArtifact,codeartifact:getauthorizationtoken,grants permission generate temporary authentication token accessing repositories domain,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-75,aws,AWS CodeArtifact,codeartifact:getpackageversionasset,grants permission return asset file part package version,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-414,aws,AWS CodeArtifact,codeartifact:getpackageversionreadme,grants permission return package version readme file,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-231,aws,AWS CodeArtifact,codeartifact:readfromrepository,grants permission return package assets metadata repository endpoint,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-67,aws,AWS CodeBuild,codebuild:batchgetreportgroups,grants permission return array reportgroup objects specified input reportgrouparns parameter,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-188,aws,AWS CodeBuild,codebuild:batchgetreports,grants permission return array report objects specified input reportarns parameter,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-450,aws,AWS CodeBuild,codebuild:deleteresourcepolicy,grants permission delete resource policy associated project report group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-388,aws,AWS CodeBuild,codebuild:deletesourcecredentials,grants permission delete set github github enterprise bitbucket source credentials,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-69,aws,AWS CodeBuild,codebuild:importsourcecredentials,grants permission import source repository credentials aws codebuild project source code stored github github enterprise bitbucket repository,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-179,aws,AWS CodeBuild,codebuild:putresourcepolicy,grants permission create resource policy associated project report group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-16,aws,AWS CodeCommit,codecommit:batchgetcommits,grants permission return information one commits aws codecommit repository,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-318,aws,AWS CodeCommit,codecommit:batchgetpullrequests,grants permission return information one pull requests aws codecommit repository,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-64,aws,AWS CodeCommit,codecommit:batchgetrepositories,grants permission get information multiple repositories,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-470,aws,AWS CodeCommit,codecommit:describemergeconflicts,grants permission get information specific merge conflicts attempting merge two commits using either three way squash merge option,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-428,aws,AWS CodeCommit,codecommit:describepullrequestevents,grants permission return information one pull request events,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-243,aws,AWS CodeCommit,codecommit:getapprovalruletemplate,grants permission return information approval rule template,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-19,aws,AWS CodeCommit,codecommit:getblob,grants permission view encoded content individual file aws codecommit repository aws codecommit console,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-419,aws,AWS CodeCommit,codecommit:getbranch,grants permission get details branch aws codecommit repository api control git branch actions,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-249,aws,AWS CodeCommit,codecommit:getcomment,grants permission get content comment made change file commit repository,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-65,aws,AWS CodeCommit,codecommit:getcommentreactions,grants permission get reactions comment,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-132,aws,AWS CodeCommit,codecommit:getcommentsforcomparedcommit,grants permission get information comments made comparison two commits,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-330,aws,AWS CodeCommit,codecommit:getcommentsforpullrequest,grants permission get comments made pull request,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-255,aws,AWS CodeCommit,codecommit:getcommit,grants permission return information commit including commit message committer information api control git log actions,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-259,aws,AWS CodeCommit,codecommit:getcommithistory,grants permission get information history commits repository,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-350,aws,AWS CodeCommit,codecommit:getcommitsfrommergebase,grants permission get information difference commits context potential merge,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-468,aws,AWS CodeCommit,codecommit:getdifferences,grants permission view information differences valid commit specifiers branch tag head commit id fully qualified reference,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-345,aws,AWS CodeCommit,codecommit:getfile,grants permission return base encoded contents specified file metadata,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-58,aws,AWS CodeCommit,codecommit:getfolder,grants permission return contents specified folder repository,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-484,aws,AWS CodeCommit,codecommit:getmergecommit,grants permission get information merge commit created one merge options pull requests creates merge commits merge options create merge commits permission control git merge actions,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-230,aws,AWS CodeCommit,codecommit:getmergeconflicts,grants permission get information merge conflicts commit ids pull request repository,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-36,aws,AWS CodeCommit,codecommit:getmergeoptions,grants permission get information merge options pull requests used merge two commits control git merge actions,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-407,aws,AWS CodeCommit,codecommit:getobjectidentifier,grants permission resolve blobs trees commits identifier,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-480,aws,AWS CodeCommit,codecommit:getpullrequest,grants permission get information pull request specified repository,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-309,aws,AWS CodeCommit,codecommit:getpullrequestapprovalstates,grants permission retrieve current approvals inputted pull request,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-158,aws,AWS CodeCommit,codecommit:getpullrequestoverridestate,grants permission retrieve current override state given pull request,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-181,aws,AWS CodeCommit,codecommit:getreferences,grants permission get details references aws codecommit repository control git reference actions,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-149,aws,AWS CodeCommit,codecommit:gettree,grants permission view contents specified tree aws codecommit repository aws codecommit console,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-215,aws,AWS CodeCommit,codecommit:gitpull,grants permission pull information aws codecommit repository local repo,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-286,aws,Amazon CodeGuru Profiler,codeguru-profiler:getrecommendations,grants permission get recommendations,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-257,aws,Amazon CodeGuru Profiler,codeguru-profiler:putpermission,grants permission update list principals allowed action group resource policy associated specified profiling group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-332,aws,Amazon CodeGuru Profiler,codeguru-profiler:removepermission,grants permission remove permission specified action group resource policy associated specified profiling group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-117,aws,Amazon CodeGuru Reviewer,codeguru-reviewer:describecodereview,grants permission describe code review,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-163,aws,Amazon CodeGuru Reviewer,codeguru-reviewer:describerecommendationfeedback,grants permission describe recommendation feedback code review,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-300,aws,AWS CodePipeline,codepipeline:getpipelineexecution,grants permission view information execution pipeline including details artifacts pipeline execution id name version status pipeline,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-372,aws,AWS CodePipeline,codepipeline:pollforjobs,grants permission view information jobs codepipeline act,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-195,aws,AWS CodeStar,codestar:associateteammember,grants permission add user team aws codestar project,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-358,aws,AWS CodeStar,codestar:createproject,grants permission create project minimal structure customer policies resources,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-425,aws,AWS CodeStar,codestar:deleteproject,grants permission delete project including project resources delete users associated project delete iam roles allowed access project,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-319,aws,AWS CodeStar,codestar:disassociateteammember,grants permission remove user project removing user project also removes iam policies user allowed access project resources,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-438,aws,AWS CodeStar,codestar:updateteammember,grants permission update team member attributes within codestar project,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-241,aws,Amazon Cognito Identity,cognito-identity:createidentitypool,grants permission create new identity pool,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-191,aws,Amazon Cognito Identity,cognito-identity:deleteidentities,grants permission delete identities identity pool specify list identities want delete,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-264,aws,Amazon Cognito Identity,cognito-identity:deleteidentitypool,grants permission delete user pool pool deleted users able authenticate pool,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-10,aws,Amazon Cognito Identity,cognito-identity:getcredentialsforidentity,grants permission return credentials provided identity id,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-240,aws,Amazon Cognito Identity,cognito-identity:getid,grants permission generate retrieve cognito id supplying multiple logins create implicit linked account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-228,aws,Amazon Cognito Identity,cognito-identity:getopenidtoken,grants permission get openid token using known cognito id,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-35,aws,Amazon Cognito Identity,cognito-identity:getopenidtokenfordeveloperidentity,grants permission register retrieve cognito identityid openid connect token user authenticated backend authentication process,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-140,aws,Amazon Cognito Identity,cognito-identity:lookupdeveloperidentity,grants permission retrieve identityid associated developeruseridentifier list developeruseridentifiers associated identityid existing identity,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-20,aws,Amazon Cognito Identity,cognito-identity:mergedeveloperidentities,grants permission merge two users different identityids existing identity pool identified developer provider,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-184,aws,Amazon Cognito Identity,cognito-identity:setidentitypoolroles,grants permission set roles identity pool roles used making calls getcredentialsforidentity action,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-136,aws,Amazon Cognito Identity,cognito-identity:unlinkdeveloperidentity,grants permission unlink developeruseridentifier existing identity,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-393,aws,Amazon Cognito Identity,cognito-identity:unlinkidentity,grants permission unlink federated identity existing account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-451,aws,Amazon Cognito Identity,cognito-identity:updateidentitypool,grants permission update identity pool,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-37,aws,Amazon Cognito User Pools,cognito-idp:admingetdevice,grants permission get information user devices,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-162,aws,Amazon Cognito User Pools,cognito-idp:admingetuser,grants permission look user user name,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-197,aws,Amazon Cognito User Pools,cognito-idp:adminlistdevices,grants permission list user remembered devices,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-301,aws,Amazon Cognito User Pools,cognito-idp:adminlistgroupsforuser,grants permission list groups user belongs,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-475,aws,Amazon Cognito User Pools,cognito-idp:adminlistuserauthevents,grants permission lists sign events user,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-322,aws,Amazon Cognito User Pools,cognito-idp:describeuserpoolclient,grants permission describe user pool app client,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-261,aws,Amazon Cognito User Pools,cognito-idp:getdevice,grants permission get device,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-253,aws,Amazon Cognito User Pools,cognito-idp:getgroup,grants permission describe user pool group,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-47,aws,Amazon Cognito User Pools,cognito-idp:getuser,grants permission get user attributes metadata user,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-426,aws,Amazon Cognito User Pools,cognito-idp:getuserattributeverificationcode,grants permission get user attribute verification code specified attribute name,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-96,aws,Amazon Cognito User Pools,cognito-idp:listdevices,grants permission list devices,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-306,aws,Amazon Cognito User Pools,cognito-idp:listgroups,grants permission list groups user pools,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-271,aws,Amazon Cognito User Pools,cognito-idp:listusers,grants permission list user pool users,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-370,aws,Amazon Cognito Sync,cognito-sync:listrecords,grants permission get paginated records optionally changed particular sync count dataset identity,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-276,aws,Amazon Cognito Sync,cognito-sync:queryrecords,grants permission query records,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-377,aws,Amazon Connect,connect:getfederationtoken,grants permission federate amazon connect instance using saml based authentication identity management,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-85,aws,Amazon Connect,connect:listsecuritykeys,grants permission view security keys existing amazon connect instance,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-465,aws,Amazon Connect,connect:listusers,grants permission list user resources amazon connect instance,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-40,aws,AWS Data Pipeline,datapipeline:queryobjects,grants permission query specified pipeline names objects match specified set conditions,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-124,aws,Amazon DynamoDB Accelerator (DAX),dax:batchgetitem,grants permission return attributes one items one tables,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-312,aws,Amazon DynamoDB Accelerator (DAX),dax:getitem,grants permission getitem operation returns set attributes item given primary key,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-434,aws,Amazon DynamoDB Accelerator (DAX),dax:query,grants permission use primary key table secondary index directly access items table index,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-369,aws,Amazon DynamoDB Accelerator (DAX),dax:scan,grants permission return one items item attributes accessing every item table secondary index,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-137,aws,AWS DeepLens,deeplens:associateserviceroletoaccount,associates user account iam roles controlling various permissions needed aws deeplens proper functionality,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-340,aws,AWS Directory Service,ds:createconditionalforwarder,grants permission create conditional forwarder associated aws directory,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-151,aws,AWS Directory Service,ds:createdirectory,grants permission create simple ad directory,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-343,aws,AWS Directory Service,ds:createmicrosoftad,grants permission create microsoft ad aws cloud,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-462,aws,AWS Directory Service,ds:createtrust,grants permission initiate creation aws side trust relationship microsoft ad aws cloud external domain,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-298,aws,AWS Directory Service,ds:sharedirectory,grants permission share specified directory aws account directory owner another aws account directory consumer operation use directory aws account amazon vpc within aws region,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-296,aws,Amazon DynamoDB,dynamodb:batchgetitem,grants permission return attributes one items one tables,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-66,aws,Amazon DynamoDB,dynamodb:getitem,grants permission getitem operation returns set attributes item given primary key,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-367,aws,Amazon DynamoDB,dynamodb:getrecords,grants permission retrieve stream records given shard,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-209,aws,Amazon DynamoDB,dynamodb:query,grants permission use primary key table secondary index directly access items table index,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-80,aws,Amazon DynamoDB,dynamodb:scan,grants permission return one items item attributes accessing every item table secondary index,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-127,aws,Amazon EC2 Instance Connect,ec2-instance-connect:sendsshpublickey,grants permission push ssh public key specified ec instance used standard ssh,1,0,1,0,,1,2024-11-15 09:02:57.457093,low
-406,aws,Amazon EC2,ec2:createnetworkinterfacepermission,grants permission create permission aws authorized user perform certain operations network interface,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-363,aws,Amazon EC2,ec2:deletenetworkinterfacepermission,grants permission delete permission associated network interface,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-76,aws,Amazon EC2,ec2:disableimageblockpublicaccess,grants permission disable block public access amis account level specified aws region,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-142,aws,Amazon EC2,ec2:getpassworddata,grants permission retrieve encrypted administrator password running windows instance,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-57,aws,Amazon EC2,ec2:modifysnapshotattribute,grants permission add remove permission settings snapshot,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-417,aws,Amazon EC2,ec2:modifyvpcendpointservicepermissions,grants permission modify permissions vpc endpoint service,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-424,aws,Amazon EC2,ec2:resetsnapshotattribute,grants permission reset permission settings snapshot,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-44,aws,Amazon Elastic Container Registry Public,ecr-public:getauthorizationtoken,grants permission retrieve token valid specified registry hours,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-258,aws,Amazon Elastic Container Registry,ecr:deleterepositorypolicy,grants permission delete repository policy specified repository,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-88,aws,Amazon Elastic Container Registry,ecr:getauthorizationtoken,grants permission retrieve token valid specified registry hours,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-173,aws,Amazon Elastic Container Registry,ecr:getdownloadurlforlayer,grants permission retrieve download url corresponding image layer,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-206,aws,Amazon Elastic Container Registry,ecr:setrepositorypolicy,grants permission apply repository policy specified repository control access permissions,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-356,aws,Amazon Elastic File System,elasticfilesystem:deletefilesystempolicy,grants permission delete resource level policy file system,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-147,aws,Amazon Elastic File System,elasticfilesystem:putfilesystempolicy,grants permission apply resource level policy defines actions allowed denied given actors specified file system,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-398,aws,Amazon Elastic MapReduce,elasticmapreduce:putblockpublicaccessconfiguration,grants permission create update emr block public access configuration aws account region,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-481,aws,Amazon OpenSearch Service,es:createelasticsearchdomain,grants permission create opensearch service domain permission deprecated use createdomain instead,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-326,aws,Amazon OpenSearch Service,es:eshttpdelete,grants permission send http delete requests opensearch apis,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-256,aws,Amazon OpenSearch Service,es:eshttpget,grants permission send http get requests opensearch apis,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-166,aws,Amazon OpenSearch Service,es:eshttphead,grants permission send http head requests opensearch apis,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-183,aws,Amazon OpenSearch Service,es:eshttppatch,grants permission send http patch requests opensearch apis,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-244,aws,Amazon OpenSearch Service,es:eshttppost,grants permission send http post requests opensearch apis,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-247,aws,Amazon OpenSearch Service,es:eshttpput,grants permission send http put requests opensearch apis,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-110,aws,Amazon OpenSearch Service,es:updateelasticsearchdomainconfig,grants permission modify configuration opensearch service domain instance type number instances permission deprecated use updatedomainconfig instead,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-477,aws,Amazon GameLift,gamelift:getcomputeauthtoken,grants permission retrieve authorization token compute fleet use game server processes,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-452,aws,Amazon GameLift,gamelift:getgamesessionlogurl,grants permission retrieve location stored logs game session,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-113,aws,Amazon GameLift,gamelift:getinstanceaccess,grants permission request remote access specified fleet instance,1,1,0,0,,1,2024-11-15 09:02:57.457093,low
-135,aws,Amazon GameLift,gamelift:requestuploadcredentials,grants permission retrieve fresh upload credentials use uploading new game build,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-118,aws,Amazon S3 Glacier,glacier:abortvaultlock,grants permission abort vault locking process vault lock locked state,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-430,aws,Amazon S3 Glacier,glacier:completevaultlock,grants permission complete vault locking process,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-198,aws,Amazon S3 Glacier,glacier:deletevaultaccesspolicy,grants permission delete access policy associated specified vault,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-227,aws,Amazon S3 Glacier,glacier:initiatevaultlock,grants permission initiate vault locking process,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-455,aws,Amazon S3 Glacier,glacier:setdataretrievalpolicy,grants permission set enacts data retrieval policy region specified put request,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-212,aws,Amazon S3 Glacier,glacier:setvaultaccesspolicy,grants permission configure access policy vault overwrite existing policy,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-213,aws,AWS Glue,glue:deleteresourcepolicy,grants permission delete resource policy,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-384,aws,AWS Glue,glue:putresourcepolicy,grants permission update resource policy,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-399,aws,AWS Glue,glue:updatedevendpoint,grants permission update development endpoint,0,0,1,0,,1,2024-11-15 09:02:57.457093,low
-54,aws,AWS IoT Greengrass,greengrass:associateserviceroletoaccount,grants permission associate role account aws iot greengrass uses role access lambda functions aws iot resources,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-278,aws,AWS Health APIs and Notifications,health:disablehealthserviceaccessfororganization,grants permission disable organizational view feature,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-339,aws,AWS Health APIs and Notifications,health:enablehealthserviceaccessfororganization,grants permission enable organizational view feature,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-5,aws,AWS HealthLake,healthlake:readresource,grants permission read resource,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-464,aws,AWS HealthLake,healthlake:searchwithget,grants permission search resources get method,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-223,aws,AWS HealthLake,healthlake:searchwithpost,grants permission search resources post method,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-317,aws,AWS Identity and Access Management (IAM),iam:addclientidtoopenidconnectprovider,grants permission add new client id audience list registered ids specified iam openid connect oidc provider resource,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-70,aws,AWS Identity and Access Management (IAM),iam:addroletoinstanceprofile,grants permission add iam role specified instance profile,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-263,aws,AWS Identity and Access Management (IAM),iam:addusertogroup,grants permission add iam user specified iam group,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-146,aws,AWS Identity and Access Management (IAM),iam:attachgrouppolicy,grants permission attach managed policy specified iam group,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-186,aws,AWS Identity and Access Management (IAM),iam:attachrolepolicy,grants permission attach managed policy specified iam role,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-415,aws,AWS Identity and Access Management (IAM),iam:attachuserpolicy,grants permission attach managed policy specified iam user,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-307,aws,AWS Identity and Access Management (IAM),iam:changepassword,grants permission iam user change password,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-126,aws,AWS Identity and Access Management (IAM),iam:createaccesskey,grants permission create access key secret access key specified iam user,1,0,1,1,,1,2024-11-15 09:02:57.457093,low
-283,aws,AWS Identity and Access Management (IAM),iam:createaccountalias,grants permission create alias aws account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-123,aws,AWS Identity and Access Management (IAM),iam:creategroup,grants permission create new group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-364,aws,AWS Identity and Access Management (IAM),iam:createinstanceprofile,grants permission create new instance profile,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-98,aws,AWS Identity and Access Management (IAM),iam:createloginprofile,grants permission create password specified iam user,1,0,1,1,,1,2024-11-15 09:02:57.457093,low
-239,aws,AWS Identity and Access Management (IAM),iam:createopenidconnectprovider,grants permission create iam resource describes identity provider idp supports openid connect oidc,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-266,aws,AWS Identity and Access Management (IAM),iam:createpolicy,grants permission create new managed policy,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-338,aws,AWS Identity and Access Management (IAM),iam:createpolicyversion,grants permission create new version specified managed policy,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-199,aws,AWS Identity and Access Management (IAM),iam:createrole,grants permission create new role,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-351,aws,AWS Identity and Access Management (IAM),iam:createsamlprovider,grants permission create iam resource describes identity provider idp supports saml,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-389,aws,AWS Identity and Access Management (IAM),iam:createservicelinkedrole,grants permission create iam role allows aws service perform actions behalf,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-155,aws,AWS Identity and Access Management (IAM),iam:createservicespecificcredential,grants permission create new service specific credential iam user,1,0,0,1,,1,2024-11-15 09:02:57.457093,low
-459,aws,AWS Identity and Access Management (IAM),iam:createuser,grants permission create new iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-176,aws,AWS Identity and Access Management (IAM),iam:createvirtualmfadevice,grants permission create new virtual mfa device,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-272,aws,AWS Identity and Access Management (IAM),iam:deactivatemfadevice,grants permission deactivate specified mfa device remove association iam user originally enabled,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-391,aws,AWS Identity and Access Management (IAM),iam:deleteaccesskey,grants permission delete access key pair associated specified iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-39,aws,AWS Identity and Access Management (IAM),iam:deleteaccountalias,grants permission delete specified aws account alias,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-265,aws,AWS Identity and Access Management (IAM),iam:deleteaccountpasswordpolicy,grants permission delete password policy aws account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-31,aws,AWS Identity and Access Management (IAM),iam:deletegroup,grants permission delete specified iam group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-288,aws,AWS Identity and Access Management (IAM),iam:deletegrouppolicy,grants permission delete specified inline policy group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-376,aws,AWS Identity and Access Management (IAM),iam:deleteinstanceprofile,grants permission delete specified instance profile,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-106,aws,AWS Identity and Access Management (IAM),iam:deleteloginprofile,grants permission delete password specified iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-22,aws,AWS Identity and Access Management (IAM),iam:deleteopenidconnectprovider,grants permission delete openid connect identity provider idp resource object iam,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-396,aws,AWS Identity and Access Management (IAM),iam:deletepolicy,grants permission delete specified managed policy remove iam entities users groups roles attached,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-120,aws,AWS Identity and Access Management (IAM),iam:deletepolicyversion,grants permission delete version specified managed policy,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-189,aws,AWS Identity and Access Management (IAM),iam:deleterole,grants permission delete specified role,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-56,aws,AWS Identity and Access Management (IAM),iam:deleterolepermissionsboundary,grants permission remove permissions boundary role,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-435,aws,AWS Identity and Access Management (IAM),iam:deleterolepolicy,grants permission delete specified inline policy specified role,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-237,aws,AWS Identity and Access Management (IAM),iam:deletesamlprovider,grants permission delete saml provider resource iam,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-463,aws,AWS Identity and Access Management (IAM),iam:deleteservercertificate,grants permission delete specified server certificate,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-405,aws,AWS Identity and Access Management (IAM),iam:deleteservicelinkedrole,grants permission delete iam role linked specific aws service service longer using,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-150,aws,AWS Identity and Access Management (IAM),iam:deleteservicespecificcredential,grants permission delete specified service specific credential iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-281,aws,AWS Identity and Access Management (IAM),iam:deletesigningcertificate,grants permission delete signing certificate associated specified iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-119,aws,AWS Identity and Access Management (IAM),iam:deletesshpublickey,grants permission delete specified ssh public key,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-453,aws,AWS Identity and Access Management (IAM),iam:deleteuser,grants permission delete specified iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-202,aws,AWS Identity and Access Management (IAM),iam:deleteuserpermissionsboundary,grants permission remove permissions boundary specified iam user,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-89,aws,AWS Identity and Access Management (IAM),iam:deleteuserpolicy,grants permission delete specified inline policy iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-427,aws,AWS Identity and Access Management (IAM),iam:deletevirtualmfadevice,grants permission delete virtual mfa device,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-112,aws,AWS Identity and Access Management (IAM),iam:detachgrouppolicy,grants permission detach managed policy specified iam group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-311,aws,AWS Identity and Access Management (IAM),iam:detachrolepolicy,grants permission detach managed policy specified role,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-114,aws,AWS Identity and Access Management (IAM),iam:detachuserpolicy,grants permission detach managed policy specified iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-14,aws,AWS Identity and Access Management (IAM),iam:enablemfadevice,grants permission enable mfa device associate specified iam user,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-390,aws,AWS Identity and Access Management (IAM),iam:passrole,grants permission pass role service,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-348,aws,AWS Identity and Access Management (IAM),iam:putgrouppolicy,grants permission create update inline policy document embedded specified iam group,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-473,aws,AWS Identity and Access Management (IAM),iam:putrolepermissionsboundary,grants permission set managed policy permissions boundary role,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-352,aws,AWS Identity and Access Management (IAM),iam:putrolepolicy,grants permission create update inline policy document embedded specified iam role,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-383,aws,AWS Identity and Access Management (IAM),iam:putuserpermissionsboundary,grants permission set managed policy permissions boundary iam user,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-402,aws,AWS Identity and Access Management (IAM),iam:putuserpolicy,grants permission create update inline policy document embedded specified iam user,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-437,aws,AWS Identity and Access Management (IAM),iam:removeclientidfromopenidconnectprovider,grants permission remove client id audience list client ids specified iam openid connect oidc provider resource,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-279,aws,AWS Identity and Access Management (IAM),iam:removerolefrominstanceprofile,grants permission remove iam role specified ec instance profile,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-290,aws,AWS Identity and Access Management (IAM),iam:removeuserfromgroup,grants permission remove iam user specified group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-360,aws,AWS Identity and Access Management (IAM),iam:resetservicespecificcredential,grants permission reset password existing service specific credential iam user,1,0,0,1,,1,2024-11-15 09:02:57.457093,low
-92,aws,AWS Identity and Access Management (IAM),iam:resyncmfadevice,grants permission synchronize specified mfa device iam entity user role,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-275,aws,AWS Identity and Access Management (IAM),iam:setdefaultpolicyversion,grants permission set version specified policy policy default version,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-94,aws,AWS Identity and Access Management (IAM),iam:setsecuritytokenservicepreferences,grants permission set sts global endpoint token version,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-324,aws,AWS Identity and Access Management (IAM),iam:updateaccesskey,grants permission update status specified access key active inactive,1,0,0,1,,1,2024-11-15 09:02:57.457093,low
-90,aws,AWS Identity and Access Management (IAM),iam:updateaccountpasswordpolicy,grants permission update password policy settings aws account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-99,aws,AWS Identity and Access Management (IAM),iam:updateassumerolepolicy,grants permission update policy grants iam entity permission assume role,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-13,aws,AWS Identity and Access Management (IAM),iam:updategroup,grants permission update name path specified iam group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-329,aws,AWS Identity and Access Management (IAM),iam:updateloginprofile,grants permission change password specified iam user,0,0,1,1,,1,2024-11-15 09:02:57.457093,low
-102,aws,AWS Identity and Access Management (IAM),iam:updateopenidconnectproviderthumbprint,grants permission update entire list server certificate thumbprints associated openid connect oidc provider resource,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-373,aws,AWS Identity and Access Management (IAM),iam:updaterole,grants permission update description maximum session duration setting role,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-357,aws,AWS Identity and Access Management (IAM),iam:updateroledescription,grants permission update description role,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-432,aws,AWS Identity and Access Management (IAM),iam:updatesamlprovider,grants permission update metadata document existing saml provider resource,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-221,aws,AWS Identity and Access Management (IAM),iam:updateservercertificate,grants permission update name path specified server certificate stored iam,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-472,aws,AWS Identity and Access Management (IAM),iam:updateservicespecificcredential,grants permission update status service specific credential active inactive iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-285,aws,AWS Identity and Access Management (IAM),iam:updatesigningcertificate,grants permission update status specified user signing certificate active disabled,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-200,aws,AWS Identity and Access Management (IAM),iam:updatesshpublickey,grants permission update status iam user ssh public key active inactive,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-328,aws,AWS Identity and Access Management (IAM),iam:updateuser,grants permission update name path specified iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-79,aws,AWS Identity and Access Management (IAM),iam:uploadservercertificate,grants permission upload server certificate entity aws account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-95,aws,AWS Identity and Access Management (IAM),iam:uploadsigningcertificate,grants permission upload x signing certificate associate specified iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-220,aws,AWS Identity and Access Management (IAM),iam:uploadsshpublickey,grants permission upload ssh public key associate specified iam user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-387,aws,Amazon EC2 Image Builder,imagebuilder:putcomponentpolicy,grants permission set resource policy associated component,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-7,aws,Amazon EC2 Image Builder,imagebuilder:putimagepolicy,grants permission set resource policy associated image,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-420,aws,Amazon EC2 Image Builder,imagebuilder:putimagerecipepolicy,grants permission set resource policy associated image recipe,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-260,aws,AWS IoT,iot:attachpolicy,grants permission attach policy specified target,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-267,aws,AWS IoT,iot:attachprincipalpolicy,grants permission attach specified policy specified principal certificate credential,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-59,aws,AWS IoT,iot:detachpolicy,grants permission detach policy specified target,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-461,aws,AWS IoT,iot:detachprincipalpolicy,grants permission remove specified policy specified certificate,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-449,aws,AWS IoT,iot:setdefaultauthorizer,grants permission set default authorizer used websocket connection made without specifying authorizer,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-423,aws,AWS IoT,iot:setdefaultpolicyversion,grants permission set specified version specified policy policy default operative version,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-134,aws,AWS IoT SiteWise,iotsitewise:createaccesspolicy,grants permission create access policy portal project,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-144,aws,AWS IoT SiteWise,iotsitewise:deleteaccesspolicy,grants permission delete access policy,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-482,aws,AWS IoT SiteWise,iotsitewise:updateaccesspolicy,grants permission update access policy,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-466,aws,Amazon Kendra,kendra:query,grants permission query documents faqs,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-185,aws,Amazon Kinesis Data Streams,kinesis:getrecords,grants permission get data records shard,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-25,aws,Amazon Kinesis Video Streams,kinesisvideo:getimages,grants permission get generated images kinesis video stream,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-111,aws,Amazon Kinesis Video Streams,kinesisvideo:getmedia,grants permission return media content kinesis video stream,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-154,aws,AWS Key Management Service,kms:creategrant,controls permission add grant aws kms key use grants add permissions without changing key policy iam policy,0,1,1,1,,1,2024-11-15 09:02:57.457093,low
-292,aws,AWS Key Management Service,kms:putkeypolicy,controls permission replace key policy specified aws kms key,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-397,aws,AWS Key Management Service,kms:retiregrant,controls permission retire grant retiregrant operation typically called grant user complete tasks grant allowed perform,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-268,aws,AWS Key Management Service,kms:revokegrant,controls permission revoke grant denies permission operations depend grant,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-187,aws,AWS Lake Formation,lakeformation:batchgrantpermissions,grants permission data lake permissions one principals batch,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-313,aws,AWS Lake Formation,lakeformation:batchrevokepermissions,grants permission revoke data lake permissions one principals batch,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-210,aws,AWS Lake Formation,lakeformation:grantpermissions,grants permission data lake permissions principal,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-174,aws,AWS Lake Formation,lakeformation:putdatalakesettings,grants permission overwrite data lake settings list data lake administrators database table default permissions,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-284,aws,AWS Lake Formation,lakeformation:revokepermissions,grants permission revoke data lake permissions principal,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-101,aws,AWS Lambda,lambda:addlayerversionpermission,grants permission add permissions resource based policy version aws lambda layer,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-254,aws,AWS Lambda,lambda:addpermission,grants permission give aws service another account permission use aws lambda function,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-467,aws,AWS Lambda,lambda:disablereplication,grants permission disable replication lambda edge function,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-310,aws,AWS Lambda,lambda:enablereplication,grants permission enable replication lambda edge function,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-378,aws,AWS Lambda,lambda:getfunction,grants permission view details aws lambda function,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-160,aws,AWS Lambda,lambda:getlayerversion,grants permission view details version aws lambda layer note action also supports getlayerversionbyarn api,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-38,aws,AWS Lambda,lambda:removelayerversionpermission,grants permission remove statement permissions policy version aws lambda layer,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-333,aws,AWS Lambda,lambda:removepermission,grants permission revoke function use permission aws service another account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-440,aws,AWS License Manager,license-manager:updateservicesettings,grants permission updates service settings,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-152,aws,Amazon Lightsail,lightsail:downloaddefaultkeypair,grants permission download default key pair used authenticate connect instances specific aws region,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-17,aws,Amazon Lightsail,lightsail:getbucketaccesskeys,grants permission get existing access key ids specified amazon lightsail bucket,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-222,aws,Amazon Lightsail,lightsail:getcontainerimages,grants permission view container images registered amazon lightsail container service,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-116,aws,Amazon Lightsail,lightsail:getkeypair,grants permission get information key pair,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-355,aws,Amazon Lightsail,lightsail:getkeypairs,grants permission get information key pairs,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-24,aws,Amazon Lightsail,lightsail:getrelationaldatabasemasteruserpassword,grants permission get master user password relational database,1,0,0,1,,1,2024-11-15 09:02:57.457093,low
-236,aws,Amazon CloudWatch Logs,logs:deleteresourcepolicy,grants permission delete resource policy account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-321,aws,Amazon CloudWatch Logs,logs:getlogevents,grants permission retrieve log events specified log stream,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-454,aws,Amazon CloudWatch Logs,logs:getlogrecord,grants permission retrieve fields values single log event,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-400,aws,Amazon CloudWatch Logs,logs:getqueryresults,grants permission return results specified query,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-178,aws,Amazon CloudWatch Logs,logs:putresourcepolicy,grants permission create update resource policy allowing aws services put log events account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-365,aws,Amazon CloudWatch Logs,logs:unmask,grants permission fetch unmasked log events redacted data protection policy,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-245,aws,Amazon Macie,macie2:getfindings,grants permission retrieve details one findings,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-416,aws,AWS Elemental MediaPackage,mediapackage:rotatechannelcredentials,grants permission rotate credentials first ingestendpoint channel aws elemental mediapackage,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-323,aws,AWS Elemental MediaPackage,mediapackage:rotateingestendpointcredentials,grants permission rotate ingestendpoint credentials channel aws elemental mediapackage,1,0,0,1,,1,2024-11-15 09:02:57.457093,low
-418,aws,AWS Elemental MediaStore,mediastore:deletecontainerpolicy,grants permission delete access policy container,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-295,aws,AWS Elemental MediaStore,mediastore:getobject,grants permission retrieve object,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-131,aws,AWS Elemental MediaStore,mediastore:putcontainerpolicy,grants permission create replace access policy container,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-334,aws,AWS OpsWorks,opsworks:setpermission,grants permission specify user permissions,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-168,aws,AWS OpsWorks,opsworks:updateuserprofile,grants permission update specified user profile,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-190,aws,Amazon QLDB,qldb:getblock,grants permission retrieve block ledger given blockaddress,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-229,aws,Amazon QuickSight,quicksight:createadmin,grants permission provision amazon quicksight administrators authors readers,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-217,aws,Amazon QuickSight,quicksight:creategroup,grants permission create quicksight group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-469,aws,Amazon QuickSight,quicksight:creategroupmembership,grants permission add quicksight user quicksight group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-107,aws,Amazon QuickSight,quicksight:createiampolicyassignment,grants permission create assignment one specified iam policy arn assigned specified groups users quicksight,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-201,aws,Amazon QuickSight,quicksight:createuser,grants permission provision amazon quicksight authors readers,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-87,aws,Amazon QuickSight,quicksight:deletegroup,grants permission remove user group quicksight,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-194,aws,Amazon QuickSight,quicksight:deletegroupmembership,grants permission remove user group longer member group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-337,aws,Amazon QuickSight,quicksight:deleteiampolicyassignment,grants permission update existing assignment,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-86,aws,Amazon QuickSight,quicksight:deleteuser,grants permission delete quicksight user given user name,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-380,aws,Amazon QuickSight,quicksight:deleteuserbyprincipalid,grants permission deletes user identified principal id,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-361,aws,Amazon QuickSight,quicksight:registeruser,grants permission create quicksight user whose identity associated iam identity role specified request,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-6,aws,Amazon QuickSight,quicksight:updatedashboardpermissions,grants permission update permissions quicksight dashboard,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-53,aws,Amazon QuickSight,quicksight:updategroup,grants permission change group description,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-225,aws,Amazon QuickSight,quicksight:updateiampolicyassignment,grants permission update existing assignment,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-252,aws,Amazon QuickSight,quicksight:updatetemplatepermissions,grants permission update permissions template,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-458,aws,Amazon QuickSight,quicksight:updateuser,grants permission update amazon quicksight user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-280,aws,AWS Resource Access Manager (RAM),ram:acceptresourceshareinvitation,grants permission accept specified resource share invitation,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-429,aws,AWS Resource Access Manager (RAM),ram:associateresourceshare,grants permission associate resource principal resource share,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-327,aws,AWS Resource Access Manager (RAM),ram:createresourceshare,grants permission create resource share provided resource principal,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-409,aws,AWS Resource Access Manager (RAM),ram:deleteresourceshare,grants permission delete resource share,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-109,aws,AWS Resource Access Manager (RAM),ram:disassociateresourceshare,grants permission disassociate resource principal resource share,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-105,aws,AWS Resource Access Manager (RAM),ram:enablesharingwithawsorganization,grants permission access customer organization create slr customer account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-304,aws,AWS Resource Access Manager (RAM),ram:rejectresourceshareinvitation,grants permission reject specified resource share invitation,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-382,aws,AWS Resource Access Manager (RAM),ram:updateresourceshare,grants permission update attributes resource share,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-207,aws,Amazon RDS IAM Authentication,rds-db:connect,allows iam role user connect rds database,1,0,0,1,,1,2024-11-15 09:02:57.457093,low
-93,aws,"Amazon RDS, Neptune & DocumentDB",rds:authorizedbsecuritygroupingress,grants permission enable ingress dbsecuritygroup using one two forms authorization,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-431,aws,"Amazon RDS, Neptune & DocumentDB",rds:downloadcompletedblogfile,grants permission download specified log file,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-234,aws,"Amazon RDS, Neptune & DocumentDB",rds:downloaddblogfileportion,grants permission download portion specified log file mb size,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-121,aws,Amazon Redshift,redshift:authorizesnapshotaccess,grants permission specified aws account restore snapshot,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-294,aws,Amazon Redshift,redshift:createclusteruser,grants permission automatically create specified amazon redshift user exist,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-219,aws,Amazon Redshift,redshift:createsnapshotcopygrant,grants permission create snapshot copy grant encrypt copied snapshots destination aws region,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-159,aws,Amazon Redshift,redshift:getclustercredentials,grants permission get temporary credentials access amazon redshift database specified aws account,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-63,aws,Amazon Redshift,redshift:joingroup,grants permission join specified amazon redshift group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-51,aws,Amazon Redshift,redshift:modifyclusteriamroles,grants permission modify list aws identity access management iam roles used cluster access aws services,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-73,aws,Amazon Redshift,redshift:revokesnapshotaccess,grants permission revoke access specified aws account restore snapshot,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-177,aws,AWS RoboMaker,robomaker:getworldtemplatebody,get body world template,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-403,aws,Amazon Route 53 Resolver,route53resolver:putresolverrulepolicy,grants permission specify aws account want share rules resolver rules want share operations want account able perform rules,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-446,aws,Amazon S3 Object Lambda,s3-object-lambda:getobject,grants permission retrieve objects amazon,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-325,aws,Amazon S3 Object Lambda,s3-object-lambda:getobjectversion,grants permission retrieve specific version object,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-349,aws,Amazon S3 Object Lambda,s3-object-lambda:listbucket,grants permission list objects amazon bucket,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-341,aws,Amazon S3,s3:bypassgovernanceretention,grants permission allow circumvention governance mode object retention settings,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-308,aws,Amazon S3,s3:deleteaccesspointpolicy,grants permission delete policy specified access point,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-128,aws,Amazon S3,s3:deletebucketpolicy,grants permission delete policy specified bucket,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-232,aws,Amazon S3,s3:getdataaccess,grants permission get access,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-153,aws,Amazon S3,s3:getobject,grants permission retrieve objects amazon,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-133,aws,Amazon S3,s3:getobjectversion,grants permission retrieve specific version object,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-43,aws,Amazon S3,s3:objectowneroverridetobucketowner,grants permission change replica ownership,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-4,aws,Amazon S3,s3:putaccesspointpolicy,grants permission associate access policy specified access point,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-125,aws,Amazon S3,s3:putaccountpublicaccessblock,grants permission create modify publicaccessblock configuration aws account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-274,aws,Amazon S3,s3:putbucketacl,grants permission set permissions existing bucket using access control lists acls,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-250,aws,Amazon S3,s3:putbucketpolicy,grants permission add replace bucket policy bucket,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-277,aws,Amazon S3,s3:putbucketpublicaccessblock,grants permission create modify publicaccessblock configuration specific amazon bucket,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-82,aws,Amazon S3,s3:putobjectacl,grants permission set access control list acl permissions new existing objects bucket,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-167,aws,Amazon S3,s3:putobjectversionacl,grants permission use acl subresource set access control list acl permissions object already exists bucket,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-442,aws,Amazon SageMaker,sagemaker:search,grants permission search sagemaker objects,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-11,aws,Amazon SimpleDB,sdb:select,description select,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-460,aws,AWS Secrets Manager,secretsmanager:deleteresourcepolicy,grants permission delete resource policy attached secret,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-366,aws,AWS Secrets Manager,secretsmanager:putresourcepolicy,grants permission attach resource policy secret,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-104,aws,AWS Secrets Manager,secretsmanager:validateresourcepolicy,grants permission validate resource policy attaching policy,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-78,aws,AWS Serverless Application Repository,serverlessrepo:getapplication,grants permission get specified application,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-224,aws,AWS Serverless Application Repository,serverlessrepo:getcloudformationtemplate,grants permission get specified aws cloudformation template,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-347,aws,AWS Service Catalog,servicecatalog:createportfolioshare,grants permission share portfolio another aws account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-171,aws,AWS Service Catalog,servicecatalog:deleteportfolioshare,grants permission unshare portfolio aws account previously shared portfolio,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-49,aws,AWS Snowball,snowball:getjobunlockcode,grants permission get unlockcode code value specified job,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-386,aws,Amazon SNS,sns:addpermission,grants permission add statement topic access control policy granting access specified aws accounts specified actions,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-0,aws,Amazon SNS,sns:createtopic,grants permission create topic notifications published,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-302,aws,Amazon SNS,sns:removepermission,grants permission remove statement topic access control policy,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-269,aws,Amazon SNS,sns:settopicattributes,grants permission allow topic owner set attribute topic new value,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-385,aws,Amazon SQS,sqs:addpermission,grants permission queue specific principal,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-282,aws,Amazon SQS,sqs:createqueue,grants permission create new queue returns url existing one,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-335,aws,Amazon SQS,sqs:receivemessage,grants permission retrieve one messages maximum limit messages specified queue,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-138,aws,Amazon SQS,sqs:removepermission,grants permission revoke permissions queue policy matches specified label parameter,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-203,aws,Amazon SQS,sqs:setqueueattributes,grants permission set value one queue attributes,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-287,aws,AWS Systems Manager,ssm:getdocument,grants permission view contents specified ssm document,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-62,aws,AWS Systems Manager,ssm:getparameter,grants permission view information specified parameter,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-2,aws,AWS Systems Manager,ssm:getparameterhistory,grants permission view details changes specified parameter,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-169,aws,AWS Systems Manager,ssm:getparameters,grants permission view information multiple specified parameters,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-262,aws,AWS Systems Manager,ssm:getparametersbypath,grants permission view information parameters specified hierarchy,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-84,aws,AWS Systems Manager,ssm:modifydocumentpermission,grants permission share custom ssm document publicly privately specified aws accounts,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-165,aws,AWS IAM Identity Center Directory,sso-directory:addmembertogroup,grants permission add member group directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-15,aws,AWS IAM Identity Center Directory,sso-directory:createalias,grants permission create alias directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-411,aws,AWS IAM Identity Center Directory,sso-directory:creategroup,grants permission create group directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-41,aws,AWS IAM Identity Center Directory,sso-directory:createuser,grants permission create user directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-50,aws,AWS IAM Identity Center Directory,sso-directory:deletegroup,grants permission delete group directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-305,aws,AWS IAM Identity Center Directory,sso-directory:deleteuser,grants permission delete user directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-226,aws,AWS IAM Identity Center Directory,sso-directory:describegroup,grants permission query group data including user group members,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-52,aws,AWS IAM Identity Center Directory,sso-directory:describeuser,grants permission retrieve information user directory aws iam identity center provides default,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-172,aws,AWS IAM Identity Center Directory,sso-directory:disableuser,grants permission deactivate user directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-359,aws,AWS IAM Identity Center Directory,sso-directory:enableuser,grants permission activate user directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-379,aws,AWS IAM Identity Center Directory,sso-directory:listbearertokens,grants permission list bearer tokens given provisioning tenant,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-483,aws,AWS IAM Identity Center Directory,sso-directory:removememberfromgroup,grants permission remove member part group directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-320,aws,AWS IAM Identity Center Directory,sso-directory:searchgroups,grants permission search groups within associated directory,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-445,aws,AWS IAM Identity Center Directory,sso-directory:searchusers,grants permission search users within associated directory,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-344,aws,AWS IAM Identity Center Directory,sso-directory:updategroup,grants permission update information group directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-130,aws,AWS IAM Identity Center Directory,sso-directory:updatepassword,grants permission update password sending password reset link via email generating one time password user directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-216,aws,AWS IAM Identity Center Directory,sso-directory:updateuser,grants permission update user information directory aws iam identity center provides default,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-32,aws,AWS IAM Identity Center Directory,sso-directory:verifyemail,grants permission verify email address user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-170,aws,AWS IAM Identity Center,sso:associatedirectory,grants permission connect directory used aws iam identity center,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-157,aws,AWS IAM Identity Center,sso:associateprofile,grants permission create association directory user group profile,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-164,aws,AWS IAM Identity Center,sso:createapplicationinstance,grants permission add application instance aws iam identity center,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-456,aws,AWS IAM Identity Center,sso:createapplicationinstancecertificate,grants permission add new certificate application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-395,aws,AWS IAM Identity Center,sso:createpermissionset,grants permission create permission set,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-381,aws,AWS IAM Identity Center,sso:createprofile,grants permission create profile application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-315,aws,AWS IAM Identity Center,sso:createtrust,grants permission create federation trust target account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-3,aws,AWS IAM Identity Center,sso:deleteapplicationinstance,grants permission delete application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-143,aws,AWS IAM Identity Center,sso:deleteapplicationinstancecertificate,grants permission delete inactive expired certificate application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-374,aws,AWS IAM Identity Center,sso:deletepermissionset,grants permission delete permission set,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-196,aws,AWS IAM Identity Center,sso:deletepermissionspolicy,grants permission delete permission policy associated permission set,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-246,aws,AWS IAM Identity Center,sso:deleteprofile,grants permission delete profile application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-161,aws,AWS IAM Identity Center,sso:disassociatedirectory,grants permission disassociate directory used aws iam identity center,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-74,aws,AWS IAM Identity Center,sso:disassociateprofile,grants permission disassociate directory user group profile,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-235,aws,AWS IAM Identity Center,sso:importapplicationinstanceserviceprovidermetadata,grants permission update application instance uploading application saml metadata file provided service provider,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-270,aws,AWS IAM Identity Center,sso:putpermissionspolicy,grants permission add policy permission set,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-478,aws,AWS IAM Identity Center,sso:searchgroups,grants permission search groups within associated directory,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-443,aws,AWS IAM Identity Center,sso:searchusers,grants permission search users within associated directory,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-392,aws,AWS IAM Identity Center,sso:startsso,grants permission initialize aws iam identity center,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-48,aws,AWS IAM Identity Center,sso:updateapplicationinstanceactivecertificate,grants permission set certificate active one application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-471,aws,AWS IAM Identity Center,sso:updateapplicationinstancedisplaydata,grants permission update display data application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-182,aws,AWS IAM Identity Center,sso:updateapplicationinstanceresponseconfiguration,grants permission update federation response configuration application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-97,aws,AWS IAM Identity Center,sso:updateapplicationinstanceresponseschemaconfiguration,grants permission update federation response schema configuration application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-371,aws,AWS IAM Identity Center,sso:updateapplicationinstancesecurityconfiguration,grants permission update security details application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-18,aws,AWS IAM Identity Center,sso:updateapplicationinstanceserviceproviderconfiguration,grants permission update service provider related configuration application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-61,aws,AWS IAM Identity Center,sso:updateapplicationinstancestatus,grants permission update status application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-23,aws,AWS IAM Identity Center,sso:updatedirectoryassociation,grants permission update user attribute mappings connected directory,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-436,aws,AWS IAM Identity Center,sso:updatepermissionset,grants permission update permission set,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-474,aws,AWS IAM Identity Center,sso:updateprofile,grants permission update profile application instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-412,aws,AWS IAM Identity Center,sso:updatessoconfiguration,grants permission update configuration current sso instance,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-68,aws,AWS IAM Identity Center,sso:updatetrust,grants permission update federation trust target account,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-205,aws,AWS Storage Gateway,storagegateway:deletechapcredentials,grants permission delete challenge handshake authentication protocol chap credentials specified iscsi target initiator pair,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-336,aws,AWS Storage Gateway,storagegateway:describechapcredentials,grants permission get array challenge handshake authentication protocol chap credentials information specified iscsi target one target initiator pair,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-27,aws,AWS Storage Gateway,storagegateway:setlocalconsolepassword,grants permission set password vm local console,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-421,aws,AWS Storage Gateway,storagegateway:setsmbguestpassword,grants permission set password smb guest user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-289,aws,AWS Storage Gateway,storagegateway:updatechapcredentials,grants permission update challenge handshake authentication protocol chap credentials specified iscsi target,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-103,aws,AWS Security Token Service,sts:assumerole,grants permission obtain set temporary security credentials use access aws resources might normally access,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-401,aws,AWS Security Token Service,sts:assumerolewithsaml,grants permission obtain set temporary security credentials users authenticated via saml authentication response,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-314,aws,AWS Security Token Service,sts:assumerolewithwebidentity,grants permission obtain set temporary security credentials users authenticated mobile web application web identity provider,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-141,aws,AWS Security Token Service,sts:getfederationtoken,grants permission obtain set temporary security credentials consisting access key id secret access key security token federated user,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-115,aws,AWS Security Token Service,sts:getsessiontoken,grants permission obtain set temporary security credentials consisting access key id secret access key security token aws account iam user,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-404,aws,AWS Support,support:describeattachment,grants permission describe attachment detail,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-457,aws,AWS Support,support:describecommunications,grants permission list communications attachments one aws support cases,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-394,aws,AWS WAF Regional,waf-regional:deletepermissionpolicy,grants permission delete iam policy rule group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-354,aws,AWS WAF Regional,waf-regional:getchangetoken,grants permission retrieve change token use create update delete requests,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-291,aws,AWS WAF Regional,waf-regional:putpermissionpolicy,grants permission attach iam policy specified rule group support rule group sharing accounts,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-1,aws,AWS WAF,waf:deletepermissionpolicy,grants permission delete iam policy rule group,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-448,aws,AWS WAF,waf:getchangetoken,grants permission retrieve change token use create update delete requests,1,0,0,0,,1,2024-11-15 09:02:57.457093,low
-26,aws,AWS WAF,waf:putpermissionpolicy,grants permission attach iam policy rule group share rule group accounts,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-433,aws,AWS WAF V2,wafv2:createwebacl,grants permission create webacl,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-21,aws,AWS WAF V2,wafv2:deletepermissionpolicy,grants permission delete permissionpolicy rulegroup,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-12,aws,AWS WAF V2,wafv2:deletewebacl,grants permission delete webacl,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-81,aws,AWS WAF V2,wafv2:getsampledrequests,grants permission retrieve detailed information sampling web requests,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-8,aws,AWS WAF V2,wafv2:putpermissionpolicy,grants permission attach iam policy resource used share rule groups accounts,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-444,aws,AWS WAF V2,wafv2:updatewebacl,grants permission update webacl,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-60,aws,Amazon WorkDocs,workdocs:getdocument,grants permission retrieve specified document object,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-242,aws,Amazon WorkDocs,workdocs:getdocumentpath,grants permission retrieve path information hierarchy root folder requested document,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-77,aws,Amazon WorkDocs,workdocs:getdocumentversion,grants permission retrieve version metadata specified document,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-192,aws,Amazon WorkLink,worklink:updatedevicepolicyconfiguration,grants permission update device policy configuration amazon worklink fleet,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-208,aws,Amazon WorkMail,workmail:listgroupmembers,grants permission read overview members group users groups members group,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-297,aws,Amazon WorkMail,workmail:listgroups,grants permission list summaries organization groups,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-238,aws,Amazon WorkMail,workmail:listusers,grants permission list organization users,0,1,0,0,,1,2024-11-15 09:02:57.457093,low
-233,aws,Amazon WorkMail,workmail:resetpassword,grants permission allow administrator reset password user,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
-476,aws,AWS X-Ray,xray:putencryptionconfig,grants permission update encryption configuration x ray data,0,0,0,1,,1,2024-11-15 09:02:57.457093,low
+55,aws,AWS Private Certificate Authority,acm-pca:createpermission,grants permission create permission aws private ca,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+273,aws,AWS Private Certificate Authority,acm-pca:deletepermission,grants permission delete permission aws private ca,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+303,aws,AWS Private Certificate Authority,acm-pca:deletepolicy,grants permission delete policy aws private ca,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+108,aws,AWS Private Certificate Authority,acm-pca:putpolicy,grants permission put policy aws private ca,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+413,aws,Amazon OpenSearch Serverless,aoss:apiaccessall,grant permission supported opensearch apis,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+441,aws,Amazon OpenSearch Serverless,aoss:dashboardsaccessall,grants permission opensearch serverless dashboards,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+346,aws,Amazon API Gateway Management,apigateway:updaterestapipolicy,grants permission manage iam resource policy api additional authorization control managing api due sensitive nature resource policy,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+331,aws,AWS AppSync,appsync:getdatasource,grants permission retrieve data source,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+422,aws,AWS AppSync,appsync:getfunction,grants permission retrieve function,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+34,aws,AWS AppSync,appsync:listapikeys,grants permission list api keys given api,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+408,aws,Amazon Athena,athena:getqueryexecution,grants permission get information specified query execution,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+439,aws,Amazon Athena,athena:getqueryresults,grants permission get query results,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+42,aws,Amazon Athena,athena:getqueryresultsstream,grants permission get query results stream,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+410,aws,Amazon Athena,athena:getsession,grants permission get session,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+204,aws,AWS Backup,backup:deletebackupvaultaccesspolicy,grants permission delete backup vault access policy,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+9,aws,AWS Backup,backup:putbackupvaultaccesspolicy,grants permission add access policy backup vault,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+91,aws,Amazon Keyspaces (for Apache Cassandra),cassandra:select,grants permission select data table,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+122,aws,AWS Chatbot,chatbot:describeslackchannels,grants permission list public slack channels slack workspace connected aws account onboarded aws chatbot service,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+447,aws,AWS Chatbot,chatbot:describeslackuseridentities,grants permission describe aws chatbot slack user identities,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+248,aws,AWS Chatbot,chatbot:getmicrosoftteamsoauthparameters,grants permission generate oauth parameters request microsoft teams oauth code used aws chatbot service,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+145,aws,AWS Chatbot,chatbot:getslackoauthparameters,grants permission generate oauth parameters request slack oauth code used aws chatbot service,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+214,aws,AWS Chatbot,chatbot:listmicrosoftteamsconfiguredteams,grants permission list microsoft teams connected aws account onboarded aws chatbot service,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+148,aws,AWS Chatbot,chatbot:listmicrosoftteamsuseridentities,grants permission describe aws chatbot microsoft teams user identities,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+342,aws,Amazon Chime,chime:createapikey,grants permission create new scim access key amazon chime account okta configuration,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+211,aws,Amazon Chime,chime:deletevoiceconnectorterminationcredentials,grants permission delete sip termination credentials specified amazon chime voice connector,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+353,aws,Amazon Chime,chime:getattendee,grants permission get attendee details specified meeting id attendee id,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+368,aws,Amazon Chime,chime:getchannelmessage,grants permission get full details channel message,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+45,aws,Amazon Chime,chime:getmeeting,grants permission get meeting record specified meeting id,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+375,aws,Amazon Chime,chime:getmeetingdetail,grants permission get attendee connection details meeting,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+316,aws,Amazon Chime,chime:getroom,grants permission retrieve room,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+129,aws,Amazon Chime,chime:getuser,grants permission get details specified user id,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+175,aws,Amazon Chime,chime:getuseractivityreportdata,grants permission get summary user activity user details page,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+46,aws,Amazon Chime,chime:getuserbyemail,grants permission get user details amazon chime user based email address amazon chime enterprise team account,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+251,aws,Amazon Chime,chime:getusersettings,grants permission get user settings related specified amazon chime user,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+29,aws,Amazon Chime,chime:listattendees,grants permission list attendees specified amazon chime sdk meeting,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+479,aws,Amazon Chime,chime:listmeetingevents,grants permission list events occurred specified meeting,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+71,aws,Amazon Chime,chime:listmeetings,grants permission list active amazon chime sdk meetings,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+30,aws,Amazon Chime,chime:listusers,grants permission list users belong specified amazon chime account,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+362,aws,Amazon Chime,chime:putvoiceconnectorterminationcredentials,grants permission add sip termination credentials specified amazon chime voice connector,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+193,aws,AWS Clean Rooms,cleanrooms:getprotectedquery,grants permission view protected query,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+139,aws,AWS Cloud9,cloud9:createenvironmentssh,grants permission create aws cloud ssh development environment,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+218,aws,AWS Cloud9,cloud9:createenvironmenttoken,grants permission create authentication token allows connection aws cloud ide user environment,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+83,aws,AWS CloudFormation & Cloud Control API,cloudformation:gettemplate,grants permission return template body specified stack,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+180,aws,AWS CloudFormation & Cloud Control API,cloudformation:setstackpolicy,grants permission set stack policy specified stack,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+72,aws,Amazon CloudFront,cloudfront:getfunction,grants permission get cloudfront function code,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+299,aws,Amazon CloudSearch,cloudsearch:updateserviceaccesspolicies,configures access rules control access domain document search endpoints,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+28,aws,AWS CloudTrail,cloudtrail:getqueryresults,grants permission fetch results complete query,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+33,aws,AWS CloudTrail,cloudtrail:lookupevents,grants permission look retrieve metric data api activity events captured cloudtrail create update delete resources account,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+293,aws,AWS CodeArtifact,codeartifact:deletedomainpermissionspolicy,grants permission delete resource policy set domain,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+100,aws,AWS CodeArtifact,codeartifact:deleterepositorypermissionspolicy,grants permission delete resource policy set repository,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+156,aws,AWS CodeArtifact,codeartifact:getauthorizationtoken,grants permission generate temporary authentication token accessing repositories domain,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+75,aws,AWS CodeArtifact,codeartifact:getpackageversionasset,grants permission return asset file part package version,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+414,aws,AWS CodeArtifact,codeartifact:getpackageversionreadme,grants permission return package version readme file,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+231,aws,AWS CodeArtifact,codeartifact:readfromrepository,grants permission return package assets metadata repository endpoint,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+67,aws,AWS CodeBuild,codebuild:batchgetreportgroups,grants permission return array reportgroup objects specified input reportgrouparns parameter,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+188,aws,AWS CodeBuild,codebuild:batchgetreports,grants permission return array report objects specified input reportarns parameter,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+450,aws,AWS CodeBuild,codebuild:deleteresourcepolicy,grants permission delete resource policy associated project report group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+388,aws,AWS CodeBuild,codebuild:deletesourcecredentials,grants permission delete set github github enterprise bitbucket source credentials,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+69,aws,AWS CodeBuild,codebuild:importsourcecredentials,grants permission import source repository credentials aws codebuild project source code stored github github enterprise bitbucket repository,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+179,aws,AWS CodeBuild,codebuild:putresourcepolicy,grants permission create resource policy associated project report group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+16,aws,AWS CodeCommit,codecommit:batchgetcommits,grants permission return information one commits aws codecommit repository,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+318,aws,AWS CodeCommit,codecommit:batchgetpullrequests,grants permission return information one pull requests aws codecommit repository,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+64,aws,AWS CodeCommit,codecommit:batchgetrepositories,grants permission get information multiple repositories,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+470,aws,AWS CodeCommit,codecommit:describemergeconflicts,grants permission get information specific merge conflicts attempting merge two commits using either three way squash merge option,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+428,aws,AWS CodeCommit,codecommit:describepullrequestevents,grants permission return information one pull request events,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+243,aws,AWS CodeCommit,codecommit:getapprovalruletemplate,grants permission return information approval rule template,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+19,aws,AWS CodeCommit,codecommit:getblob,grants permission view encoded content individual file aws codecommit repository aws codecommit console,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+419,aws,AWS CodeCommit,codecommit:getbranch,grants permission get details branch aws codecommit repository api control git branch actions,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+249,aws,AWS CodeCommit,codecommit:getcomment,grants permission get content comment made change file commit repository,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+65,aws,AWS CodeCommit,codecommit:getcommentreactions,grants permission get reactions comment,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+132,aws,AWS CodeCommit,codecommit:getcommentsforcomparedcommit,grants permission get information comments made comparison two commits,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+330,aws,AWS CodeCommit,codecommit:getcommentsforpullrequest,grants permission get comments made pull request,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+255,aws,AWS CodeCommit,codecommit:getcommit,grants permission return information commit including commit message committer information api control git log actions,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+259,aws,AWS CodeCommit,codecommit:getcommithistory,grants permission get information history commits repository,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+350,aws,AWS CodeCommit,codecommit:getcommitsfrommergebase,grants permission get information difference commits context potential merge,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+468,aws,AWS CodeCommit,codecommit:getdifferences,grants permission view information differences valid commit specifiers branch tag head commit id fully qualified reference,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+345,aws,AWS CodeCommit,codecommit:getfile,grants permission return base encoded contents specified file metadata,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+58,aws,AWS CodeCommit,codecommit:getfolder,grants permission return contents specified folder repository,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+484,aws,AWS CodeCommit,codecommit:getmergecommit,grants permission get information merge commit created one merge options pull requests creates merge commits merge options create merge commits permission control git merge actions,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+230,aws,AWS CodeCommit,codecommit:getmergeconflicts,grants permission get information merge conflicts commit ids pull request repository,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+36,aws,AWS CodeCommit,codecommit:getmergeoptions,grants permission get information merge options pull requests used merge two commits control git merge actions,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+407,aws,AWS CodeCommit,codecommit:getobjectidentifier,grants permission resolve blobs trees commits identifier,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+480,aws,AWS CodeCommit,codecommit:getpullrequest,grants permission get information pull request specified repository,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+309,aws,AWS CodeCommit,codecommit:getpullrequestapprovalstates,grants permission retrieve current approvals inputted pull request,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+158,aws,AWS CodeCommit,codecommit:getpullrequestoverridestate,grants permission retrieve current override state given pull request,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+181,aws,AWS CodeCommit,codecommit:getreferences,grants permission get details references aws codecommit repository control git reference actions,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+149,aws,AWS CodeCommit,codecommit:gettree,grants permission view contents specified tree aws codecommit repository aws codecommit console,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+215,aws,AWS CodeCommit,codecommit:gitpull,grants permission pull information aws codecommit repository local repo,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+286,aws,Amazon CodeGuru Profiler,codeguru-profiler:getrecommendations,grants permission get recommendations,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+257,aws,Amazon CodeGuru Profiler,codeguru-profiler:putpermission,grants permission update list principals allowed action group resource policy associated specified profiling group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+332,aws,Amazon CodeGuru Profiler,codeguru-profiler:removepermission,grants permission remove permission specified action group resource policy associated specified profiling group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+117,aws,Amazon CodeGuru Reviewer,codeguru-reviewer:describecodereview,grants permission describe code review,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+163,aws,Amazon CodeGuru Reviewer,codeguru-reviewer:describerecommendationfeedback,grants permission describe recommendation feedback code review,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+300,aws,AWS CodePipeline,codepipeline:getpipelineexecution,grants permission view information execution pipeline including details artifacts pipeline execution id name version status pipeline,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+372,aws,AWS CodePipeline,codepipeline:pollforjobs,grants permission view information jobs codepipeline act,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+195,aws,AWS CodeStar,codestar:associateteammember,grants permission add user team aws codestar project,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+358,aws,AWS CodeStar,codestar:createproject,grants permission create project minimal structure customer policies resources,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+425,aws,AWS CodeStar,codestar:deleteproject,grants permission delete project including project resources delete users associated project delete iam roles allowed access project,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+319,aws,AWS CodeStar,codestar:disassociateteammember,grants permission remove user project removing user project also removes iam policies user allowed access project resources,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+438,aws,AWS CodeStar,codestar:updateteammember,grants permission update team member attributes within codestar project,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+241,aws,Amazon Cognito Identity,cognito-identity:createidentitypool,grants permission create new identity pool,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+191,aws,Amazon Cognito Identity,cognito-identity:deleteidentities,grants permission delete identities identity pool specify list identities want delete,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+264,aws,Amazon Cognito Identity,cognito-identity:deleteidentitypool,grants permission delete user pool pool deleted users able authenticate pool,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+10,aws,Amazon Cognito Identity,cognito-identity:getcredentialsforidentity,grants permission return credentials provided identity id,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+240,aws,Amazon Cognito Identity,cognito-identity:getid,grants permission generate retrieve cognito id supplying multiple logins create implicit linked account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+228,aws,Amazon Cognito Identity,cognito-identity:getopenidtoken,grants permission get openid token using known cognito id,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+35,aws,Amazon Cognito Identity,cognito-identity:getopenidtokenfordeveloperidentity,grants permission register retrieve cognito identityid openid connect token user authenticated backend authentication process,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+140,aws,Amazon Cognito Identity,cognito-identity:lookupdeveloperidentity,grants permission retrieve identityid associated developeruseridentifier list developeruseridentifiers associated identityid existing identity,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+20,aws,Amazon Cognito Identity,cognito-identity:mergedeveloperidentities,grants permission merge two users different identityids existing identity pool identified developer provider,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+184,aws,Amazon Cognito Identity,cognito-identity:setidentitypoolroles,grants permission set roles identity pool roles used making calls getcredentialsforidentity action,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+136,aws,Amazon Cognito Identity,cognito-identity:unlinkdeveloperidentity,grants permission unlink developeruseridentifier existing identity,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+393,aws,Amazon Cognito Identity,cognito-identity:unlinkidentity,grants permission unlink federated identity existing account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+451,aws,Amazon Cognito Identity,cognito-identity:updateidentitypool,grants permission update identity pool,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+37,aws,Amazon Cognito User Pools,cognito-idp:admingetdevice,grants permission get information user devices,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+162,aws,Amazon Cognito User Pools,cognito-idp:admingetuser,grants permission look user user name,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+197,aws,Amazon Cognito User Pools,cognito-idp:adminlistdevices,grants permission list user remembered devices,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+301,aws,Amazon Cognito User Pools,cognito-idp:adminlistgroupsforuser,grants permission list groups user belongs,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+475,aws,Amazon Cognito User Pools,cognito-idp:adminlistuserauthevents,grants permission lists sign events user,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+322,aws,Amazon Cognito User Pools,cognito-idp:describeuserpoolclient,grants permission describe user pool app client,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+261,aws,Amazon Cognito User Pools,cognito-idp:getdevice,grants permission get device,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+253,aws,Amazon Cognito User Pools,cognito-idp:getgroup,grants permission describe user pool group,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+47,aws,Amazon Cognito User Pools,cognito-idp:getuser,grants permission get user attributes metadata user,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+426,aws,Amazon Cognito User Pools,cognito-idp:getuserattributeverificationcode,grants permission get user attribute verification code specified attribute name,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+96,aws,Amazon Cognito User Pools,cognito-idp:listdevices,grants permission list devices,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+306,aws,Amazon Cognito User Pools,cognito-idp:listgroups,grants permission list groups user pools,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+271,aws,Amazon Cognito User Pools,cognito-idp:listusers,grants permission list user pool users,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+370,aws,Amazon Cognito Sync,cognito-sync:listrecords,grants permission get paginated records optionally changed particular sync count dataset identity,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+276,aws,Amazon Cognito Sync,cognito-sync:queryrecords,grants permission query records,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+377,aws,Amazon Connect,connect:getfederationtoken,grants permission federate amazon connect instance using saml based authentication identity management,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+85,aws,Amazon Connect,connect:listsecuritykeys,grants permission view security keys existing amazon connect instance,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+465,aws,Amazon Connect,connect:listusers,grants permission list user resources amazon connect instance,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+40,aws,AWS Data Pipeline,datapipeline:queryobjects,grants permission query specified pipeline names objects match specified set conditions,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+124,aws,Amazon DynamoDB Accelerator (DAX),dax:batchgetitem,grants permission return attributes one items one tables,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+312,aws,Amazon DynamoDB Accelerator (DAX),dax:getitem,grants permission getitem operation returns set attributes item given primary key,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+434,aws,Amazon DynamoDB Accelerator (DAX),dax:query,grants permission use primary key table secondary index directly access items table index,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+369,aws,Amazon DynamoDB Accelerator (DAX),dax:scan,grants permission return one items item attributes accessing every item table secondary index,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+137,aws,AWS DeepLens,deeplens:associateserviceroletoaccount,associates user account iam roles controlling various permissions needed aws deeplens proper functionality,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+340,aws,AWS Directory Service,ds:createconditionalforwarder,grants permission create conditional forwarder associated aws directory,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+151,aws,AWS Directory Service,ds:createdirectory,grants permission create simple ad directory,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+343,aws,AWS Directory Service,ds:createmicrosoftad,grants permission create microsoft ad aws cloud,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+462,aws,AWS Directory Service,ds:createtrust,grants permission initiate creation aws side trust relationship microsoft ad aws cloud external domain,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+298,aws,AWS Directory Service,ds:sharedirectory,grants permission share specified directory aws account directory owner another aws account directory consumer operation use directory aws account amazon vpc within aws region,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+296,aws,Amazon DynamoDB,dynamodb:batchgetitem,grants permission return attributes one items one tables,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+66,aws,Amazon DynamoDB,dynamodb:getitem,grants permission getitem operation returns set attributes item given primary key,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+367,aws,Amazon DynamoDB,dynamodb:getrecords,grants permission retrieve stream records given shard,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+209,aws,Amazon DynamoDB,dynamodb:query,grants permission use primary key table secondary index directly access items table index,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+80,aws,Amazon DynamoDB,dynamodb:scan,grants permission return one items item attributes accessing every item table secondary index,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+127,aws,Amazon EC2 Instance Connect,ec2-instance-connect:sendsshpublickey,grants permission push ssh public key specified ec instance used standard ssh,1,0,1,0,,1,2024-12-03 07:43:01.717169,low
+406,aws,Amazon EC2,ec2:createnetworkinterfacepermission,grants permission create permission aws authorized user perform certain operations network interface,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+363,aws,Amazon EC2,ec2:deletenetworkinterfacepermission,grants permission delete permission associated network interface,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+76,aws,Amazon EC2,ec2:disableimageblockpublicaccess,grants permission disable block public access amis account level specified aws region,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+142,aws,Amazon EC2,ec2:getpassworddata,grants permission retrieve encrypted administrator password running windows instance,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+57,aws,Amazon EC2,ec2:modifysnapshotattribute,grants permission add remove permission settings snapshot,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+417,aws,Amazon EC2,ec2:modifyvpcendpointservicepermissions,grants permission modify permissions vpc endpoint service,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+424,aws,Amazon EC2,ec2:resetsnapshotattribute,grants permission reset permission settings snapshot,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+44,aws,Amazon Elastic Container Registry Public,ecr-public:getauthorizationtoken,grants permission retrieve token valid specified registry hours,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+258,aws,Amazon Elastic Container Registry,ecr:deleterepositorypolicy,grants permission delete repository policy specified repository,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+88,aws,Amazon Elastic Container Registry,ecr:getauthorizationtoken,grants permission retrieve token valid specified registry hours,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+173,aws,Amazon Elastic Container Registry,ecr:getdownloadurlforlayer,grants permission retrieve download url corresponding image layer,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+206,aws,Amazon Elastic Container Registry,ecr:setrepositorypolicy,grants permission apply repository policy specified repository control access permissions,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+356,aws,Amazon Elastic File System,elasticfilesystem:deletefilesystempolicy,grants permission delete resource level policy file system,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+147,aws,Amazon Elastic File System,elasticfilesystem:putfilesystempolicy,grants permission apply resource level policy defines actions allowed denied given actors specified file system,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+398,aws,Amazon Elastic MapReduce,elasticmapreduce:putblockpublicaccessconfiguration,grants permission create update emr block public access configuration aws account region,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+481,aws,Amazon OpenSearch Service,es:createelasticsearchdomain,grants permission create opensearch service domain permission deprecated use createdomain instead,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+326,aws,Amazon OpenSearch Service,es:eshttpdelete,grants permission send http delete requests opensearch apis,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+256,aws,Amazon OpenSearch Service,es:eshttpget,grants permission send http get requests opensearch apis,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+166,aws,Amazon OpenSearch Service,es:eshttphead,grants permission send http head requests opensearch apis,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+183,aws,Amazon OpenSearch Service,es:eshttppatch,grants permission send http patch requests opensearch apis,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+244,aws,Amazon OpenSearch Service,es:eshttppost,grants permission send http post requests opensearch apis,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+247,aws,Amazon OpenSearch Service,es:eshttpput,grants permission send http put requests opensearch apis,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+110,aws,Amazon OpenSearch Service,es:updateelasticsearchdomainconfig,grants permission modify configuration opensearch service domain instance type number instances permission deprecated use updatedomainconfig instead,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+477,aws,Amazon GameLift,gamelift:getcomputeauthtoken,grants permission retrieve authorization token compute fleet use game server processes,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+452,aws,Amazon GameLift,gamelift:getgamesessionlogurl,grants permission retrieve location stored logs game session,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+113,aws,Amazon GameLift,gamelift:getinstanceaccess,grants permission request remote access specified fleet instance,1,1,0,0,,1,2024-12-03 07:43:01.717169,low
+135,aws,Amazon GameLift,gamelift:requestuploadcredentials,grants permission retrieve fresh upload credentials use uploading new game build,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+118,aws,Amazon S3 Glacier,glacier:abortvaultlock,grants permission abort vault locking process vault lock locked state,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+430,aws,Amazon S3 Glacier,glacier:completevaultlock,grants permission complete vault locking process,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+198,aws,Amazon S3 Glacier,glacier:deletevaultaccesspolicy,grants permission delete access policy associated specified vault,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+227,aws,Amazon S3 Glacier,glacier:initiatevaultlock,grants permission initiate vault locking process,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+455,aws,Amazon S3 Glacier,glacier:setdataretrievalpolicy,grants permission set enacts data retrieval policy region specified put request,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+212,aws,Amazon S3 Glacier,glacier:setvaultaccesspolicy,grants permission configure access policy vault overwrite existing policy,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+213,aws,AWS Glue,glue:deleteresourcepolicy,grants permission delete resource policy,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+384,aws,AWS Glue,glue:putresourcepolicy,grants permission update resource policy,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+399,aws,AWS Glue,glue:updatedevendpoint,grants permission update development endpoint,0,0,1,0,,1,2024-12-03 07:43:01.717169,low
+54,aws,AWS IoT Greengrass,greengrass:associateserviceroletoaccount,grants permission associate role account aws iot greengrass uses role access lambda functions aws iot resources,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+278,aws,AWS Health APIs and Notifications,health:disablehealthserviceaccessfororganization,grants permission disable organizational view feature,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+339,aws,AWS Health APIs and Notifications,health:enablehealthserviceaccessfororganization,grants permission enable organizational view feature,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+5,aws,AWS HealthLake,healthlake:readresource,grants permission read resource,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+464,aws,AWS HealthLake,healthlake:searchwithget,grants permission search resources get method,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+223,aws,AWS HealthLake,healthlake:searchwithpost,grants permission search resources post method,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+317,aws,AWS Identity and Access Management (IAM),iam:addclientidtoopenidconnectprovider,grants permission add new client id audience list registered ids specified iam openid connect oidc provider resource,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+70,aws,AWS Identity and Access Management (IAM),iam:addroletoinstanceprofile,grants permission add iam role specified instance profile,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+263,aws,AWS Identity and Access Management (IAM),iam:addusertogroup,grants permission add iam user specified iam group,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+146,aws,AWS Identity and Access Management (IAM),iam:attachgrouppolicy,grants permission attach managed policy specified iam group,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+186,aws,AWS Identity and Access Management (IAM),iam:attachrolepolicy,grants permission attach managed policy specified iam role,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+415,aws,AWS Identity and Access Management (IAM),iam:attachuserpolicy,grants permission attach managed policy specified iam user,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+307,aws,AWS Identity and Access Management (IAM),iam:changepassword,grants permission iam user change password,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+126,aws,AWS Identity and Access Management (IAM),iam:createaccesskey,grants permission create access key secret access key specified iam user,1,0,1,1,,1,2024-12-03 07:43:01.717169,low
+283,aws,AWS Identity and Access Management (IAM),iam:createaccountalias,grants permission create alias aws account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+123,aws,AWS Identity and Access Management (IAM),iam:creategroup,grants permission create new group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+364,aws,AWS Identity and Access Management (IAM),iam:createinstanceprofile,grants permission create new instance profile,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+98,aws,AWS Identity and Access Management (IAM),iam:createloginprofile,grants permission create password specified iam user,1,0,1,1,,1,2024-12-03 07:43:01.717169,low
+239,aws,AWS Identity and Access Management (IAM),iam:createopenidconnectprovider,grants permission create iam resource describes identity provider idp supports openid connect oidc,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+266,aws,AWS Identity and Access Management (IAM),iam:createpolicy,grants permission create new managed policy,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+338,aws,AWS Identity and Access Management (IAM),iam:createpolicyversion,grants permission create new version specified managed policy,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+199,aws,AWS Identity and Access Management (IAM),iam:createrole,grants permission create new role,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+351,aws,AWS Identity and Access Management (IAM),iam:createsamlprovider,grants permission create iam resource describes identity provider idp supports saml,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+389,aws,AWS Identity and Access Management (IAM),iam:createservicelinkedrole,grants permission create iam role allows aws service perform actions behalf,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+155,aws,AWS Identity and Access Management (IAM),iam:createservicespecificcredential,grants permission create new service specific credential iam user,1,0,0,1,,1,2024-12-03 07:43:01.717169,low
+459,aws,AWS Identity and Access Management (IAM),iam:createuser,grants permission create new iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+176,aws,AWS Identity and Access Management (IAM),iam:createvirtualmfadevice,grants permission create new virtual mfa device,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+272,aws,AWS Identity and Access Management (IAM),iam:deactivatemfadevice,grants permission deactivate specified mfa device remove association iam user originally enabled,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+391,aws,AWS Identity and Access Management (IAM),iam:deleteaccesskey,grants permission delete access key pair associated specified iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+39,aws,AWS Identity and Access Management (IAM),iam:deleteaccountalias,grants permission delete specified aws account alias,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+265,aws,AWS Identity and Access Management (IAM),iam:deleteaccountpasswordpolicy,grants permission delete password policy aws account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+31,aws,AWS Identity and Access Management (IAM),iam:deletegroup,grants permission delete specified iam group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+288,aws,AWS Identity and Access Management (IAM),iam:deletegrouppolicy,grants permission delete specified inline policy group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+376,aws,AWS Identity and Access Management (IAM),iam:deleteinstanceprofile,grants permission delete specified instance profile,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+106,aws,AWS Identity and Access Management (IAM),iam:deleteloginprofile,grants permission delete password specified iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+22,aws,AWS Identity and Access Management (IAM),iam:deleteopenidconnectprovider,grants permission delete openid connect identity provider idp resource object iam,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+396,aws,AWS Identity and Access Management (IAM),iam:deletepolicy,grants permission delete specified managed policy remove iam entities users groups roles attached,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+120,aws,AWS Identity and Access Management (IAM),iam:deletepolicyversion,grants permission delete version specified managed policy,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+189,aws,AWS Identity and Access Management (IAM),iam:deleterole,grants permission delete specified role,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+56,aws,AWS Identity and Access Management (IAM),iam:deleterolepermissionsboundary,grants permission remove permissions boundary role,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+435,aws,AWS Identity and Access Management (IAM),iam:deleterolepolicy,grants permission delete specified inline policy specified role,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+237,aws,AWS Identity and Access Management (IAM),iam:deletesamlprovider,grants permission delete saml provider resource iam,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+463,aws,AWS Identity and Access Management (IAM),iam:deleteservercertificate,grants permission delete specified server certificate,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+405,aws,AWS Identity and Access Management (IAM),iam:deleteservicelinkedrole,grants permission delete iam role linked specific aws service service longer using,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+150,aws,AWS Identity and Access Management (IAM),iam:deleteservicespecificcredential,grants permission delete specified service specific credential iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+281,aws,AWS Identity and Access Management (IAM),iam:deletesigningcertificate,grants permission delete signing certificate associated specified iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+119,aws,AWS Identity and Access Management (IAM),iam:deletesshpublickey,grants permission delete specified ssh public key,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+453,aws,AWS Identity and Access Management (IAM),iam:deleteuser,grants permission delete specified iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+202,aws,AWS Identity and Access Management (IAM),iam:deleteuserpermissionsboundary,grants permission remove permissions boundary specified iam user,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+89,aws,AWS Identity and Access Management (IAM),iam:deleteuserpolicy,grants permission delete specified inline policy iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+427,aws,AWS Identity and Access Management (IAM),iam:deletevirtualmfadevice,grants permission delete virtual mfa device,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+112,aws,AWS Identity and Access Management (IAM),iam:detachgrouppolicy,grants permission detach managed policy specified iam group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+311,aws,AWS Identity and Access Management (IAM),iam:detachrolepolicy,grants permission detach managed policy specified role,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+114,aws,AWS Identity and Access Management (IAM),iam:detachuserpolicy,grants permission detach managed policy specified iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+14,aws,AWS Identity and Access Management (IAM),iam:enablemfadevice,grants permission enable mfa device associate specified iam user,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+390,aws,AWS Identity and Access Management (IAM),iam:passrole,grants permission pass role service,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+348,aws,AWS Identity and Access Management (IAM),iam:putgrouppolicy,grants permission create update inline policy document embedded specified iam group,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+473,aws,AWS Identity and Access Management (IAM),iam:putrolepermissionsboundary,grants permission set managed policy permissions boundary role,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+352,aws,AWS Identity and Access Management (IAM),iam:putrolepolicy,grants permission create update inline policy document embedded specified iam role,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+383,aws,AWS Identity and Access Management (IAM),iam:putuserpermissionsboundary,grants permission set managed policy permissions boundary iam user,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+402,aws,AWS Identity and Access Management (IAM),iam:putuserpolicy,grants permission create update inline policy document embedded specified iam user,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+437,aws,AWS Identity and Access Management (IAM),iam:removeclientidfromopenidconnectprovider,grants permission remove client id audience list client ids specified iam openid connect oidc provider resource,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+279,aws,AWS Identity and Access Management (IAM),iam:removerolefrominstanceprofile,grants permission remove iam role specified ec instance profile,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+290,aws,AWS Identity and Access Management (IAM),iam:removeuserfromgroup,grants permission remove iam user specified group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+360,aws,AWS Identity and Access Management (IAM),iam:resetservicespecificcredential,grants permission reset password existing service specific credential iam user,1,0,0,1,,1,2024-12-03 07:43:01.717169,low
+92,aws,AWS Identity and Access Management (IAM),iam:resyncmfadevice,grants permission synchronize specified mfa device iam entity user role,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+275,aws,AWS Identity and Access Management (IAM),iam:setdefaultpolicyversion,grants permission set version specified policy policy default version,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+94,aws,AWS Identity and Access Management (IAM),iam:setsecuritytokenservicepreferences,grants permission set sts global endpoint token version,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+324,aws,AWS Identity and Access Management (IAM),iam:updateaccesskey,grants permission update status specified access key active inactive,1,0,0,1,,1,2024-12-03 07:43:01.717169,low
+90,aws,AWS Identity and Access Management (IAM),iam:updateaccountpasswordpolicy,grants permission update password policy settings aws account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+99,aws,AWS Identity and Access Management (IAM),iam:updateassumerolepolicy,grants permission update policy grants iam entity permission assume role,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+13,aws,AWS Identity and Access Management (IAM),iam:updategroup,grants permission update name path specified iam group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+329,aws,AWS Identity and Access Management (IAM),iam:updateloginprofile,grants permission change password specified iam user,0,0,1,1,,1,2024-12-03 07:43:01.717169,low
+102,aws,AWS Identity and Access Management (IAM),iam:updateopenidconnectproviderthumbprint,grants permission update entire list server certificate thumbprints associated openid connect oidc provider resource,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+373,aws,AWS Identity and Access Management (IAM),iam:updaterole,grants permission update description maximum session duration setting role,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+357,aws,AWS Identity and Access Management (IAM),iam:updateroledescription,grants permission update description role,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+432,aws,AWS Identity and Access Management (IAM),iam:updatesamlprovider,grants permission update metadata document existing saml provider resource,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+221,aws,AWS Identity and Access Management (IAM),iam:updateservercertificate,grants permission update name path specified server certificate stored iam,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+472,aws,AWS Identity and Access Management (IAM),iam:updateservicespecificcredential,grants permission update status service specific credential active inactive iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+285,aws,AWS Identity and Access Management (IAM),iam:updatesigningcertificate,grants permission update status specified user signing certificate active disabled,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+200,aws,AWS Identity and Access Management (IAM),iam:updatesshpublickey,grants permission update status iam user ssh public key active inactive,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+328,aws,AWS Identity and Access Management (IAM),iam:updateuser,grants permission update name path specified iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+79,aws,AWS Identity and Access Management (IAM),iam:uploadservercertificate,grants permission upload server certificate entity aws account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+95,aws,AWS Identity and Access Management (IAM),iam:uploadsigningcertificate,grants permission upload x signing certificate associate specified iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+220,aws,AWS Identity and Access Management (IAM),iam:uploadsshpublickey,grants permission upload ssh public key associate specified iam user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+387,aws,Amazon EC2 Image Builder,imagebuilder:putcomponentpolicy,grants permission set resource policy associated component,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+7,aws,Amazon EC2 Image Builder,imagebuilder:putimagepolicy,grants permission set resource policy associated image,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+420,aws,Amazon EC2 Image Builder,imagebuilder:putimagerecipepolicy,grants permission set resource policy associated image recipe,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+260,aws,AWS IoT,iot:attachpolicy,grants permission attach policy specified target,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+267,aws,AWS IoT,iot:attachprincipalpolicy,grants permission attach specified policy specified principal certificate credential,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+59,aws,AWS IoT,iot:detachpolicy,grants permission detach policy specified target,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+461,aws,AWS IoT,iot:detachprincipalpolicy,grants permission remove specified policy specified certificate,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+449,aws,AWS IoT,iot:setdefaultauthorizer,grants permission set default authorizer used websocket connection made without specifying authorizer,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+423,aws,AWS IoT,iot:setdefaultpolicyversion,grants permission set specified version specified policy policy default operative version,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+134,aws,AWS IoT SiteWise,iotsitewise:createaccesspolicy,grants permission create access policy portal project,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+144,aws,AWS IoT SiteWise,iotsitewise:deleteaccesspolicy,grants permission delete access policy,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+482,aws,AWS IoT SiteWise,iotsitewise:updateaccesspolicy,grants permission update access policy,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+466,aws,Amazon Kendra,kendra:query,grants permission query documents faqs,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+185,aws,Amazon Kinesis Data Streams,kinesis:getrecords,grants permission get data records shard,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+25,aws,Amazon Kinesis Video Streams,kinesisvideo:getimages,grants permission get generated images kinesis video stream,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+111,aws,Amazon Kinesis Video Streams,kinesisvideo:getmedia,grants permission return media content kinesis video stream,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+154,aws,AWS Key Management Service,kms:creategrant,controls permission add grant aws kms key use grants add permissions without changing key policy iam policy,0,1,1,1,,1,2024-12-03 07:43:01.717169,low
+292,aws,AWS Key Management Service,kms:putkeypolicy,controls permission replace key policy specified aws kms key,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+397,aws,AWS Key Management Service,kms:retiregrant,controls permission retire grant retiregrant operation typically called grant user complete tasks grant allowed perform,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+268,aws,AWS Key Management Service,kms:revokegrant,controls permission revoke grant denies permission operations depend grant,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+187,aws,AWS Lake Formation,lakeformation:batchgrantpermissions,grants permission data lake permissions one principals batch,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+313,aws,AWS Lake Formation,lakeformation:batchrevokepermissions,grants permission revoke data lake permissions one principals batch,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+210,aws,AWS Lake Formation,lakeformation:grantpermissions,grants permission data lake permissions principal,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+174,aws,AWS Lake Formation,lakeformation:putdatalakesettings,grants permission overwrite data lake settings list data lake administrators database table default permissions,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+284,aws,AWS Lake Formation,lakeformation:revokepermissions,grants permission revoke data lake permissions principal,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+101,aws,AWS Lambda,lambda:addlayerversionpermission,grants permission add permissions resource based policy version aws lambda layer,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+254,aws,AWS Lambda,lambda:addpermission,grants permission give aws service another account permission use aws lambda function,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+467,aws,AWS Lambda,lambda:disablereplication,grants permission disable replication lambda edge function,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+310,aws,AWS Lambda,lambda:enablereplication,grants permission enable replication lambda edge function,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+378,aws,AWS Lambda,lambda:getfunction,grants permission view details aws lambda function,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+160,aws,AWS Lambda,lambda:getlayerversion,grants permission view details version aws lambda layer note action also supports getlayerversionbyarn api,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+38,aws,AWS Lambda,lambda:removelayerversionpermission,grants permission remove statement permissions policy version aws lambda layer,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+333,aws,AWS Lambda,lambda:removepermission,grants permission revoke function use permission aws service another account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+440,aws,AWS License Manager,license-manager:updateservicesettings,grants permission updates service settings,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+152,aws,Amazon Lightsail,lightsail:downloaddefaultkeypair,grants permission download default key pair used authenticate connect instances specific aws region,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+17,aws,Amazon Lightsail,lightsail:getbucketaccesskeys,grants permission get existing access key ids specified amazon lightsail bucket,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+222,aws,Amazon Lightsail,lightsail:getcontainerimages,grants permission view container images registered amazon lightsail container service,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+116,aws,Amazon Lightsail,lightsail:getkeypair,grants permission get information key pair,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+355,aws,Amazon Lightsail,lightsail:getkeypairs,grants permission get information key pairs,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+24,aws,Amazon Lightsail,lightsail:getrelationaldatabasemasteruserpassword,grants permission get master user password relational database,1,0,0,1,,1,2024-12-03 07:43:01.717169,low
+236,aws,Amazon CloudWatch Logs,logs:deleteresourcepolicy,grants permission delete resource policy account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+321,aws,Amazon CloudWatch Logs,logs:getlogevents,grants permission retrieve log events specified log stream,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+454,aws,Amazon CloudWatch Logs,logs:getlogrecord,grants permission retrieve fields values single log event,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+400,aws,Amazon CloudWatch Logs,logs:getqueryresults,grants permission return results specified query,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+178,aws,Amazon CloudWatch Logs,logs:putresourcepolicy,grants permission create update resource policy allowing aws services put log events account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+365,aws,Amazon CloudWatch Logs,logs:unmask,grants permission fetch unmasked log events redacted data protection policy,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+245,aws,Amazon Macie,macie2:getfindings,grants permission retrieve details one findings,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+416,aws,AWS Elemental MediaPackage,mediapackage:rotatechannelcredentials,grants permission rotate credentials first ingestendpoint channel aws elemental mediapackage,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+323,aws,AWS Elemental MediaPackage,mediapackage:rotateingestendpointcredentials,grants permission rotate ingestendpoint credentials channel aws elemental mediapackage,1,0,0,1,,1,2024-12-03 07:43:01.717169,low
+418,aws,AWS Elemental MediaStore,mediastore:deletecontainerpolicy,grants permission delete access policy container,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+295,aws,AWS Elemental MediaStore,mediastore:getobject,grants permission retrieve object,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+131,aws,AWS Elemental MediaStore,mediastore:putcontainerpolicy,grants permission create replace access policy container,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+334,aws,AWS OpsWorks,opsworks:setpermission,grants permission specify user permissions,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+168,aws,AWS OpsWorks,opsworks:updateuserprofile,grants permission update specified user profile,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+190,aws,Amazon QLDB,qldb:getblock,grants permission retrieve block ledger given blockaddress,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+229,aws,Amazon QuickSight,quicksight:createadmin,grants permission provision amazon quicksight administrators authors readers,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+217,aws,Amazon QuickSight,quicksight:creategroup,grants permission create quicksight group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+469,aws,Amazon QuickSight,quicksight:creategroupmembership,grants permission add quicksight user quicksight group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+107,aws,Amazon QuickSight,quicksight:createiampolicyassignment,grants permission create assignment one specified iam policy arn assigned specified groups users quicksight,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+201,aws,Amazon QuickSight,quicksight:createuser,grants permission provision amazon quicksight authors readers,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+87,aws,Amazon QuickSight,quicksight:deletegroup,grants permission remove user group quicksight,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+194,aws,Amazon QuickSight,quicksight:deletegroupmembership,grants permission remove user group longer member group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+337,aws,Amazon QuickSight,quicksight:deleteiampolicyassignment,grants permission update existing assignment,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+86,aws,Amazon QuickSight,quicksight:deleteuser,grants permission delete quicksight user given user name,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+380,aws,Amazon QuickSight,quicksight:deleteuserbyprincipalid,grants permission deletes user identified principal id,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+361,aws,Amazon QuickSight,quicksight:registeruser,grants permission create quicksight user whose identity associated iam identity role specified request,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+6,aws,Amazon QuickSight,quicksight:updatedashboardpermissions,grants permission update permissions quicksight dashboard,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+53,aws,Amazon QuickSight,quicksight:updategroup,grants permission change group description,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+225,aws,Amazon QuickSight,quicksight:updateiampolicyassignment,grants permission update existing assignment,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+252,aws,Amazon QuickSight,quicksight:updatetemplatepermissions,grants permission update permissions template,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+458,aws,Amazon QuickSight,quicksight:updateuser,grants permission update amazon quicksight user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+280,aws,AWS Resource Access Manager (RAM),ram:acceptresourceshareinvitation,grants permission accept specified resource share invitation,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+429,aws,AWS Resource Access Manager (RAM),ram:associateresourceshare,grants permission associate resource principal resource share,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+327,aws,AWS Resource Access Manager (RAM),ram:createresourceshare,grants permission create resource share provided resource principal,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+409,aws,AWS Resource Access Manager (RAM),ram:deleteresourceshare,grants permission delete resource share,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+109,aws,AWS Resource Access Manager (RAM),ram:disassociateresourceshare,grants permission disassociate resource principal resource share,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+105,aws,AWS Resource Access Manager (RAM),ram:enablesharingwithawsorganization,grants permission access customer organization create slr customer account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+304,aws,AWS Resource Access Manager (RAM),ram:rejectresourceshareinvitation,grants permission reject specified resource share invitation,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+382,aws,AWS Resource Access Manager (RAM),ram:updateresourceshare,grants permission update attributes resource share,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+207,aws,Amazon RDS IAM Authentication,rds-db:connect,allows iam role user connect rds database,1,0,0,1,,1,2024-12-03 07:43:01.717169,low
+93,aws,"Amazon RDS, Neptune & DocumentDB",rds:authorizedbsecuritygroupingress,grants permission enable ingress dbsecuritygroup using one two forms authorization,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+431,aws,"Amazon RDS, Neptune & DocumentDB",rds:downloadcompletedblogfile,grants permission download specified log file,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+234,aws,"Amazon RDS, Neptune & DocumentDB",rds:downloaddblogfileportion,grants permission download portion specified log file mb size,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+121,aws,Amazon Redshift,redshift:authorizesnapshotaccess,grants permission specified aws account restore snapshot,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+294,aws,Amazon Redshift,redshift:createclusteruser,grants permission automatically create specified amazon redshift user exist,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+219,aws,Amazon Redshift,redshift:createsnapshotcopygrant,grants permission create snapshot copy grant encrypt copied snapshots destination aws region,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+159,aws,Amazon Redshift,redshift:getclustercredentials,grants permission get temporary credentials access amazon redshift database specified aws account,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+63,aws,Amazon Redshift,redshift:joingroup,grants permission join specified amazon redshift group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+51,aws,Amazon Redshift,redshift:modifyclusteriamroles,grants permission modify list aws identity access management iam roles used cluster access aws services,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+73,aws,Amazon Redshift,redshift:revokesnapshotaccess,grants permission revoke access specified aws account restore snapshot,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+177,aws,AWS RoboMaker,robomaker:getworldtemplatebody,get body world template,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+403,aws,Amazon Route 53 Resolver,route53resolver:putresolverrulepolicy,grants permission specify aws account want share rules resolver rules want share operations want account able perform rules,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+446,aws,Amazon S3 Object Lambda,s3-object-lambda:getobject,grants permission retrieve objects amazon,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+325,aws,Amazon S3 Object Lambda,s3-object-lambda:getobjectversion,grants permission retrieve specific version object,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+349,aws,Amazon S3 Object Lambda,s3-object-lambda:listbucket,grants permission list objects amazon bucket,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+341,aws,Amazon S3,s3:bypassgovernanceretention,grants permission allow circumvention governance mode object retention settings,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+308,aws,Amazon S3,s3:deleteaccesspointpolicy,grants permission delete policy specified access point,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+128,aws,Amazon S3,s3:deletebucketpolicy,grants permission delete policy specified bucket,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+232,aws,Amazon S3,s3:getdataaccess,grants permission get access,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+153,aws,Amazon S3,s3:getobject,grants permission retrieve objects amazon,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+133,aws,Amazon S3,s3:getobjectversion,grants permission retrieve specific version object,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+43,aws,Amazon S3,s3:objectowneroverridetobucketowner,grants permission change replica ownership,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+4,aws,Amazon S3,s3:putaccesspointpolicy,grants permission associate access policy specified access point,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+125,aws,Amazon S3,s3:putaccountpublicaccessblock,grants permission create modify publicaccessblock configuration aws account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+274,aws,Amazon S3,s3:putbucketacl,grants permission set permissions existing bucket using access control lists acls,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+250,aws,Amazon S3,s3:putbucketpolicy,grants permission add replace bucket policy bucket,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+277,aws,Amazon S3,s3:putbucketpublicaccessblock,grants permission create modify publicaccessblock configuration specific amazon bucket,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+82,aws,Amazon S3,s3:putobjectacl,grants permission set access control list acl permissions new existing objects bucket,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+167,aws,Amazon S3,s3:putobjectversionacl,grants permission use acl subresource set access control list acl permissions object already exists bucket,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+442,aws,Amazon SageMaker,sagemaker:search,grants permission search sagemaker objects,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+11,aws,Amazon SimpleDB,sdb:select,description select,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+460,aws,AWS Secrets Manager,secretsmanager:deleteresourcepolicy,grants permission delete resource policy attached secret,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+366,aws,AWS Secrets Manager,secretsmanager:putresourcepolicy,grants permission attach resource policy secret,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+104,aws,AWS Secrets Manager,secretsmanager:validateresourcepolicy,grants permission validate resource policy attaching policy,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+78,aws,AWS Serverless Application Repository,serverlessrepo:getapplication,grants permission get specified application,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+224,aws,AWS Serverless Application Repository,serverlessrepo:getcloudformationtemplate,grants permission get specified aws cloudformation template,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+347,aws,AWS Service Catalog,servicecatalog:createportfolioshare,grants permission share portfolio another aws account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+171,aws,AWS Service Catalog,servicecatalog:deleteportfolioshare,grants permission unshare portfolio aws account previously shared portfolio,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+49,aws,AWS Snowball,snowball:getjobunlockcode,grants permission get unlockcode code value specified job,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+386,aws,Amazon SNS,sns:addpermission,grants permission add statement topic access control policy granting access specified aws accounts specified actions,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+0,aws,Amazon SNS,sns:createtopic,grants permission create topic notifications published,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+302,aws,Amazon SNS,sns:removepermission,grants permission remove statement topic access control policy,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+269,aws,Amazon SNS,sns:settopicattributes,grants permission allow topic owner set attribute topic new value,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+385,aws,Amazon SQS,sqs:addpermission,grants permission queue specific principal,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+282,aws,Amazon SQS,sqs:createqueue,grants permission create new queue returns url existing one,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+335,aws,Amazon SQS,sqs:receivemessage,grants permission retrieve one messages maximum limit messages specified queue,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+138,aws,Amazon SQS,sqs:removepermission,grants permission revoke permissions queue policy matches specified label parameter,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+203,aws,Amazon SQS,sqs:setqueueattributes,grants permission set value one queue attributes,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+287,aws,AWS Systems Manager,ssm:getdocument,grants permission view contents specified ssm document,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+62,aws,AWS Systems Manager,ssm:getparameter,grants permission view information specified parameter,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+2,aws,AWS Systems Manager,ssm:getparameterhistory,grants permission view details changes specified parameter,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+169,aws,AWS Systems Manager,ssm:getparameters,grants permission view information multiple specified parameters,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+262,aws,AWS Systems Manager,ssm:getparametersbypath,grants permission view information parameters specified hierarchy,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+84,aws,AWS Systems Manager,ssm:modifydocumentpermission,grants permission share custom ssm document publicly privately specified aws accounts,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+165,aws,AWS IAM Identity Center Directory,sso-directory:addmembertogroup,grants permission add member group directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+15,aws,AWS IAM Identity Center Directory,sso-directory:createalias,grants permission create alias directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+411,aws,AWS IAM Identity Center Directory,sso-directory:creategroup,grants permission create group directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+41,aws,AWS IAM Identity Center Directory,sso-directory:createuser,grants permission create user directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+50,aws,AWS IAM Identity Center Directory,sso-directory:deletegroup,grants permission delete group directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+305,aws,AWS IAM Identity Center Directory,sso-directory:deleteuser,grants permission delete user directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+226,aws,AWS IAM Identity Center Directory,sso-directory:describegroup,grants permission query group data including user group members,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+52,aws,AWS IAM Identity Center Directory,sso-directory:describeuser,grants permission retrieve information user directory aws iam identity center provides default,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+172,aws,AWS IAM Identity Center Directory,sso-directory:disableuser,grants permission deactivate user directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+359,aws,AWS IAM Identity Center Directory,sso-directory:enableuser,grants permission activate user directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+379,aws,AWS IAM Identity Center Directory,sso-directory:listbearertokens,grants permission list bearer tokens given provisioning tenant,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+483,aws,AWS IAM Identity Center Directory,sso-directory:removememberfromgroup,grants permission remove member part group directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+320,aws,AWS IAM Identity Center Directory,sso-directory:searchgroups,grants permission search groups within associated directory,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+445,aws,AWS IAM Identity Center Directory,sso-directory:searchusers,grants permission search users within associated directory,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+344,aws,AWS IAM Identity Center Directory,sso-directory:updategroup,grants permission update information group directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+130,aws,AWS IAM Identity Center Directory,sso-directory:updatepassword,grants permission update password sending password reset link via email generating one time password user directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+216,aws,AWS IAM Identity Center Directory,sso-directory:updateuser,grants permission update user information directory aws iam identity center provides default,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+32,aws,AWS IAM Identity Center Directory,sso-directory:verifyemail,grants permission verify email address user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+170,aws,AWS IAM Identity Center,sso:associatedirectory,grants permission connect directory used aws iam identity center,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+157,aws,AWS IAM Identity Center,sso:associateprofile,grants permission create association directory user group profile,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+164,aws,AWS IAM Identity Center,sso:createapplicationinstance,grants permission add application instance aws iam identity center,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+456,aws,AWS IAM Identity Center,sso:createapplicationinstancecertificate,grants permission add new certificate application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+395,aws,AWS IAM Identity Center,sso:createpermissionset,grants permission create permission set,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+381,aws,AWS IAM Identity Center,sso:createprofile,grants permission create profile application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+315,aws,AWS IAM Identity Center,sso:createtrust,grants permission create federation trust target account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+3,aws,AWS IAM Identity Center,sso:deleteapplicationinstance,grants permission delete application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+143,aws,AWS IAM Identity Center,sso:deleteapplicationinstancecertificate,grants permission delete inactive expired certificate application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+374,aws,AWS IAM Identity Center,sso:deletepermissionset,grants permission delete permission set,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+196,aws,AWS IAM Identity Center,sso:deletepermissionspolicy,grants permission delete permission policy associated permission set,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+246,aws,AWS IAM Identity Center,sso:deleteprofile,grants permission delete profile application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+161,aws,AWS IAM Identity Center,sso:disassociatedirectory,grants permission disassociate directory used aws iam identity center,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+74,aws,AWS IAM Identity Center,sso:disassociateprofile,grants permission disassociate directory user group profile,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+235,aws,AWS IAM Identity Center,sso:importapplicationinstanceserviceprovidermetadata,grants permission update application instance uploading application saml metadata file provided service provider,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+270,aws,AWS IAM Identity Center,sso:putpermissionspolicy,grants permission add policy permission set,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+478,aws,AWS IAM Identity Center,sso:searchgroups,grants permission search groups within associated directory,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+443,aws,AWS IAM Identity Center,sso:searchusers,grants permission search users within associated directory,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+392,aws,AWS IAM Identity Center,sso:startsso,grants permission initialize aws iam identity center,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+48,aws,AWS IAM Identity Center,sso:updateapplicationinstanceactivecertificate,grants permission set certificate active one application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+471,aws,AWS IAM Identity Center,sso:updateapplicationinstancedisplaydata,grants permission update display data application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+182,aws,AWS IAM Identity Center,sso:updateapplicationinstanceresponseconfiguration,grants permission update federation response configuration application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+97,aws,AWS IAM Identity Center,sso:updateapplicationinstanceresponseschemaconfiguration,grants permission update federation response schema configuration application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+371,aws,AWS IAM Identity Center,sso:updateapplicationinstancesecurityconfiguration,grants permission update security details application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+18,aws,AWS IAM Identity Center,sso:updateapplicationinstanceserviceproviderconfiguration,grants permission update service provider related configuration application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+61,aws,AWS IAM Identity Center,sso:updateapplicationinstancestatus,grants permission update status application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+23,aws,AWS IAM Identity Center,sso:updatedirectoryassociation,grants permission update user attribute mappings connected directory,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+436,aws,AWS IAM Identity Center,sso:updatepermissionset,grants permission update permission set,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+474,aws,AWS IAM Identity Center,sso:updateprofile,grants permission update profile application instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+412,aws,AWS IAM Identity Center,sso:updatessoconfiguration,grants permission update configuration current sso instance,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+68,aws,AWS IAM Identity Center,sso:updatetrust,grants permission update federation trust target account,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+205,aws,AWS Storage Gateway,storagegateway:deletechapcredentials,grants permission delete challenge handshake authentication protocol chap credentials specified iscsi target initiator pair,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+336,aws,AWS Storage Gateway,storagegateway:describechapcredentials,grants permission get array challenge handshake authentication protocol chap credentials information specified iscsi target one target initiator pair,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+27,aws,AWS Storage Gateway,storagegateway:setlocalconsolepassword,grants permission set password vm local console,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+421,aws,AWS Storage Gateway,storagegateway:setsmbguestpassword,grants permission set password smb guest user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+289,aws,AWS Storage Gateway,storagegateway:updatechapcredentials,grants permission update challenge handshake authentication protocol chap credentials specified iscsi target,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+103,aws,AWS Security Token Service,sts:assumerole,grants permission obtain set temporary security credentials use access aws resources might normally access,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+401,aws,AWS Security Token Service,sts:assumerolewithsaml,grants permission obtain set temporary security credentials users authenticated via saml authentication response,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+314,aws,AWS Security Token Service,sts:assumerolewithwebidentity,grants permission obtain set temporary security credentials users authenticated mobile web application web identity provider,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+141,aws,AWS Security Token Service,sts:getfederationtoken,grants permission obtain set temporary security credentials consisting access key id secret access key security token federated user,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+115,aws,AWS Security Token Service,sts:getsessiontoken,grants permission obtain set temporary security credentials consisting access key id secret access key security token aws account iam user,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+404,aws,AWS Support,support:describeattachment,grants permission describe attachment detail,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+457,aws,AWS Support,support:describecommunications,grants permission list communications attachments one aws support cases,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+394,aws,AWS WAF Regional,waf-regional:deletepermissionpolicy,grants permission delete iam policy rule group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+354,aws,AWS WAF Regional,waf-regional:getchangetoken,grants permission retrieve change token use create update delete requests,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+291,aws,AWS WAF Regional,waf-regional:putpermissionpolicy,grants permission attach iam policy specified rule group support rule group sharing accounts,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+1,aws,AWS WAF,waf:deletepermissionpolicy,grants permission delete iam policy rule group,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+448,aws,AWS WAF,waf:getchangetoken,grants permission retrieve change token use create update delete requests,1,0,0,0,,1,2024-12-03 07:43:01.717169,low
+26,aws,AWS WAF,waf:putpermissionpolicy,grants permission attach iam policy rule group share rule group accounts,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+433,aws,AWS WAF V2,wafv2:createwebacl,grants permission create webacl,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+21,aws,AWS WAF V2,wafv2:deletepermissionpolicy,grants permission delete permissionpolicy rulegroup,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+12,aws,AWS WAF V2,wafv2:deletewebacl,grants permission delete webacl,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+81,aws,AWS WAF V2,wafv2:getsampledrequests,grants permission retrieve detailed information sampling web requests,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+8,aws,AWS WAF V2,wafv2:putpermissionpolicy,grants permission attach iam policy resource used share rule groups accounts,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+444,aws,AWS WAF V2,wafv2:updatewebacl,grants permission update webacl,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+60,aws,Amazon WorkDocs,workdocs:getdocument,grants permission retrieve specified document object,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+242,aws,Amazon WorkDocs,workdocs:getdocumentpath,grants permission retrieve path information hierarchy root folder requested document,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+77,aws,Amazon WorkDocs,workdocs:getdocumentversion,grants permission retrieve version metadata specified document,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+192,aws,Amazon WorkLink,worklink:updatedevicepolicyconfiguration,grants permission update device policy configuration amazon worklink fleet,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+208,aws,Amazon WorkMail,workmail:listgroupmembers,grants permission read overview members group users groups members group,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+297,aws,Amazon WorkMail,workmail:listgroups,grants permission list summaries organization groups,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+238,aws,Amazon WorkMail,workmail:listusers,grants permission list organization users,0,1,0,0,,1,2024-12-03 07:43:01.717169,low
+233,aws,Amazon WorkMail,workmail:resetpassword,grants permission allow administrator reset password user,0,0,0,1,,1,2024-12-03 07:43:01.717169,low
+476,aws,AWS X-Ray,xray:putencryptionconfig,grants permission update encryption configuration x ray data,0,0,0,1,,1,2024-12-03 07:43:01.717169,low

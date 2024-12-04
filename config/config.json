@@ -26,7 +26,7 @@
     "max_length": 128,
     "batch_size": 32,
     "learning_rate": 2e-05,
-    "epochs": 100,
+    "epochs": 1000,
     "dropout": 0.1
   },
   "training": {
@@ -41,5 +41,14 @@
     "models": "/content/drive/MyDrive/project/iam_risk_classification/models",
     "config": "/content/drive/MyDrive/project/iam_risk_classification/config",
     "results": "/content/drive/MyDrive/project/iam_risk_classification/results"
-  }
+  },
+  "model_name": "bert-base-uncased",
+  "num_labels": 10,
+  "max_length": 512,
+  "batch_size": 16,
+  "learning_rate": 2e-05,
+  "dropout": 0.3,
+  "num_epochs": 1000,
+  "unfreeze_epoch": 3,
+  "model_path": "best_model.pt"
 }

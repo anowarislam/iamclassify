@@ -3,7 +3,7 @@ classes: &id001
 - data_access
 - privilege_escalation
 - resource_exposure
-created_at: '2024-11-15T09:06:39.737277'
+created_at: '2024-12-03T07:43:58.330371'
 description: Multi-label classification of cloud IAM actions by risk category
 features: 1006
 name: iam_risk_classification
